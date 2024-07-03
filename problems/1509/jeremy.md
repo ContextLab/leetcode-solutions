@@ -18,7 +18,7 @@
 After sorting the list, let's call the first three values $x_1$, $x_2$, and $x_3$.  The last three values will be $y_3$, $y_2$, and $y_1$.  Let's also define some other element in the "middle" of the sorted list, $n$,
 for convenience.  So using this notation the list will look like $\[x_1, x_2, x_3, ..., n, ..., y_3, y_2, y_1\]$.
 
-We can also immediately see that if the list has fewer than 6 elements, then the $x$s and $y$s might overlap, and/or $n$ might be equal to some of the $x$s and/or $y$s.
+We can also immediately see that if the list has fewer than 6 elements, then the $x\mathrm{s}$ and $y\mathrm{s}$ might overlap, and/or $n$ might be equal to some of those $x$ and/or $y$ values.
 
 Before doing any manipulations (since "setting any element to its current value" should still count as "setting any element of the list to 'some' value") the difference between the last and first elements
 of the sorted list is the "worst" we could do.  So we might want to track that.
