@@ -4,7 +4,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 
 # Problems we've attempted so far:
 
-| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | ⚠️ Difficulty |
+| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | July 1, 2024 | [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/350)                     | 🟢  Easy        |
 | July 2, 2024 | [1509](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1509)                    | 🟡  Medium      |
