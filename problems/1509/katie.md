@@ -1,4 +1,4 @@
-Every optimal move is going to consist of moving an extreme value to the center, so you can just take the range of 4 potential subsets starting with index 0, 1, 2, or 3 all of length len(nums)-3
+Every optimal move is going to consist of moving an extreme value to the center, so you can just take the range of 4 potential subsets starting with index 0, 1, 2, or 3 all of length `len(nums)-3`
 
 ```
 if len(nums) <=4:
