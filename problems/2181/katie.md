@@ -32,4 +32,5 @@ class Solution(object):
                 node = node.next
         return head
 ```
-<img width="609" alt="Screen Shot 2024-07-04 at 4 18 32 PM" src="https://github.com/KatieONell/leetcode-solutions/assets/12962290/68480f6c-a1ee-4745-888b-dcbc7ac9ceab">
+<img width="479" alt="Screen Shot 2024-07-04 at 4 44 32 PM" src="https://github.com/KatieONell/leetcode-solutions/assets/12962290/1864b9ab-f280-431e-88c8-f118c64f03b4">
+
