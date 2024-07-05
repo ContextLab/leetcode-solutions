@@ -10,7 +10,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 2, 2024 | [1509](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1509)                    | 🟡  Medium      |
 | July 3, 2024 | [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2181)                    | 🟡  Medium      |
 | July 4, 2024 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2058)                    | 🟡  Medium      |
-| July 5, 2024 | [2182](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2182) | 🟡 Medium |
+
 # Join our discussion!
 
 If you're a member of [our lab](https://www.context-lab.com/) and/or a [Dartmouth](https://home.dartmouth.edu/) community member, feel free to join our [Slack channel](https://app.slack.com/client/EQ19QMD6Z/C0753BB4MC5) to discuss daily leetcode problems!
