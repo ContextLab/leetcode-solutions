@@ -1,4 +1,4 @@
-# [Problem 2058: Fidn the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/)
+# [Problem 2058: Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/)
 
 ## Initial thoughts (stream-of-consciousness)
 - I think we can solve this in $O(n)$ time, where $n$ is the number of nodes in the linked list
