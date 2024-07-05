@@ -20,7 +20,7 @@ jobs:
           https://leetcode.com/graphql -o response.json
 
           # Parse problem details and set outputs
-          PROBLEM_ID=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.questionId' response.json)
+          PROBLEM_ID=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.questionFrontendId' response.json)
           echo "::set-output name=problem_id::${PROBLEM_ID}"
 
           TITLE=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.title' response.json)
