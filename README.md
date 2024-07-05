@@ -19,10 +19,15 @@ If you're a member of [our lab](https://www.context-lab.com/) and/or a [Dartmout
 
 1. Start by [forking](https://github.com/ContextLab/leetcode-solutions/fork) this repository.
 2. In your fork, navigate to the [problems](https://github.com/ContextLab/leetcode-solutions/new/main/problems) folder and click the **Add file** button on the right.  Choose the **Create new file** option:
-  - File name: `leetcode-solutions/problems/<PROBLEM NUMBER>/<your name>.md` (where you should replace `<PROBLEM NUMBER>` with the leetcode problem ID code, and `<your name>` with your first name, in lowercase letters.  E.g., [Jeremy](https://www.context-lab.com/people)'s solution to problem 350 would be named `leetcode-solutions/blob/main/problems/350/jeremy.md`
+  - File name: `leetcode-solutions/problems/<PROBLEM NUMBER>/<your name>.md` (where you should replace `<PROBLEM NUMBER>` with the leetcode problem ID code, and `<your name>` with either your first name or your GitHub username (your choice!), in lowercase letters.  E.g., [Jeremy](https://www.context-lab.com/people)'s solution to problem 350 would be named `leetcode-solutions/blob/main/problems/350/jeremy.md`
   - Contents: Any format is fine, but we suggest starting with our [template file](https://github.com/ContextLab/leetcode-solutions/blob/main/problems/template.md).  Then add your notes/solution as you solve the problem!  Make sure to commit your changes (and it's fine to make multiple commits as you're working on the problem).
 3. Once you've added your file, start a [pull request](https://github.com/ContextLab/leetcode-solutions/pulls) to add it into the ContextLab fork so that others can see how you approached the problem.
 4. Also make sure that the problem has been added to the [table](https://github.com/ContextLab/leetcode-solutions#problems-weve-attempted-thus-far).  If you're the first one to work on a problem, you'll need to add a row for it.  Problems should be listed in chronological order from top (earliest) to bottom (latest).
+
+# Other stuff
+
+- Click [here](https://github.com/ContextLab/leetcode-solutions/actions/workflows/create_new_note.yml) and then click "Run workflow" to run our shortcut action for creating a new note for the daily problem based on the template.md file.  Then click the link to the notes on today's problem in the last row [table above](https://github.com/ContextLab/leetcode-solutions#problems-weve-attempted-thus-far) and you should see a markdown (.md) file named for your GitHub username.  Edit that to add your notes!
+- The [table](https://github.com/ContextLab/leetcode-solutions#problems-weve-attempted-thus-far) listing each day's problems and links to our solutions *should* be updated automatically via [this action](https://github.com/ContextLab/leetcode-solutions/actions/workflows/update_readme.yml) (run each day at 00:01 UTC, which is 1 minute after the daily problems are released).
 
 # Question? Comments? Concerns?
 
