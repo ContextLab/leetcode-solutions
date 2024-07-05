@@ -1,0 +1,37 @@
+name: Update README with LeetCode Daily Challenge
+
+on:
+  schedule:
+    - cron: '1 0 * * *' # Runs daily at 00:01 UTC
+  workflow_dispatch: # Allows for manual triggering
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run update_readme.py
+        run: python update_readme.py
+
+      - name: Create GitHub issue on failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: "Update README with LeetCode Daily Challenge Failed"
+          content: |
+            The GitHub Action to update README with LeetCode Daily Challenge has failed.
+            Please check the workflow logs for more details.
+          labels: bug
