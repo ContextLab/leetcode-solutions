@@ -23,39 +23,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Run update_readme.py
-        id: update_readme
+      - name: Fetch and update README with daily LeetCode problem details
         run: python update_readme.py
 
-      - name: Create GitHub issue on failure
-        if: failure()
-        uses: actions/github-script@v6
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const issueTitle = "Update README with LeetCode Daily Challenge Failed";
-            const issueBody = `
-              The GitHub Action to update README with LeetCode Daily Challenge has failed.
-              Please check the workflow logs for more details.
-            `;
-
-            const existingIssues = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              labels: 'bug',
-            });
-
-            const issueExists = existingIssues.data.find(issue => issue.title === issueTitle);
-
-            if (!issueExists) {
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: issueTitle,
-                body: issueBody,
-                labels: ['bug'],
-              });
-            } else {
-              console.log(`An issue with the title "${issueTitle}" already exists.`);
-            }
+          commit_message: "Update README with LeetCode Daily Challenge"
+          branch: main
+          file_pattern: README.md
