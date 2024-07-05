@@ -13,7 +13,7 @@ daily_challenge_query = {
             date
             link
             question {
-                questionId
+                questionFrontendId
                 title
                 titleSlug
                 difficulty
@@ -33,7 +33,7 @@ print(json.dumps(data, indent=2))
 # Check if the expected data is present in the API response
 if 'data' in data and 'activeDailyCodingChallengeQuestion' in data['data']:
     problem = data['data']['activeDailyCodingChallengeQuestion']['question']
-    problem_id = problem['questionId']
+    problem_id = problem['questionFrontendId']
     title = problem['title']
     title_slug = problem['titleSlug']
     link = f"https://leetcode.com/problems/{title_slug}"
@@ -82,7 +82,7 @@ if 'data' in data and 'activeDailyCodingChallengeQuestion' in data['data']:
         table_content[-1] = table_content[-1].rstrip()
 
     # Rebuild the README with the new entry added to the table
-    updated_readme = before_table + table_content + [new_entry + '\n'] + after_table
+    updated_readme = before_table + table_content + [new_entry + '\n\n'] + after_table
 
     # Overwrite the README file with the updated content
     with open(readme_file, 'w') as file:
