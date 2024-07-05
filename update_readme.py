@@ -14,7 +14,7 @@ daily_challenge_query = {
             date
             link
             question {
-                questionId
+                questionFrontendId
                 title
                 titleSlug
                 difficulty

@@ -11,20 +11,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Fetch daily LeetCode problem details and create note
-        env:
-          GITHUB_USERNAME: ${{ github.actor }}
+      - name: Fetch daily LeetCode problem details
+        id: fetch_problem
         run: |
           # Fetch problem details
           curl -X POST -H 'Content-Type: application/json' \
-          -d '{"query":"query questionOfToday { activeDailyCodingChallengeQuestion { date link question { questionId title titleSlug difficulty } } }","operationName":"questionOfToday"}' \
+          -d '{"query":"query questionOfToday { activeDailyCodingChallengeQuestion { date link question { questionFrontendId title titleSlug difficulty } } }","operationName":"questionOfToday"}' \
           https://leetcode.com/graphql -o response.json
 
-          # Parse problem details
+          # Parse problem details and set outputs
           PROBLEM_ID=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.questionId' response.json)
+          echo "::set-output name=problem_id::${PROBLEM_ID}"
+
           TITLE=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.title' response.json)
           TITLE_SLUG=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.titleSlug' response.json)
           LINK="https://leetcode.com/problems/${TITLE_SLUG}"
+          GITHUB_USERNAME="${{ github.actor }}"
 
           # Create problem directory and note
           PROBLEM_DIR="problems/${PROBLEM_ID}"
@@ -37,6 +39,6 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Creating a template for ${{ github.actor }}'s solution to problem ${PROBLEM_ID}"
+          commit_message: "Creating a template for ${{ github.actor }}'s solution to problem ${{ steps.fetch_problem.outputs.problem_id }}"
           branch: main
           file_pattern: problems/*/*.md
