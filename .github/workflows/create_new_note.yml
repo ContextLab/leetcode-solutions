@@ -16,7 +16,7 @@ jobs:
         run: |
           # Fetch problem details
           curl -X POST -H 'Content-Type: application/json' \
-          -d '{"query":"query questionOfToday { activeDailyCodingChallengeQuestion { date link question { questionId title titleSlug difficulty } } }","operationName":"questionOfToday"}' \
+          -d '{"query":"query questionOfToday { activeDailyCodingChallengeQuestion { date link question { questionFrontendId title titleSlug difficulty } } }","operationName":"questionOfToday"}' \
           https://leetcode.com/graphql -o response.json
 
           # Parse problem details and set outputs
