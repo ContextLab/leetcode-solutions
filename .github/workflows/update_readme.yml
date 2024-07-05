@@ -39,16 +39,17 @@ jobs:
               Please check the workflow logs for more details.
             `;
 
-            const { data: existingIssues } = await github.issues.listForRepo({
+            const existingIssues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
               labels: 'bug',
-              title: issueTitle,
             });
 
-            if (existingIssues.length === 0) {
-              await github.issues.create({
+            const issueExists = existingIssues.data.find(issue => issue.title === issueTitle);
+
+            if (!issueExists) {
+              await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 title: issueTitle,
