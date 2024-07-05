@@ -1,0 +1,44 @@
+name: Create New Note for Daily LeetCode Problem
+
+on:
+  workflow_dispatch: # Allows for manual triggering
+
+jobs:
+  create-note:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch daily LeetCode problem details
+        id: fetch_problem
+        run: |
+          # Fetch problem details
+          curl -X POST -H 'Content-Type: application/json' \
+          -d '{"query":"query questionOfToday { activeDailyCodingChallengeQuestion { date link question { questionId title titleSlug difficulty } } }","operationName":"questionOfToday"}' \
+          https://leetcode.com/graphql -o response.json
+
+          # Parse problem details and set outputs
+          PROBLEM_ID=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.questionId' response.json)
+          echo "::set-output name=problem_id::${PROBLEM_ID}"
+
+          TITLE=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.title' response.json)
+          TITLE_SLUG=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.titleSlug' response.json)
+          LINK="https://leetcode.com/problems/${TITLE_SLUG}"
+          GITHUB_USERNAME="${{ github.actor }}"
+
+          # Create problem directory and note
+          PROBLEM_DIR="problems/${PROBLEM_ID}"
+          NOTE_FILE="${PROBLEM_DIR}/${GITHUB_USERNAME}.md"
+          mkdir -p "${PROBLEM_DIR}"
+          
+          # Customize template and write to new file
+          sed "s|<NUMBER>|${PROBLEM_ID}|g; s|<TITLE>|${TITLE}|g; s|<LINK TO DESCRIPTION>|${LINK}|g" problems/template.md > "${NOTE_FILE}"
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Creating a template for ${{ github.actor }}'s solution to problem ${{ steps.fetch_problem.outputs.problem_id }}"
+          branch: main
+          file_pattern: problems/*/*.md
