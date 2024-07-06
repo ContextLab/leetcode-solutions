@@ -13,8 +13,6 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 5, 2024 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2058)                    | 🟡  Medium      |
 | July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
 
-| July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
-
 # Join our discussion!
 
 If you're a member of [our lab](https://www.context-lab.com/) and/or a [Dartmouth](https://home.dartmouth.edu/) community member, feel free to join our [Slack channel](https://app.slack.com/client/EQ19QMD6Z/C0753BB4MC5) to discuss daily leetcode problems!
