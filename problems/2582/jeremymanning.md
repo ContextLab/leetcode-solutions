@@ -4,7 +4,7 @@
   - I think this is pretty straightforward
   - For a list of length $n$, it takes $n - 1$ passes to get to the last person, and another $n - 1$ passes (backwards through the line) to get back to the first person.  So the cycle resets every $2(n - 1)$ passes.
   - Therefore we can immediately mod the number of passes by $2(n - 1)$ without affecting the final position
-  - After doing so, if the remainder is less than $n$, return the remainder + 1.  Otherwise (the remainder must be greater than or equal to $n$ and less than $2(n - 1)$ return $2n$ - the remainder - 1.
+  - After doing so, if the remainder is less than $n$, return the remainder + 1.  Otherwise (the remainder must be greater than or equal to $n$ and less than $2(n - 1)$ ) return $2n$ - the remainder - 1.
 
 ## Refining the problem
   - Any special cases to deal with?
