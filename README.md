@@ -12,7 +12,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 4, 2024 | [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2181)                    | 🟡  Medium      |
 | July 5, 2024 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2058)                    | 🟡  Medium      |
 | July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
-| July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
+
 
 # Join our discussion!
 
