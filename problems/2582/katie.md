@@ -7,6 +7,7 @@ I took a couple examples and wrote them down in a grid like so:
 |---|---|---|---|
 | x | 1 | 2 | 3 |
 | 6 | 5 | 4 | x |
+| x | 7 | 8 | 9 |
 | . | . | . | . |
 
 Which made me realize it was a parity problem. If you take `n-1` as your divisor, the quotient will tell you what row it ends up on and the remainder will tell you how many indeces in from the edge you have to go (the direction changes based on the parity of the quotient).
