@@ -3,9 +3,9 @@
 ## Initial thoughts (stream-of-consciousness)
 I took a couple examples and wrote them down in a grid like so:
 
-__ 01 02 03 04 05 
-10 09 08 07 06 __
-__ 11 12 13 14 15
+__ 01 02 03 04 05 \\
+10 09 08 07 06 __ \\
+__ 11 12 13 14 15 \\
 
 Which made me realize it was a parity problem. If you take `n-1` as your divisor, the quotient will tell you what row it ends up on and the remainder will tell you how many indeces in from the edge you have to go (the direction changes based on the parity of the quotient).
 
