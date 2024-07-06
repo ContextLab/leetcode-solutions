@@ -31,7 +31,7 @@ If you're a member of [our lab](https://www.context-lab.com/) and/or a [Dartmout
 
 # Other stuff
 
-The [table](https://github.com/ContextLab/leetcode-solutions#problems-weve-attempted-thus-far) listing each day's problems and links to our solutions *should* be updated automatically via [this action](https://github.com/ContextLab/leetcode-solutions/actions/workflows/update_readme.yml) (run each day at 00:01 UTC, which is 1 minute after the daily problems are released).  Sometimes it's a little late.  Consider making a cup of tea (🍵) or having a nice snack (🍨) and returning in a few minutes!  Bonus: you get a drink and a snack while you're working on the problem!
+The [table](https://github.com/ContextLab/leetcode-solutions#problems-weve-attempted-thus-far) listing each day's problems and links to our solutions *should* be updated automatically via [this action](https://github.com/ContextLab/leetcode-solutions/actions/workflows/update_readme.yml) (run each day at 00:01 UTC, which is 1 minute after the daily problems are released).  Sometimes it's a little late.
 
 # Question? Comments? Concerns?
 
