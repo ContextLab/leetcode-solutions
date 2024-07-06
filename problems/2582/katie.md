@@ -28,3 +28,4 @@ class Solution:
         else:
             return (n-r)
 ```
+<img width="714" alt="Screen Shot 2024-07-05 at 9 31 05 PM" src="https://github.com/KatieONell/leetcode-solutions/assets/12962290/1e1c5756-94ed-4a40-b12b-724d6e914755">
