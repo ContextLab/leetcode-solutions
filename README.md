@@ -9,13 +9,13 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
-| July 1, 2024 | [1550](https://leetcode.com/problems/three-consecutive-odds/description/)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1550)                     | 🟢  Easy        |
-| July 2, 2024 | [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/350)                     | 🟢  Easy        |
-| July 3, 2024 | [1509](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1509)                    | 🟡  Medium      |
-| July 4, 2024 | [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2181)                    | 🟡  Medium      |
-| July 5, 2024 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2058)                    | 🟡  Medium      |
-| July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
-| July 7, 2024 | [1518](https://leetcode.com/problems/water-bottles) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1518) | 🟢 Easy |
+| July 1, 2024 | [1550](https://leetcode.com/problems/three-consecutive-odds/description/description/?envType=daily-question)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1550)                     | 🟢  Easy        |
+| July 2, 2024 | [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/?envType=daily-question)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/350)                     | 🟢  Easy        |
+| July 3, 2024 | [1509](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1509)                    | 🟡  Medium      |
+| July 4, 2024 | [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/description/?envType=daily-question)                                         | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2181)                    | 🟡  Medium      |
+| July 5, 2024 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2058)                    | 🟡  Medium      |
+| July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
+| July 7, 2024 | [1518](https://leetcode.com/problems/water-bottles/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1518) | 🟢 Easy |
 
 # Join our discussion!
 
