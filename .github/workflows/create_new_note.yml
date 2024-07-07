@@ -25,14 +25,14 @@ jobs:
 
           TITLE=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.title' response.json)
           TITLE_SLUG=$(jq -r '.data.activeDailyCodingChallengeQuestion.question.titleSlug' response.json)
-          LINK="https://leetcode.com/problems/${TITLE_SLUG}"
+          LINK="https://leetcode.com/problems/${TITLE_SLUG}/description/?envType=daily-question"
           GITHUB_USERNAME="${{ github.actor }}"
 
           # Create problem directory and note
           PROBLEM_DIR="problems/${PROBLEM_ID}"
           NOTE_FILE="${PROBLEM_DIR}/${GITHUB_USERNAME}.md"
           mkdir -p "${PROBLEM_DIR}"
-          
+
           # Customize template and write to new file
           sed "s|<NUMBER>|${PROBLEM_ID}|g; s|<TITLE>|${TITLE}|g; s|<LINK TO DESCRIPTION>|${LINK}|g" problems/template.md > "${NOTE_FILE}"
 
