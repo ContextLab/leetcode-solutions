@@ -36,7 +36,7 @@ if 'data' in data and 'activeDailyCodingChallengeQuestion' in data['data']:
     problem_id = problem['questionFrontendId']
     title = problem['title']
     title_slug = problem['titleSlug']
-    link = f"https://leetcode.com/problems/{title_slug}"
+    link = f"https://leetcode.com/problems/{title_slug}/description/?envType=daily-question"
     difficulty = problem['difficulty']
     difficulty_icon = "🟢" if difficulty == "Easy" else "🟡" if difficulty == "Medium" else "🔴"
     note_link = f"{repo_url}/tree/main/problems/{problem_id}"
