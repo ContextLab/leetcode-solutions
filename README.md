@@ -16,6 +16,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 5, 2024 | [2058](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2058)                    | 🟡  Medium      |
 | July 6, 2024 | [2582](https://leetcode.com/problems/pass-the-pillow/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2582) | 🟢 Easy |
 | July 7, 2024 | [1518](https://leetcode.com/problems/water-bottles/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1518) | 🟢 Easy |
+| July 8, 2024 | [1823](https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1823) | 🟡 Medium |
 
 # Join our discussion!
 
