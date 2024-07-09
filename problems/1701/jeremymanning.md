@@ -17,7 +17,7 @@
         - `totalWait += chefBusyUntil - x`  # wait until the chef is done with the current workload
     - Else:
         - `chefBusyUntil = x`  # need to wait until the next customer arrives to start on their request
-    - `totalWait += y
+    - `totalWait += y`
     - `chefBusyUntil += y`
 - Then return `totalWait / len(customers)`
 
