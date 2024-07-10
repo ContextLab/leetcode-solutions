@@ -18,6 +18,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 7, 2024 | [1518](https://leetcode.com/problems/water-bottles/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1518) | 🟢 Easy |
 | July 8, 2024 | [1823](https://leetcode.com/problems/find-the-winner-of-the-circular-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1823) | 🟡 Medium |
 | July 9, 2024 | [1701](https://leetcode.com/problems/average-waiting-time/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1701) | 🟡 Medium |
+| July 10, 2024 | [1598](https://leetcode.com/problems/crawler-log-folder/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1598) | 🟢 Easy |
 
 # Join our discussion!
 
