@@ -37,14 +37,57 @@
         - bbbb
     - Aside: this is like counting in binary...maybe there's some shortcut we could take based on that?
 - after taking a pause....
-- Ok, in re-thinking the "abab" example above, it's not correct as I described it.  If we remove "ba" first, then we're still left with an instance of "ab" which we can use to get those points.  So actually, prioritizing the higher-scoring substring *does* seem to make sense.  The real issue is with efficiency.  Ok...*now* I'm going to come back to this tomorrow 😄.
-    - Quick idea to explore tomorrow: these substrings can be described using context-free grammars, which means we can solve this using a pushdown automata...which means implementing a stack might be useful.
-    - 😴
+- Ok, in re-thinking the "abab" example above, it's not correct as I described it.  If we remove "ba" first, then we're still left with an instance of "ab" which we can use to get those points.  So actually, prioritizing the higher-scoring substring *does* seem to make sense.  The real issue is with efficiency.
+- another pause...
+- let's try a "stack" implementation to avoid having to loop through the same string a gajillion times:
+    - to detect (with priority) the two-character substring `sub` with point value `p`:
+        - loop through each character, `c` of `s`:
+            - if the stack is not empty, and if the top of the stack + `c` matches `sub`:
+                - increment total points by `p`
+                - pop the top of the stack ("removes" the substring)
+            - otherwise push `c` to the stack
+        - return the total points, along with `''.join(stack)` (i.e., the updated string, with matches removed)
+        - run this first for the higher-priority substring, and then for the lower-priority substring, and then return the sum of the resulting point totals
 
 ## Refining the problem, round 2 thoughts
+- thinking through edge cases:
+    - can we have an empty input string?  no, we're given that `1 <= s.length <= 10^5`
+    - can the "points values" (`x` or `y`) ever be negative?  no, we're given that `1 <= x, y <= 10^4`
+- let's try this!
 
 ## Attempted solution(s)
 ```python
-class Solution:  # paste your code here!
-    ...
+class Solution:
+    def maximumGain(self, s: str, x: int, y: int) -> int:
+        def helper(s, pattern, p):
+            stack = []
+            points = 0
+            for c in s:
+                if len(stack) > 0 and stack[-1] + c == pattern:
+                    stack.pop()
+                    points += p
+                else:
+                    stack.append(c)
+            return ''.join(stack), points
+
+        if x > y:
+            high, low, p1, p2 = 'ab', 'ba', x, y
+        else:
+            high, low, p1, p2 = 'ba', 'ab', y, x
+
+        first_pass, total1 = helper(s, high, p1)
+        _, total2 = helper(first_pass, low, p2)
+
+        return total1 + total2
 ```
+- given test cases: pass
+- other tests:
+    - 's = "ababababab"`, `x = 5`, `y = `10`: pass
+    - 's = "ababababab"`, `x = 10`, `y = `5`: pass
+    - `s = "abacbabcabacbabc"`, `x = 1`, `y = 1`: pass
+- ok, looks reasonable...submitting...
+
+![Screenshot 2024-07-12 at 9 05 26 AM](https://github.com/user-attachments/assets/0010d7ff-d2e1-46ac-9c8f-43a428c6405c)
+
+done!
+
