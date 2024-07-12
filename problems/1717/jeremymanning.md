@@ -36,7 +36,10 @@
         - bbba
         - bbbb
     - Aside: this is like counting in binary...maybe there's some shortcut we could take based on that?
-- I'm out of time for tonight...I'm going to have to come back to this tomorrow!
+- after taking a pause....
+- Ok, in re-thinking the "abab" example above, it's not correct as I described it.  If we remove "ba" first, then we're still left with an instance of "ab" which we can use to get those points.  So actually, prioritizing the higher-scoring substring *does* seem to make sense.  The real issue is with efficiency.  Ok...*now* I'm going to come back to this tomorrow 😄.
+    - Quick idea to explore tomorrow: these substrings can be described using context-free grammars, which means we can solve this using a pushdown automata...which means implementing a stack might be useful.
+    - 😴
 
 ## Refining the problem, round 2 thoughts
 
