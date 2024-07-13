@@ -57,11 +57,17 @@
 
 ## Refining the problem, round 2 thoughts
 
+- I'll add a "short-circuit" condition where we check whether all robots are moving in the same direction, and if so, return `healths` immediately
+- There's another possible circumstance where we could short-circuit early -- if all robots moving leftward start out to the left of all robots that're moving rightward. But I'm not sure this is really worth implementing because we'd need to check this against a sorted `position` list, which would require at least an additional loop to run for all test cases, and would probably end up taking more time overall since I'm willing to bet this scenario appears once, if at all. So I'll forego this.
+
 ## Attempted solution(s)
 
 ```python
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
+        if all(d == directions[0] for d in directions):
+            return healths
+
         sorted_ixs = list(range(len(positions)))
         sorted_ixs.sort(key=lambda i: positions[i])
         right_movers_stack = []
