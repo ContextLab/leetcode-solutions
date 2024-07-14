@@ -22,6 +22,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 11, 2024 | [1190](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1190) | 🟡 Medium |
 | July 12, 2024 | [1717](https://leetcode.com/problems/maximum-score-from-removing-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1717) | 🟡 Medium |
 | July 13, 2024 | [2751](https://leetcode.com/problems/robot-collisions/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2751) | 🔴 Hard |
+| July 14, 2024 | [726](https://leetcode.com/problems/number-of-atoms/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/726) | 🔴 Hard |
 
 # Join our discussion!
 
