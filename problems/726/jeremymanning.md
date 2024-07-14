@@ -69,43 +69,95 @@
 
 ## Attempted solution(s)
 ```python
+import collections  # thanks for pointing me to this, Paxton!!
+
 class Solution:
-    def countOfAtoms(self, formula: str) -> str:
-        def tokenize(formula):  # double check logic here
-            digits = '0123456789'
-            lowercase = 'abcdefghijklmnopqrstuvwxyz'
-            uppercase = lowercase.upper()
-            parentheses = '()'
-
+    def countOfAtoms(self, formula: str) -> str:        
+        def tokenize(formula):
             tokens = []
-            t = ''
-            for c in formula:
-                if c in parentheses:
-                    tokens.append(c)
-                    t = ''
-                elif c in uppercase:  # note for later: need to fix this...
-                    if len(t) > 0:
-                        if t[0] in digits:
-                            t = int(t)                        
-                        tokens.append(t)
-                        t = c
-                elif c in lowercase:
-                    t += c
-                else:  # c is a digit
-                    if len(t) > 0:
-                        if t[-1] in digits:
-                            t += c
-                        else:
-                            tokens.append(t)
-                            t = c
-                    else:
-                        t = c
-
-            if len(t) > 0:
-                if t[0] in digits:
-                    tokens.append(int(t))
-                else:
-                    tokens.append(t)
-
+            i = 0
+            n = len(formula)
+            while i < n:
+                if formula[i].isupper():
+                    start = i
+                    i += 1
+                    while i < n and formula[i].islower():
+                        i += 1
+                    tokens.append(formula[start:i])
+                elif formula[i].isdigit():
+                    start = i
+                    i += 1
+                    while i < n and formula[i].isdigit():
+                        i += 1
+                    tokens.append(int(formula[start:i]))
+                elif formula[i] in "()":
+                    tokens.append(formula[i])
+                    i += 1
             return tokens
+        
+        def multiply_dict(d, factor):
+            for key in d:
+                d[key] *= factor
+            return d
+        
+        def merge_dicts(d1, d2):
+            for key in d2:
+                if key in d1:
+                    d1[key] += d2[key]
+                else:
+                    d1[key] = d2[key]
+            return d1
+        
+        def count_atoms(tokens, offset=0):
+            total_count = collections.defaultdict(int)
+            i = offset
+            while i < len(tokens):
+                if isinstance(tokens[i], str) and tokens[i].isalpha():
+                    elem = tokens[i]
+                    count = 1
+                    if i + 1 < len(tokens) and isinstance(tokens[i + 1], int):
+                        count = tokens[i + 1]
+                        i += 1
+                    total_count[elem] += count
+                elif tokens[i] == "(":
+                    depth = 1
+                    j = i + 1
+                    while j < len(tokens) and depth > 0:
+                        if tokens[j] == "(":
+                            depth += 1
+                        elif tokens[j] == ")":
+                            depth -= 1
+                        j += 1
+                    sub_count = count_atoms(tokens, i + 1)
+                    i = j - 1
+                    if i + 1 < len(tokens) and isinstance(tokens[i + 1], int):
+                        count = tokens[i + 1]
+                        i += 1
+                    else:
+                        count = 1
+                    multiply_dict(sub_count, count)
+                    merge_dicts(total_count, sub_count)
+                elif tokens[i] == ")":
+                    return total_count
+                i += 1
+            return total_count
+
+        tokens = tokenize(formula)
+        atom_counts = count_atoms(tokens)
+
+        sorted_atoms = sorted(atom_counts.items())
+        result = []
+        for atom, count in sorted_atoms:
+            result.append(atom)
+            if count > 1:
+                result.append(str(count))
+
+        return ''.join(result)
 ```
+- Given test cases: pass
+- Need to stop for today, so no time to test other cases...just submitting
+
+![Screenshot 2024-07-14 at 2 45 53 PM](https://github.com/user-attachments/assets/fc8ff425-12c8-4ee0-af6f-450e3f627118)
+- meh...
+- maybe a stack would have been better than a recursive solution?  would have avoided copying...
+
