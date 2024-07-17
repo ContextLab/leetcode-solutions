@@ -25,6 +25,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 14, 2024 | [726](https://leetcode.com/problems/number-of-atoms/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/726) | 🔴 Hard |
 | July 15, 2024 | [2196](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2196) | 🟡 Medium |
 | July 16, 2024 | [2096](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2096) | 🟡 Medium |
+| July 17, 2024 | [1110](https://leetcode.com/problems/delete-nodes-and-return-forest/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1110) | 🟡 Medium |
 
 # Join our discussion!
 
