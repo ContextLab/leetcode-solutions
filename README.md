@@ -27,6 +27,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 16, 2024 | [2096](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2096) | 🟡 Medium |
 | July 17, 2024 | [1110](https://leetcode.com/problems/delete-nodes-and-return-forest/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1110) | 🟡 Medium |
 | July 18, 2024 | [1530](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1530) | 🟡 Medium |
+| July 19, 2024 | [1380](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1380) | 🟢 Easy |
 
 # Join our discussion!
 
