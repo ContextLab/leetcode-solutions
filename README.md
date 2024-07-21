@@ -29,6 +29,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 18, 2024 | [1530](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1530) | 🟡 Medium |
 | July 19, 2024 | [1380](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1380) | 🟢 Easy |
 | July 20, 2024 | [1605](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1605) | 🟡 Medium |
+| July 21, 2024 | [2392](https://leetcode.com/problems/build-a-matrix-with-conditions/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2392) | 🔴 Hard |
 
 # Join our discussion!
 
