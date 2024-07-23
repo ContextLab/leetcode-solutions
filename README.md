@@ -31,6 +31,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 20, 2024 | [1605](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1605) | 🟡 Medium |
 | July 21, 2024 | [2392](https://leetcode.com/problems/build-a-matrix-with-conditions/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2392) | 🔴 Hard |
 | July 22, 2024 | [2418](https://leetcode.com/problems/sort-the-people/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2418) | 🟢 Easy |
+| July 23, 2024 | [1636](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1636) | 🟢 Easy |
 
 # Join our discussion!
 
