@@ -28,3 +28,21 @@ class Solution:
 ![Screenshot 2024-07-22 at 8 13 33 PM](https://github.com/user-attachments/assets/2a22346c-4997-486e-a79d-8e473d4b78b3)
 
 Solved!
+
+- Actually: Maybe we can save some memory by not re-storing the counts:
+```python
+class Solution:
+    def frequencySort(self, nums: List[int]) -> List[int]:
+        counts = {}
+        for n in nums:
+            if n in counts:
+                counts[n] += 1
+            else:
+                counts[n] = 1
+        
+        return [n for n in sorted(nums, key=lambda x: [counts[x], -x])]
+```
+
+![Screenshot 2024-07-22 at 8 16 25 PM](https://github.com/user-attachments/assets/db39e587-23c4-4974-bcd6-7ca5ab2c48c0)
+
+Nope, not helpful 🙃!
