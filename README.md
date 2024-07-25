@@ -33,6 +33,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 22, 2024 | [2418](https://leetcode.com/problems/sort-the-people/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2418) | 🟢 Easy |
 | July 23, 2024 | [1636](https://leetcode.com/problems/sort-array-by-increasing-frequency/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1636) | 🟢 Easy |
 | July 24, 2024 | [2191](https://leetcode.com/problems/sort-the-jumbled-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2191) | 🟡 Medium |
+| July 25, 2024 | [912](https://leetcode.com/problems/sort-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/912) | 🟡 Medium |
 
 # Join our discussion!
 
