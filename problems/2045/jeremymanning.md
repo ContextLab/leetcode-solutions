@@ -38,7 +38,7 @@
 - Given the current time, we can compute the current signal status and update the next travel time accordingly
 - To store both the "minimum" and "second minimum" times, we can create a matrix of tuples: `min_times[i][j][0]` has the minimum time path from `i` to `j`, and `min_times[i][j][1]` has the second minimum time from `i` to `j`:
     - If we find a better time than `min_times[i][j][0]`:
-        - `min_times[i][j][1] = `min_times[i][j][0]`
+        - `min_times[i][j][1] = min_times[i][j][0]`
         - `min_times[i][j][0] = new_best_time`
 - We can use a list of lists to represent the graph:
     - `graph[i]` stores the edges originating at `i`
