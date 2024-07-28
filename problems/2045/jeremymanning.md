@@ -33,6 +33,22 @@
     - Then we just need to implement this modified version of Dijkstra's algorithm (i.e., breadth first search) to find the second minimum time needed to get from vertex 1 to $n$.
 - One potential edge case: what if there is only 1 path from vertex 1 to $n$?  Then I think to get the second minimum time, we would need to double back along the trip between the nearest vertices (accounting for signal status)-- e.g., we'd need to add an extra loop (for some adjacent vertices `i` and `j`): `... --> i --> j --> i --> j --> ...`.
 
+### Other notes
+- For each branch of the path we take, we need to track how long it took to get there and where we are "now"
+- Given the current time, we can compute the current signal status and update the next travel time accordingly
+- To store both the "minimum" and "second minimum" times, we can create a matrix of tuples: `min_times[i][j][0]` has the minimum time path from `i` to `j`, and `min_times[i][j][1]` has the second minimum time from `i` to `j`:
+    - If we find a better time than `min_times[i][j][0]`:
+        - `min_times[i][j][1] = `min_times[i][j][0]`
+        - `min_times[i][j][0] = new_best_time`
+- We can use a list of lists to represent the graph:
+    - `graph[i]` stores the edges originating at `i`
+    - Initialize all edges to empty lists
+- The travel time computation is organized around green/red cycles:
+    - Each cycle takes `cycle = 2 * change` minutes
+    - The signals start as green; each `2 * change` minutes they return to green
+    - If (after rounding down to the nearest multiple of `change`) the current time (`current_time`) is an *odd* multiple of `change` (i.e., the lights are currently red; `(current_time // change) % 2 == 1`), we need to wait until the lights turn green, which will take `wait_time = cycle - (current_time % cycle)` minutes.  The new time is `wait_time + time + current_time`.
+    - If (after rounding down to the nearest multiple of `change`) the current time (`current_time`) is an *even* multiple of `change` (i.e., the lights are currently green; `(current_time // change) % 2 == 0`), then we can leave right away (`wait_time` is 0), so the new time is `time + current_time`.
+
 ## Attempted solution(s)
 ```python
 class Solution:
@@ -66,11 +82,11 @@ class Solution:
             for neighbor in graph[vertex]:
                 next_time = computeTravelTime(curr_time)
 
-                if next_time < min_times[neighbor][0]:
+                if next_time < min_times[neighbor][0]:  # demote minimum time to second minimum time and update minimum time
                     min_times[neighbor][1] = min_times[neighbor][0]
                     min_times[neighbor][0] = next_time
                     queue.append((next_time, neighbor))
-                elif min_times[neighbor][0] < next_time < min_times[neighbor][1]:
+                elif min_times[neighbor][0] < next_time < min_times[neighbor][1]:  # update second minimum time
                     min_times[neighbor][1] = next_time
                     queue.append((next_time, neighbor))
         
