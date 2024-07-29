@@ -35,6 +35,9 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 24, 2024 | [2191](https://leetcode.com/problems/sort-the-jumbled-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2191) | 🟡 Medium |
 | July 25, 2024 | [912](https://leetcode.com/problems/sort-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/912) | 🟡 Medium |
 | July 26, 2024 | [1334](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1334) | 🟡 Medium |
+| July 27, 2024 | [2976](https://leetcode.com/problems/minimum-cost-to-convert-string-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2976) | 🟡 Medium |
+| July 28, 2024 | [2045](https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2045) | 🔴 Hard |
+| July 29, 2024 | [1395](https://leetcode.com/problems/count-number-of-teams/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1395) | 🟡 Medium |
 
 # Join our discussion!
 
