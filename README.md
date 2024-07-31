@@ -39,6 +39,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 28, 2024 | [2045](https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2045) | 🔴 Hard |
 | July 29, 2024 | [1395](https://leetcode.com/problems/count-number-of-teams/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1395) | 🟡 Medium |
 | July 30, 2024 | [1653](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1653) | 🟡 Medium |
+| July 31, 2024 | [1105](https://leetcode.com/problems/filling-bookcase-shelves/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1105) | 🟡 Medium |
 
 # Join our discussion!
 
