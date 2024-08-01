@@ -15,7 +15,6 @@
 class Solution:
     def countSeniors(self, details: List[str]) -> int:
         return sum(d[11:13] > '60' for d in details)
-
 ```
 
 ![](https://github.com/user-attachments/assets/ce9815a7-4ed1-421f-96ca-84bf07571bd6)
