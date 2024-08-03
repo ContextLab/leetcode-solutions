@@ -42,6 +42,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 31, 2024 | [1105](https://leetcode.com/problems/filling-bookcase-shelves/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1105) | 🟡 Medium |
 | August 1, 2024 | [2678](https://leetcode.com/problems/number-of-senior-citizens/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2678) | 🟢 Easy |
 | August 2, 2024 | [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2134) | 🟡 Medium |
+| August 3, 2024 | [1460](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1460) | 🟢 Easy |
 
 # Join our discussion!
 
