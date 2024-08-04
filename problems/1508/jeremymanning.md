@@ -84,4 +84,7 @@ class Solution:
 
 Ok!
 
+## Addendum
+
+In retrospect: the sorting idea would *not* have worked, because it would have broken the "continuous subarrays" requirement in the problem description (i.e., sorting would break the given order).  So that whole idea was flawed 🙃.  I'm glad the "naive" approach worked!
  
