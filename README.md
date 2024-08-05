@@ -44,6 +44,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 2, 2024 | [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2134) | 🟡 Medium |
 | August 3, 2024 | [1460](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1460) | 🟢 Easy |
 | August 4, 2024 | [1508](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1508) | 🟡 Medium |
+| August 5, 2024 | [2053](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2053) | 🟢 Easy |
 
 # Join our discussion!
 
