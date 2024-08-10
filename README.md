@@ -49,6 +49,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 7, 2024 | [273](https://leetcode.com/problems/integer-to-english-words/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/273) | 🔴 Hard |
 | August 8, 2024 | [885](https://leetcode.com/problems/spiral-matrix-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/885) | 🟡 Medium |
 | August 9, 2024 | [840](https://leetcode.com/problems/magic-squares-in-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/840) | 🟡 Medium |
+| August 10, 2024 | [959](https://leetcode.com/problems/regions-cut-by-slashes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/959) | 🟡 Medium |
 
 # Join our discussion!
 
