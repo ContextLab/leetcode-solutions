@@ -447,6 +447,112 @@ class Solution:
 
 - Ugh...time limit exceeded when `grid = [[1,1,1,1,1,1,1,1,1,1,1,0,1],[1,1,1,1,1,1,1,1,1,0,1,1,1],[1,1,1,1,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,0,1,1,1,1,1,1,1],[0,1,1,0,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,0,1,1,1,1,1],[1,1,1,1,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1,1,1,1,1,0],[1,0,1,1,1,1,1,1,1,1,1,1,1],[1,1,1,0,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,0,1,1,1,1,1],[1,1,1,1,1,0,1,1,1,0,1,1,1],[0,1,1,1,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,0,1,1,1,1,1,1,1]]`
 - And even *testing* that one example doesn't work (runs out of time in the manual testing system too)
-- I'm going to come back to this tomorrow...
 
+## Refining the problem (again)
+- There are a few edge cases to keep in mind; we could check for these at the start:
+    - If there are *no* 1's, return 0 (nothing to be done)
+    - If there is just a *single* 1, return 1 (convert that one cell to a 0)
+- The most inefficient piece of our solution is the `one_island` function.  We end up going through (on the order of) every cell three times.  We could do this more efficiently:
+```python
+def one_island(grid):
+    visited = [[False for _ in grid[0]] for _ in grid]
+    count = 0
+    
+    def bfs(i, j):
+        queue = [(i, j)]
+        visited[i][j] = True
+        while len(queue) > 0:
+            x, y = queue.pop(0)
+            for a, b in neighbors(x, y):
+                if not visited[a][b]:
+                    visited[a][b] = True
+                    queue.append((a, b))
+    
+    for i in range(len(grid)):
+        for j in range(len(grid[0])):
+            if grid[i][j] == 1 and not visited[i][j]:
+                bfs(i, j) # visit everywhere connected with (i, j)
+                count += 1
+                if count > 1:
+                    return False
+    
+    return count == 1
+```
+- This avoids two additional passes through the full grid, although the time complexity is unchanged.  Let's put it all together and see if it works (and we can also check those edge cases initially in case that helps too):
+```python
+class Solution:
+    def minDays(self, grid: List[List[int]]) -> int:
+        def neighbors(i, j):
+            x = []
+            if i > 0 and grid[i - 1][j] == 1:
+                x.append((i - 1, j))
+        
+            if i < len(grid) - 1 and grid[i + 1][j] == 1:
+                x.append((i + 1, j))
+        
+            if j > 0 and grid[i][j - 1] == 1:
+                x.append((i, j - 1))
+        
+            if j < len(grid[0]) - 1 and grid[i][j + 1] == 1:
+                x.append((i, j + 1))
+            return x
+    
+        def one_island(grid):
+            visited = [[False for _ in grid[0]] for _ in grid]
+            count = 0
+            
+            def bfs(i, j):
+                queue = [(i, j)]
+                visited[i][j] = True
+                while len(queue) > 0:
+                    x, y = queue.pop(0)
+                    for a, b in neighbors(x, y):
+                        if not visited[a][b]:
+                            visited[a][b] = True
+                            queue.append((a, b))
+            
+            for i in range(len(grid)):
+                for j in range(len(grid[0])):
+                    if grid[i][j] == 1 and not visited[i][j]:
+                        bfs(i, j) # visit everywhere connected with (i, j)
+                        count += 1
+                        if count > 1:
+                            return False
+            
+            return count == 1
+    
+        def single_fix(grid):
+            for i in range(len(grid)):
+                for j in range(len(grid[0])):
+                    if grid[i][j] == 1:
+                        # try removing this cell
+                        grid[i][j] = 0
+                        if not one_island(grid):
+                            grid[i][j] = 1
+                            return True
+                        grid[i][j] = 1
+            return False
 
+        # handle edge cases
+        n_ones = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                n_ones += grid[i][j]
+        if n_ones == 0:
+            return 0
+        elif n_ones == 1:
+            return 1
+        
+        if not one_island(grid):
+            return 0
+        elif single_fix(grid):
+            return 1
+        else:
+            return 2
+```
+- Ok...test cases (still) pass...
+- I'll submit again... 🤞
+
+![Screenshot 2024-08-11 at 3 16 52 PM](https://github.com/user-attachments/assets/6f21fa4a-2a6b-411d-b331-6eacc285a40c)
+
+Phew!
