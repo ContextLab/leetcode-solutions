@@ -40,6 +40,17 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | July 29, 2024 | [1395](https://leetcode.com/problems/count-number-of-teams/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1395) | 🟡 Medium |
 | July 30, 2024 | [1653](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1653) | 🟡 Medium |
 | July 31, 2024 | [1105](https://leetcode.com/problems/filling-bookcase-shelves/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1105) | 🟡 Medium |
+| August 1, 2024 | [2678](https://leetcode.com/problems/number-of-senior-citizens/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2678) | 🟢 Easy |
+| August 2, 2024 | [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2134) | 🟡 Medium |
+| August 3, 2024 | [1460](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1460) | 🟢 Easy |
+| August 4, 2024 | [1508](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1508) | 🟡 Medium |
+| August 5, 2024 | [2053](https://leetcode.com/problems/kth-distinct-string-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2053) | 🟢 Easy |
+| August 6, 2024 | [3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3016) | 🟡 Medium |
+| August 7, 2024 | [273](https://leetcode.com/problems/integer-to-english-words/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/273) | 🔴 Hard |
+| August 8, 2024 | [885](https://leetcode.com/problems/spiral-matrix-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/885) | 🟡 Medium |
+| August 9, 2024 | [840](https://leetcode.com/problems/magic-squares-in-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/840) | 🟡 Medium |
+| August 10, 2024 | [959](https://leetcode.com/problems/regions-cut-by-slashes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/959) | 🟡 Medium |
+| August 11, 2024 | [1568](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1568) | 🔴 Hard |
 
 # Join our discussion!
 
