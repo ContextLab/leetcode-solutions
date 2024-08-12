@@ -30,11 +30,14 @@
     - actually, what I do will be slightly different for the two possible cases, because I'll need to compare the rest-of-bookshelf height between the two options to choose the optimal one:
       - if placing the next book on a new shelf, the rest-of-bookshelf height will be the current shelf's height plus the returned height
       - if placing the next book on the current shelf, the rest-of-bookshelf height will be the larger of the current shelf's height and the book's height, plus the returned height
-
-<!-- - okay my initial thought is that a potential algorithm could go something like this:
-  - first, find an initial "naïve" total height and then see if it's possible to optimize from there. The initial total height is the bookshelf height we get if we fill each shelf with as many books as possible without exceeding `shelfWidth`.
-  - to see if we can do better than this inital height, move the last book we placed on the first shelf to the second shelf, the last book on the second shelf to the third shelf, and so on. Repeat until there's only one book left on the first shelf.
-  - Then -->
+    - and then I'll need to compare those two heights and return the smaller one
+  - so I think I'll need to set the function up to take as arguments (at least):
+    - the index of the current book
+    - the height of the current shelf
+    - the remaining width on the current shelf
+    - possibly the cache object and `books` list, unless I make them available in scope some other way
+  - and then I can format the book index and remaining shelf width as a string to use as a key in the cache dict
+- okay it's possible there are some additional details I haven't thought of yet, but I'm gonna try this
 
 ## Refining the problem, round 2 thoughts
 
@@ -43,5 +46,59 @@
 ```python
 class Solution:
     def minHeightShelves(self, books: List[List[int]], shelfWidth: int) -> int:
+        return self._recurse_books(books, 0, shelfWidth, shelfWidth, 0, {})
+
+    def _recurse_books(
+        self,
+        books,
+        curr_ix,
+        full_shelf_width,
+        shelf_width_left,
+        curr_shelf_height,
+        call_cache
+    ):
+        # base case (no books left):
+        if curr_ix == len(books):
+            return curr_shelf_height
+
+        cache_key = f'{curr_ix}-{shelf_width_left}'
+        if cache_key in call_cache:
+            return call_cache[cache_key]
+
+        # test placing book on new shelf
+        total_height_new_shelf = curr_shelf_height + self._recurse_books(
+            books,
+            curr_ix + 1,
+            full_shelf_width,
+            full_shelf_width - books[curr_ix][0],
+            books[curr_ix][1],
+            call_cache
+        )
+
+        # if book can fit on current shelf, also test placing it there
+        if books[curr_ix][0] <= shelf_width_left:
+            # check if current book is new tallest book on shelf
+            if books[curr_ix][1] > curr_shelf_height:
+                curr_shelf_height = books[curr_ix][1]
+
+            total_height_curr_shelf = self._recurse_books(
+                books,
+                curr_ix + 1,
+                full_shelf_width,
+                shelf_width_left - books[curr_ix][0],
+                curr_shelf_height,
+                call_cache
+            )
+            if total_height_curr_shelf < total_height_new_shelf:
+                call_cache[cache_key] = total_height_curr_shelf
+                return total_height_curr_shelf
+            else:
+                call_cache[cache_key] = total_height_new_shelf
+                return total_height_new_shelf
+
+        call_cache[cache_key] = total_height_new_shelf
+        return total_height_new_shelf
 
 ```
+
+![](https://github.com/user-attachments/assets/d79f6e5d-28f1-4a11-8254-92847001bbd1)
