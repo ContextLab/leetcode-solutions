@@ -52,6 +52,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 10, 2024 | [959](https://leetcode.com/problems/regions-cut-by-slashes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/959) | 🟡 Medium |
 | August 11, 2024 | [1568](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1568) | 🔴 Hard |
 | August 12, 2024 | [703](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/703) | 🟢 Easy |
+| August 13, 2024 | [40](https://leetcode.com/problems/combination-sum-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/40) | 🟡 Medium |
 
 # Join our discussion!
 
