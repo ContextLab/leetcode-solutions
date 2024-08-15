@@ -54,6 +54,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 12, 2024 | [703](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/703) | 🟢 Easy |
 | August 13, 2024 | [40](https://leetcode.com/problems/combination-sum-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/40) | 🟡 Medium |
 | August 14, 2024 | [719](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/719) | 🔴 Hard |
+| August 15, 2024 | [860](https://leetcode.com/problems/lemonade-change/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/860) | 🟢 Easy |
 
 # Join our discussion!
 
