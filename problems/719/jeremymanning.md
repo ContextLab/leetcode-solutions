@@ -167,3 +167,50 @@ class Solution:
 💩!
 
 Ugh.  I'm going to need to come back to this 😞...too tired to think!
+
+## The next day...
+- I've now gone through this code many times.  I think it's *very close* to being right, but I think that I'm missing one or more important edge cases.
+- I think the heap-based approach may actually be over-complicating the problem.  Instead, what if we think this through in a different way:
+    - Let's start by sorting `nums`.  This is cheap ($O(n \log n)$, where $n$ is `len(nums)`) and will almost certainly make the problem easier.  The *maximum* distance is now `nums[-1] - nums[0]`.  The *minimum* distance (if we have any repeats) is 0.  Note: we might need to actually *see* if we have any repeats.  We'll come back to this.
+    - What if we do a sort of "binary search" approach?  Something like:
+        - Set `left, right = 0, nums[-1] - nums[0]`.  Note: again, I'm not sure if `left` is set correctly.  Come back to this...
+        - Now find the midpoint.  This is just `mid = (left + right) // 2`.
+        - Now we have to find the "rank" of `mid` in the distances.  To do this:
+            - For each index `i` in `range(len(nums))`:
+                - Increment a second counter, `j`, until `nums[j] - nums[i]` grows larger than `mid`.
+                - Now we can increment a `count` (of the number of distances) by `j - i - 1` -- this tracks how many distances are less than or equal to `mid`.
+            - After looping through every number in the outer loop, if `count >= k`, then we know that `mid` is too high.  So we can set the `right` bound to `mid`.  Alternatively, if `count < k`, we know that `mid` is too *low*, so we can set the `left` bound to `mid + 1`.  This halves our search space with each iteration of the outermost loop.
+        - Once `left >= right` we should break out of the outer loop and return `left`.  This should be exactly equal to the `k`th smallest distance.
+- Caveats:
+    - It's possible the "correction by 1" line (incrementing `count` by `j - i - 1`) is off, and we should instead increment `count` by `j - i`.  Let's keep track of this as a possible explanation for why things fail.
+    - It's possible we should return `right` at the end instead of `left`.  Again, let's track this as a possible fail point.  We may need to walk through the full thing...
+- Let's write this out and test it:
+
+```python
+class Solution:
+    def smallestDistancePair(self, nums: List[int], k: int) -> int:
+        nums.sort()
+        left, right = 0, nums[-1] - nums[0]
+        
+        while left < right:
+            mid = (left + right) // 2
+            count = 0
+            j = 0
+            for i in range(len(nums)):
+                while j < len(nums) and nums[j] - nums[i] <= mid:
+                    j += 1
+                count += j - i - 1
+            
+            if count >= k:
+                right = mid
+            else:
+                left = mid + 1
+        
+        return left
+```
+- Ok, the test cases + prior "failed" cases are now passing 😳!
+- Let's see if this works...submitting!
+
+![Screenshot 2024-08-14 at 11 30 46 PM](https://github.com/user-attachments/assets/0c978101-8180-4533-ad74-1d86c0784036)
+
+Finally!! 🥳!  Actually, that approach was way simpler than the heap idea 🤦.
