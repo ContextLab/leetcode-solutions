@@ -57,6 +57,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 15, 2024 | [860](https://leetcode.com/problems/lemonade-change/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/860) | 🟢 Easy |
 | August 16, 2024 | [624](https://leetcode.com/problems/maximum-distance-in-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/624) | 🟡 Medium |
 | August 17, 2024 | [1937](https://leetcode.com/problems/maximum-number-of-points-with-cost/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1937) | 🟡 Medium |
+| August 18, 2024 | [264](https://leetcode.com/problems/ugly-number-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/264) | 🟡 Medium |
 
 # Join our discussion!
 
