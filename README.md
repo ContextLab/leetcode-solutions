@@ -58,6 +58,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 16, 2024 | [624](https://leetcode.com/problems/maximum-distance-in-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/624) | 🟡 Medium |
 | August 17, 2024 | [1937](https://leetcode.com/problems/maximum-number-of-points-with-cost/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1937) | 🟡 Medium |
 | August 18, 2024 | [264](https://leetcode.com/problems/ugly-number-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/264) | 🟡 Medium |
+| August 19, 2024 | [650](https://leetcode.com/problems/2-keys-keyboard/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/650) | 🟡 Medium |
 
 # Join our discussion!
 
