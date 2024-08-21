@@ -60,6 +60,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 18, 2024 | [264](https://leetcode.com/problems/ugly-number-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/264) | 🟡 Medium |
 | August 19, 2024 | [650](https://leetcode.com/problems/2-keys-keyboard/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/650) | 🟡 Medium |
 | August 20, 2024 | [1140](https://leetcode.com/problems/stone-game-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1140) | 🟡 Medium |
+| August 21, 2024 | [664](https://leetcode.com/problems/strange-printer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/664) | 🔴 Hard |
 
 # Join our discussion!
 
