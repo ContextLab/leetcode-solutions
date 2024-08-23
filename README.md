@@ -62,6 +62,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 20, 2024 | [1140](https://leetcode.com/problems/stone-game-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1140) | 🟡 Medium |
 | August 21, 2024 | [664](https://leetcode.com/problems/strange-printer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/664) | 🔴 Hard |
 | August 22, 2024 | [476](https://leetcode.com/problems/number-complement/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/476) | 🟢 Easy |
+| August 23, 2024 | [592](https://leetcode.com/problems/fraction-addition-and-subtraction/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/592) | 🟡 Medium |
 
 # Join our discussion!
 
