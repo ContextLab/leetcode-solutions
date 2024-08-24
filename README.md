@@ -63,6 +63,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 21, 2024 | [664](https://leetcode.com/problems/strange-printer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/664) | 🔴 Hard |
 | August 22, 2024 | [476](https://leetcode.com/problems/number-complement/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/476) | 🟢 Easy |
 | August 23, 2024 | [592](https://leetcode.com/problems/fraction-addition-and-subtraction/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/592) | 🟡 Medium |
+| August 24, 2024 | [564](https://leetcode.com/problems/find-the-closest-palindrome/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/564) | 🔴 Hard |
 
 # Join our discussion!
 
