@@ -66,6 +66,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 24, 2024 | [564](https://leetcode.com/problems/find-the-closest-palindrome/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/564) | 🔴 Hard |
 | August 25, 2024 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/145) | 🟢 Easy |
 | August 26, 2024 | [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/590) | 🟢 Easy |
+| August 27, 2024 | [1514](https://leetcode.com/problems/path-with-maximum-probability/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1514) | 🟡 Medium |
 
 # Join our discussion!
 
