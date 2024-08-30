@@ -69,6 +69,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 27, 2024 | [1514](https://leetcode.com/problems/path-with-maximum-probability/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1514) | 🟡 Medium |
 | August 28, 2024 | [1905](https://leetcode.com/problems/count-sub-islands/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1905) | 🟡 Medium |
 | August 29, 2024 | [947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/947) | 🟡 Medium |
+| August 30, 2024 | [2699](https://leetcode.com/problems/modify-graph-edge-weights/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2699) | 🔴 Hard |
 
 # Join our discussion!
 
