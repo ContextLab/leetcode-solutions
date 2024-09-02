@@ -72,6 +72,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | August 30, 2024 | [2699](https://leetcode.com/problems/modify-graph-edge-weights/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2699) | 🔴 Hard |
 | August 31, 2024 | [1514](https://leetcode.com/problems/path-with-maximum-probability/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1514) | 🟡 Medium |
 | September 1, 2024 | [2022](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2022) | 🟢 Easy |
+| September 2, 2024 | [1894](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1894) | 🟡 Medium |
 
 # Join our discussion!
 
