@@ -74,6 +74,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | September 1, 2024 | [2022](https://leetcode.com/problems/convert-1d-array-into-2d-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2022) | 🟢 Easy |
 | September 2, 2024 | [1894](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1894) | 🟡 Medium |
 | September 3, 2024 | [1945](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1945) | 🟢 Easy |
+| September 4, 2024 | [874](https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/874) | 🟡 Medium |
 
 # Join our discussion!
 
