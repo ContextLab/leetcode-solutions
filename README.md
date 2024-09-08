@@ -78,6 +78,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | September 5, 2024 | [2028](https://leetcode.com/problems/find-missing-observations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2028) | 🟡 Medium |
 | September 6, 2024 | [3217](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3217) | 🟡 Medium |
 | September 7, 2024 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1367) | 🟡 Medium |
+| September 8, 2024 | [725](https://leetcode.com/problems/split-linked-list-in-parts/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/725) | 🟡 Medium |
 
 # Join our discussion!
 
