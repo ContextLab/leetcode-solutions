@@ -84,6 +84,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | September 11, 2024 | [2220](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2220) | 🟢 Easy |
 | September 12, 2024 | [1684](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1684) | 🟢 Easy |
 | September 13, 2024 | [1310](https://leetcode.com/problems/xor-queries-of-a-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1310) | 🟡 Medium |
+| September 14, 2024 | [2419](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2419) | 🟡 Medium |
 
 # Join our discussion!
 
