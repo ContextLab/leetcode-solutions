@@ -85,6 +85,7 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 | September 12, 2024 | [1684](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1684) | 🟢 Easy |
 | September 13, 2024 | [1310](https://leetcode.com/problems/xor-queries-of-a-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1310) | 🟡 Medium |
 | September 14, 2024 | [2419](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2419) | 🟡 Medium |
+| September 15, 2024 | [1371](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1371) | 🟡 Medium |
 
 # Join our discussion!
 
