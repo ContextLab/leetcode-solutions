@@ -4,6 +4,8 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 
 <img src="https://github.com/ContextLab/leetcode-solutions/assets/9030494/867a1f48-19c9-4f71-967e-88c032d9a52d" width="350" height="350"/>
 
+_**Note:** Our group is currently taking a break from grinding leetcode. The table below will continue to update automatically, but newer problems likey won't have their solutions provided.  Pull requests will still be supported and reviewed if others would like to contribute solutions._
+
 
 # Problems we've attempted so far:
 
