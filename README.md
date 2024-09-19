@@ -91,6 +91,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 16, 2024 | [539](https://leetcode.com/problems/minimum-time-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/539) | 🟡 Medium |
 | September 17, 2024 | [884](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/884) | 🟢 Easy |
 | September 18, 2024 | [179](https://leetcode.com/problems/largest-number/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/179) | 🟡 Medium |
+| September 19, 2024 | [241](https://leetcode.com/problems/different-ways-to-add-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/241) | 🟡 Medium |
 
 # Join our discussion!
 
