@@ -96,6 +96,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 21, 2024 | [386](https://leetcode.com/problems/lexicographical-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/386) | 🟡 Medium |
 | September 22, 2024 | [440](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/440) | 🔴 Hard |
 | September 23, 2024 | [2707](https://leetcode.com/problems/extra-characters-in-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2707) | 🟡 Medium |
+| September 24, 2024 | [3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3043) | 🟡 Medium |
 
 # Join our discussion!
 
