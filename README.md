@@ -98,6 +98,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 23, 2024 | [2707](https://leetcode.com/problems/extra-characters-in-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2707) | 🟡 Medium |
 | September 24, 2024 | [3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3043) | 🟡 Medium |
 | September 25, 2024 | [2416](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2416) | 🔴 Hard |
+| September 26, 2024 | [729](https://leetcode.com/problems/my-calendar-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/729) | 🟡 Medium |
 
 # Join our discussion!
 
