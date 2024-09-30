@@ -102,6 +102,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 27, 2024 | [731](https://leetcode.com/problems/my-calendar-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/731) | 🟡 Medium |
 | September 28, 2024 | [641](https://leetcode.com/problems/design-circular-deque/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/641) | 🟡 Medium |
 | September 29, 2024 | [432](https://leetcode.com/problems/all-oone-data-structure/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/432) | 🔴 Hard |
+| September 30, 2024 | [1381](https://leetcode.com/problems/design-a-stack-with-increment-operation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1381) | 🟡 Medium |
 
 # Join our discussion!
 
