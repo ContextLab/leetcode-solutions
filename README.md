@@ -106,6 +106,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 1, 2024 | [1497](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1497) | 🟡 Medium |
 | October 2, 2024 | [1331](https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1331) | 🟢 Easy |
 | October 3, 2024 | [1590](https://leetcode.com/problems/make-sum-divisible-by-p/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1590) | 🟡 Medium |
+| October 4, 2024 | [2491](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2491) | 🟡 Medium |
 
 # Join our discussion!
 
