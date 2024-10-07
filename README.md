@@ -109,6 +109,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 4, 2024 | [2491](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2491) | 🟡 Medium |
 | October 5, 2024 | [567](https://leetcode.com/problems/permutation-in-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/567) | 🟡 Medium |
 | October 6, 2024 | [1813](https://leetcode.com/problems/sentence-similarity-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1813) | 🟡 Medium |
+| October 7, 2024 | [2696](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2696) | 🟢 Easy |
 
 # Join our discussion!
 
