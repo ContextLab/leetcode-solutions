@@ -111,6 +111,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 6, 2024 | [1813](https://leetcode.com/problems/sentence-similarity-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1813) | 🟡 Medium |
 | October 7, 2024 | [2696](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2696) | 🟢 Easy |
 | October 8, 2024 | [1963](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1963) | 🟡 Medium |
+| October 9, 2024 | [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/921) | 🟡 Medium |
 
 # Join our discussion!
 
