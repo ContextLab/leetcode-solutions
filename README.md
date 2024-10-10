@@ -112,6 +112,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 7, 2024 | [2696](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2696) | 🟢 Easy |
 | October 8, 2024 | [1963](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1963) | 🟡 Medium |
 | October 9, 2024 | [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/921) | 🟡 Medium |
+| October 10, 2024 | [962](https://leetcode.com/problems/maximum-width-ramp/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/962) | 🟡 Medium |
 
 # Join our discussion!
 
