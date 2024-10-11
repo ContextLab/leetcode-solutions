@@ -113,6 +113,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 8, 2024 | [1963](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1963) | 🟡 Medium |
 | October 9, 2024 | [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/921) | 🟡 Medium |
 | October 10, 2024 | [962](https://leetcode.com/problems/maximum-width-ramp/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/962) | 🟡 Medium |
+| October 11, 2024 | [1942](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1942) | 🟡 Medium |
 
 # Join our discussion!
 
