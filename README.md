@@ -115,6 +115,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 10, 2024 | [962](https://leetcode.com/problems/maximum-width-ramp/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/962) | 🟡 Medium |
 | October 11, 2024 | [1942](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1942) | 🟡 Medium |
 | October 12, 2024 | [2406](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2406) | 🟡 Medium |
+| October 13, 2024 | [632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/632) | 🔴 Hard |
 
 # Join our discussion!
 
