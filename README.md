@@ -119,6 +119,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 14, 2024 | [2530](https://leetcode.com/problems/maximal-score-after-applying-k-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2530) | 🟡 Medium |
 | October 15, 2024 | [2938](https://leetcode.com/problems/separate-black-and-white-balls/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2938) | 🟡 Medium |
 | October 16, 2024 | [1405](https://leetcode.com/problems/longest-happy-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1405) | 🟡 Medium |
+| October 17, 2024 | [670](https://leetcode.com/problems/maximum-swap/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/670) | 🟡 Medium |
 
 # Join our discussion!
 
