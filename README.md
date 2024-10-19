@@ -121,6 +121,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 16, 2024 | [1405](https://leetcode.com/problems/longest-happy-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1405) | 🟡 Medium |
 | October 17, 2024 | [670](https://leetcode.com/problems/maximum-swap/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/670) | 🟡 Medium |
 | October 18, 2024 | [2044](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2044) | 🟡 Medium |
+| October 19, 2024 | [1545](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1545) | 🟡 Medium |
 
 # Join our discussion!
 
