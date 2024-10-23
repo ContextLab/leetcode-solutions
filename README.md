@@ -125,6 +125,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 20, 2024 | [1106](https://leetcode.com/problems/parsing-a-boolean-expression/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1106) | 🔴 Hard |
 | October 21, 2024 | [1593](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1593) | 🟡 Medium |
 | October 22, 2024 | [2583](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2583) | 🟡 Medium |
+| October 23, 2024 | [2641](https://leetcode.com/problems/cousins-in-binary-tree-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2641) | 🟡 Medium |
 
 # Join our discussion!
 
