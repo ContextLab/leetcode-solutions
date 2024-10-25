@@ -127,6 +127,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 22, 2024 | [2583](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2583) | 🟡 Medium |
 | October 23, 2024 | [2641](https://leetcode.com/problems/cousins-in-binary-tree-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2641) | 🟡 Medium |
 | October 24, 2024 | [951](https://leetcode.com/problems/flip-equivalent-binary-trees/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/951) | 🟡 Medium |
+| October 25, 2024 | [1233](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1233) | 🟡 Medium |
 
 # Join our discussion!
 
