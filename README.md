@@ -131,6 +131,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 26, 2024 | [2458](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2458) | 🔴 Hard |
 | October 27, 2024 | [1277](https://leetcode.com/problems/count-square-submatrices-with-all-ones/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1277) | 🟡 Medium |
 | October 28, 2024 | [2501](https://leetcode.com/problems/longest-square-streak-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2501) | 🟡 Medium |
+| October 29, 2024 | [2684](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2684) | 🟡 Medium |
 
 # Join our discussion!
 
