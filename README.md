@@ -133,6 +133,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 28, 2024 | [2501](https://leetcode.com/problems/longest-square-streak-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2501) | 🟡 Medium |
 | October 29, 2024 | [2684](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2684) | 🟡 Medium |
 | October 30, 2024 | [1671](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1671) | 🔴 Hard |
+| October 31, 2024 | [2463](https://leetcode.com/problems/minimum-total-distance-traveled/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2463) | 🔴 Hard |
 
 # Join our discussion!
 
