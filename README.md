@@ -135,6 +135,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 30, 2024 | [1671](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1671) | 🔴 Hard |
 | October 31, 2024 | [2463](https://leetcode.com/problems/minimum-total-distance-traveled/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2463) | 🔴 Hard |
 | November 1, 2024 | [1957](https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1957) | 🟢 Easy |
+| November 2, 2024 | [2490](https://leetcode.com/problems/circular-sentence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2490) | 🟢 Easy |
 
 # Join our discussion!
 
