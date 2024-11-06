@@ -139,6 +139,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 3, 2024 | [796](https://leetcode.com/problems/rotate-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/796) | 🟢 Easy |
 | November 4, 2024 | [3163](https://leetcode.com/problems/string-compression-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3163) | 🟡 Medium |
 | November 5, 2024 | [2914](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2914) | 🟡 Medium |
+| November 6, 2024 | [3011](https://leetcode.com/problems/find-if-array-can-be-sorted/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3011) | 🟡 Medium |
 
 # Join our discussion!
 
