@@ -141,6 +141,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 5, 2024 | [2914](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2914) | 🟡 Medium |
 | November 6, 2024 | [3011](https://leetcode.com/problems/find-if-array-can-be-sorted/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3011) | 🟡 Medium |
 | November 7, 2024 | [2275](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2275) | 🟡 Medium |
+| November 8, 2024 | [1829](https://leetcode.com/problems/maximum-xor-for-each-query/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1829) | 🟡 Medium |
 
 # Join our discussion!
 
