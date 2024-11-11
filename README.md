@@ -144,6 +144,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 8, 2024 | [1829](https://leetcode.com/problems/maximum-xor-for-each-query/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1829) | 🟡 Medium |
 | November 9, 2024 | [3133](https://leetcode.com/problems/minimum-array-end/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3133) | 🟡 Medium |
 | November 10, 2024 | [3097](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3097) | 🟡 Medium |
+| November 11, 2024 | [2601](https://leetcode.com/problems/prime-subtraction-operation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2601) | 🟡 Medium |
 
 # Join our discussion!
 
