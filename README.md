@@ -147,6 +147,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 11, 2024 | [2601](https://leetcode.com/problems/prime-subtraction-operation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2601) | 🟡 Medium |
 | November 12, 2024 | [2070](https://leetcode.com/problems/most-beautiful-item-for-each-query/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2070) | 🟡 Medium |
 | November 13, 2024 | [2563](https://leetcode.com/problems/count-the-number-of-fair-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2563) | 🟡 Medium |
+| November 14, 2024 | [2064](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2064) | 🟡 Medium |
 
 # Join our discussion!
 
