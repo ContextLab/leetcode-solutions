@@ -149,6 +149,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 13, 2024 | [2563](https://leetcode.com/problems/count-the-number-of-fair-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2563) | 🟡 Medium |
 | November 14, 2024 | [2064](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2064) | 🟡 Medium |
 | November 15, 2024 | [1574](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1574) | 🟡 Medium |
+| November 16, 2024 | [3254](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3254) | 🟡 Medium |
 
 # Join our discussion!
 
