@@ -152,6 +152,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 16, 2024 | [3254](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3254) | 🟡 Medium |
 | November 17, 2024 | [862](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/862) | 🔴 Hard |
 | November 18, 2024 | [1652](https://leetcode.com/problems/defuse-the-bomb/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1652) | 🟢 Easy |
+| November 19, 2024 | [2461](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2461) | 🟡 Medium |
 
 # Join our discussion!
 
