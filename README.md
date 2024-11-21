@@ -154,6 +154,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 18, 2024 | [1652](https://leetcode.com/problems/defuse-the-bomb/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1652) | 🟢 Easy |
 | November 19, 2024 | [2461](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2461) | 🟡 Medium |
 | November 20, 2024 | [2516](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2516) | 🟡 Medium |
+| November 21, 2024 | [2257](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2257) | 🟡 Medium |
 
 # Join our discussion!
 
