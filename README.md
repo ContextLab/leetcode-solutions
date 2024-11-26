@@ -159,6 +159,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 23, 2024 | [1861](https://leetcode.com/problems/rotating-the-box/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1861) | 🟡 Medium |
 | November 24, 2024 | [1975](https://leetcode.com/problems/maximum-matrix-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1975) | 🟡 Medium |
 | November 25, 2024 | [773](https://leetcode.com/problems/sliding-puzzle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/773) | 🔴 Hard |
+| November 26, 2024 | [2924](https://leetcode.com/problems/find-champion-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2924) | 🟡 Medium |
 
 # Join our discussion!
 
