@@ -166,6 +166,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | November 30, 2024 | [2097](https://leetcode.com/problems/valid-arrangement-of-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2097) | 🔴 Hard |
 | December 1, 2024 | [1346](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1346) | 🟢 Easy |
 | December 2, 2024 | [1455](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1455) | 🟢 Easy |
+| December 3, 2024 | [2109](https://leetcode.com/problems/adding-spaces-to-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2109) | 🟡 Medium |
 
 # Join our discussion!
 
