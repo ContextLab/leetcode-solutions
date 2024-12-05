@@ -168,6 +168,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 2, 2024 | [1455](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1455) | 🟢 Easy |
 | December 3, 2024 | [2109](https://leetcode.com/problems/adding-spaces-to-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2109) | 🟡 Medium |
 | December 4, 2024 | [2825](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2825) | 🟡 Medium |
+| December 5, 2024 | [2337](https://leetcode.com/problems/move-pieces-to-obtain-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2337) | 🟡 Medium |
 
 # Join our discussion!
 
