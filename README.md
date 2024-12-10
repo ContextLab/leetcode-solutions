@@ -173,6 +173,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 7, 2024 | [1760](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1760) | 🟡 Medium |
 | December 8, 2024 | [2054](https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2054) | 🟡 Medium |
 | December 9, 2024 | [3152](https://leetcode.com/problems/special-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3152) | 🟡 Medium |
+| December 10, 2024 | [2981](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2981) | 🟡 Medium |
 
 # Join our discussion!
 
