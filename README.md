@@ -176,6 +176,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 10, 2024 | [2981](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2981) | 🟡 Medium |
 | December 11, 2024 | [2779](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2779) | 🟡 Medium |
 | December 12, 2024 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2558) | 🟢 Easy |
+| December 13, 2024 | [2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2593) | 🟡 Medium |
 
 # Join our discussion!
 
