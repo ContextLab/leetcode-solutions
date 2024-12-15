@@ -178,6 +178,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 12, 2024 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2558) | 🟢 Easy |
 | December 13, 2024 | [2593](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2593) | 🟡 Medium |
 | December 14, 2024 | [2762](https://leetcode.com/problems/continuous-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2762) | 🟡 Medium |
+| December 15, 2024 | [1792](https://leetcode.com/problems/maximum-average-pass-ratio/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1792) | 🟡 Medium |
 
 # Join our discussion!
 
