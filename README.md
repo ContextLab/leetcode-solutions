@@ -181,6 +181,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 15, 2024 | [1792](https://leetcode.com/problems/maximum-average-pass-ratio/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1792) | 🟡 Medium |
 | December 16, 2024 | [3264](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3264) | 🟢 Easy |
 | December 17, 2024 | [2182](https://leetcode.com/problems/construct-string-with-repeat-limit/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2182) | 🟡 Medium |
+| December 18, 2024 | [1475](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1475) | 🟢 Easy |
 
 # Join our discussion!
 
