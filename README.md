@@ -184,6 +184,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 18, 2024 | [1475](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1475) | 🟢 Easy |
 | December 19, 2024 | [769](https://leetcode.com/problems/max-chunks-to-make-sorted/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/769) | 🟡 Medium |
 | December 20, 2024 | [2415](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2415) | 🟡 Medium |
+| December 21, 2024 | [2872](https://leetcode.com/problems/maximum-number-of-k-divisible-components/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2872) | 🔴 Hard |
 
 # Join our discussion!
 
