@@ -189,6 +189,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 23, 2024 | [2471](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2471) | 🟡 Medium |
 | December 24, 2024 | [3203](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3203) | 🔴 Hard |
 | December 25, 2024 | [515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/515) | 🟡 Medium |
+| December 26, 2024 | [494](https://leetcode.com/problems/target-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/494) | 🟡 Medium |
 
 # Join our discussion!
 
