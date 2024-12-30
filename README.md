@@ -193,6 +193,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 27, 2024 | [1014](https://leetcode.com/problems/best-sightseeing-pair/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1014) | 🟡 Medium |
 | December 28, 2024 | [689](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/689) | 🔴 Hard |
 | December 29, 2024 | [1639](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1639) | 🔴 Hard |
+| December 30, 2024 | [2466](https://leetcode.com/problems/count-ways-to-build-good-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2466) | 🟡 Medium |
 
 # Join our discussion!
 
