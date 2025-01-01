@@ -195,6 +195,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | December 29, 2024 | [1639](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1639) | 🔴 Hard |
 | December 30, 2024 | [2466](https://leetcode.com/problems/count-ways-to-build-good-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2466) | 🟡 Medium |
 | December 31, 2024 | [983](https://leetcode.com/problems/minimum-cost-for-tickets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/983) | 🟡 Medium |
+| January 1, 2025 | [1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1422) | 🟢 Easy |
 
 # Join our discussion!
 
