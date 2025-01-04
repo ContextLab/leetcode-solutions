@@ -198,6 +198,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 1, 2025 | [1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1422) | 🟢 Easy |
 | January 2, 2025 | [2559](https://leetcode.com/problems/count-vowel-strings-in-ranges/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2559) | 🟡 Medium |
 | January 3, 2025 | [2270](https://leetcode.com/problems/number-of-ways-to-split-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2270) | 🟡 Medium |
+| January 4, 2025 | [1930](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1930) | 🟡 Medium |
 
 # Join our discussion!
 
