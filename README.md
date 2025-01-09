@@ -203,6 +203,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 6, 2025 | [1769](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1769) | 🟡 Medium |
 | January 7, 2025 | [1408](https://leetcode.com/problems/string-matching-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1408) | 🟢 Easy |
 | January 8, 2025 | [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3042) | 🟢 Easy |
+| January 9, 2025 | [2185](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2185) | 🟢 Easy |
 
 # Join our discussion!
 
