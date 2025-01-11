@@ -205,6 +205,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 8, 2025 | [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3042) | 🟢 Easy |
 | January 9, 2025 | [2185](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2185) | 🟢 Easy |
 | January 10, 2025 | [916](https://leetcode.com/problems/word-subsets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/916) | 🟡 Medium |
+| January 11, 2025 | [1400](https://leetcode.com/problems/construct-k-palindrome-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1400) | 🟡 Medium |
 
 # Join our discussion!
 
