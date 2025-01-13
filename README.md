@@ -207,6 +207,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 10, 2025 | [916](https://leetcode.com/problems/word-subsets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/916) | 🟡 Medium |
 | January 11, 2025 | [1400](https://leetcode.com/problems/construct-k-palindrome-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1400) | 🟡 Medium |
 | January 12, 2025 | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2116) | 🟡 Medium |
+| January 13, 2025 | [3223](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3223) | 🟡 Medium |
 
 # Join our discussion!
 
