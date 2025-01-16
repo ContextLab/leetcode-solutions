@@ -210,6 +210,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 13, 2025 | [3223](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3223) | 🟡 Medium |
 | January 14, 2025 | [2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2657) | 🟡 Medium |
 | January 15, 2025 | [2429](https://leetcode.com/problems/minimize-xor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2429) | 🟡 Medium |
+| January 16, 2025 | [2425](https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2425) | 🟡 Medium |
 
 # Join our discussion!
 
