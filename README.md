@@ -211,6 +211,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 14, 2025 | [2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2657) | 🟡 Medium |
 | January 15, 2025 | [2429](https://leetcode.com/problems/minimize-xor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2429) | 🟡 Medium |
 | January 16, 2025 | [2425](https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2425) | 🟡 Medium |
+| January 17, 2025 | [2683](https://leetcode.com/problems/neighboring-bitwise-xor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2683) | 🟡 Medium |
 
 # Join our discussion!
 
