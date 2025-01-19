@@ -213,6 +213,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 16, 2025 | [2425](https://leetcode.com/problems/bitwise-xor-of-all-pairings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2425) | 🟡 Medium |
 | January 17, 2025 | [2683](https://leetcode.com/problems/neighboring-bitwise-xor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2683) | 🟡 Medium |
 | January 18, 2025 | [1368](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1368) | 🔴 Hard |
+| January 19, 2025 | [407](https://leetcode.com/problems/trapping-rain-water-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/407) | 🔴 Hard |
 
 # Join our discussion!
 
