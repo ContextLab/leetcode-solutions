@@ -218,6 +218,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 21, 2025 | [2017](https://leetcode.com/problems/grid-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2017) | 🟡 Medium |
 | January 22, 2025 | [1765](https://leetcode.com/problems/map-of-highest-peak/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1765) | 🟡 Medium |
 | January 23, 2025 | [1267](https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1267) | 🟡 Medium |
+| January 24, 2025 | [802](https://leetcode.com/problems/find-eventual-safe-states/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/802) | 🟡 Medium |
 
 # Join our discussion!
 
