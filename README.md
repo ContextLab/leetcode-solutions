@@ -221,6 +221,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 24, 2025 | [802](https://leetcode.com/problems/find-eventual-safe-states/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/802) | 🟡 Medium |
 | January 25, 2025 | [2948](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2948) | 🟡 Medium |
 | January 26, 2025 | [2127](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2127) | 🔴 Hard |
+| January 27, 2025 | [1462](https://leetcode.com/problems/course-schedule-iv/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1462) | 🟡 Medium |
 
 # Join our discussion!
 
