@@ -224,6 +224,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 27, 2025 | [1462](https://leetcode.com/problems/course-schedule-iv/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1462) | 🟡 Medium |
 | January 28, 2025 | [2658](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2658) | 🟡 Medium |
 | January 29, 2025 | [684](https://leetcode.com/problems/redundant-connection/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/684) | 🟡 Medium |
+| January 30, 2025 | [2493](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2493) | 🔴 Hard |
 
 # Join our discussion!
 
