@@ -227,6 +227,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | January 30, 2025 | [2493](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2493) | 🔴 Hard |
 | January 31, 2025 | [827](https://leetcode.com/problems/making-a-large-island/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/827) | 🔴 Hard |
 | February 1, 2025 | [3151](https://leetcode.com/problems/special-array-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3151) | 🟢 Easy |
+| February 2, 2025 | [1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1752) | 🟢 Easy |
 
 # Join our discussion!
 
