@@ -230,6 +230,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 2, 2025 | [1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1752) | 🟢 Easy |
 | February 3, 2025 | [3105](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3105) | 🟢 Easy |
 | February 4, 2025 | [1800](https://leetcode.com/problems/maximum-ascending-subarray-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1800) | 🟢 Easy |
+| February 5, 2025 | [1790](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1790) | 🟢 Easy |
 
 # Join our discussion!
 
