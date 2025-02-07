@@ -232,6 +232,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 4, 2025 | [1800](https://leetcode.com/problems/maximum-ascending-subarray-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1800) | 🟢 Easy |
 | February 5, 2025 | [1790](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1790) | 🟢 Easy |
 | February 6, 2025 | [1726](https://leetcode.com/problems/tuple-with-same-product/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1726) | 🟡 Medium |
+| February 7, 2025 | [3160](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3160) | 🟡 Medium |
 
 # Join our discussion!
 
