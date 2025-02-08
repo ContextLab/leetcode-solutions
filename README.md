@@ -233,6 +233,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 5, 2025 | [1790](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1790) | 🟢 Easy |
 | February 6, 2025 | [1726](https://leetcode.com/problems/tuple-with-same-product/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1726) | 🟡 Medium |
 | February 7, 2025 | [3160](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3160) | 🟡 Medium |
+| February 8, 2025 | [2349](https://leetcode.com/problems/design-a-number-container-system/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2349) | 🟡 Medium |
 
 # Join our discussion!
 
