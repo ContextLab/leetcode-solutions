@@ -240,6 +240,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 12, 2025 | [2342](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2342) | 🟡 Medium |
 | February 13, 2025 | [3066](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3066) | 🟡 Medium |
 | February 14, 2025 | [1352](https://leetcode.com/problems/product-of-the-last-k-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1352) | 🟡 Medium |
+| February 15, 2025 | [2698](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2698) | 🟡 Medium |
 
 # Join our discussion!
 
