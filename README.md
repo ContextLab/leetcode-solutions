@@ -243,6 +243,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 15, 2025 | [2698](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2698) | 🟡 Medium |
 | February 16, 2025 | [1718](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1718) | 🟡 Medium |
 | February 17, 2025 | [1079](https://leetcode.com/problems/letter-tile-possibilities/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1079) | 🟡 Medium |
+| February 18, 2025 | [2375](https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2375) | 🟡 Medium |
 
 # Join our discussion!
 
