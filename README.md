@@ -246,6 +246,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 18, 2025 | [2375](https://leetcode.com/problems/construct-smallest-number-from-di-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2375) | 🟡 Medium |
 | February 19, 2025 | [1415](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1415) | 🟡 Medium |
 | February 20, 2025 | [1980](https://leetcode.com/problems/find-unique-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1980) | 🟡 Medium |
+| February 21, 2025 | [1261](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1261) | 🟡 Medium |
 
 # Join our discussion!
 
