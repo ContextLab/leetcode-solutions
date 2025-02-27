@@ -252,6 +252,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 24, 2025 | [2467](https://leetcode.com/problems/most-profitable-path-in-a-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2467) | 🟡 Medium |
 | February 25, 2025 | [1524](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1524) | 🟡 Medium |
 | February 26, 2025 | [1749](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1749) | 🟡 Medium |
+| February 27, 2025 | [873](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/873) | 🟡 Medium |
 
 # Join our discussion!
 
