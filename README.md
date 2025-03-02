@@ -255,6 +255,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 27, 2025 | [873](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/873) | 🟡 Medium |
 | February 28, 2025 | [1092](https://leetcode.com/problems/shortest-common-supersequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1092) | 🔴 Hard |
 | March 1, 2025 | [2460](https://leetcode.com/problems/apply-operations-to-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2460) | 🟢 Easy |
+| March 2, 2025 | [2570](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2570) | 🟢 Easy |
 
 # Join our discussion!
 
