@@ -256,6 +256,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | February 28, 2025 | [1092](https://leetcode.com/problems/shortest-common-supersequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1092) | 🔴 Hard |
 | March 1, 2025 | [2460](https://leetcode.com/problems/apply-operations-to-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2460) | 🟢 Easy |
 | March 2, 2025 | [2570](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2570) | 🟢 Easy |
+| March 3, 2025 | [2161](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2161) | 🟡 Medium |
 
 # Join our discussion!
 
