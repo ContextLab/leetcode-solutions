@@ -259,6 +259,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 3, 2025 | [2161](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2161) | 🟡 Medium |
 | March 4, 2025 | [1780](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1780) | 🟡 Medium |
 | March 5, 2025 | [2579](https://leetcode.com/problems/count-total-number-of-colored-cells/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2579) | 🟡 Medium |
+| March 6, 2025 | [2965](https://leetcode.com/problems/find-missing-and-repeated-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2965) | 🟢 Easy |
 
 # Join our discussion!
 
