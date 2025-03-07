@@ -260,6 +260,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 4, 2025 | [1780](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1780) | 🟡 Medium |
 | March 5, 2025 | [2579](https://leetcode.com/problems/count-total-number-of-colored-cells/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2579) | 🟡 Medium |
 | March 6, 2025 | [2965](https://leetcode.com/problems/find-missing-and-repeated-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2965) | 🟢 Easy |
+| March 7, 2025 | [2523](https://leetcode.com/problems/closest-prime-numbers-in-range/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2523) | 🟡 Medium |
 
 # Join our discussion!
 
