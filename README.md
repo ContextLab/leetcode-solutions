@@ -262,6 +262,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 6, 2025 | [2965](https://leetcode.com/problems/find-missing-and-repeated-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2965) | 🟢 Easy |
 | March 7, 2025 | [2523](https://leetcode.com/problems/closest-prime-numbers-in-range/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2523) | 🟡 Medium |
 | March 8, 2025 | [2379](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2379) | 🟢 Easy |
+| March 9, 2025 | [3208](https://leetcode.com/problems/alternating-groups-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3208) | 🟡 Medium |
 
 # Join our discussion!
 
