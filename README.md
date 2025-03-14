@@ -267,6 +267,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 11, 2025 | [1358](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1358) | 🟡 Medium |
 | March 12, 2025 | [2529](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2529) | 🟢 Easy |
 | March 13, 2025 | [3356](https://leetcode.com/problems/zero-array-transformation-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3356) | 🟡 Medium |
+| March 14, 2025 | [2226](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2226) | 🟡 Medium |
 
 # Join our discussion!
 
