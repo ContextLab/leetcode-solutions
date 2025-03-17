@@ -270,6 +270,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 14, 2025 | [2226](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2226) | 🟡 Medium |
 | March 15, 2025 | [2560](https://leetcode.com/problems/house-robber-iv/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2560) | 🟡 Medium |
 | March 16, 2025 | [2594](https://leetcode.com/problems/minimum-time-to-repair-cars/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2594) | 🟡 Medium |
+| March 17, 2025 | [2206](https://leetcode.com/problems/divide-array-into-equal-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2206) | 🟢 Easy |
 
 # Join our discussion!
 
