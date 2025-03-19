@@ -272,6 +272,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 16, 2025 | [2594](https://leetcode.com/problems/minimum-time-to-repair-cars/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2594) | 🟡 Medium |
 | March 17, 2025 | [2206](https://leetcode.com/problems/divide-array-into-equal-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2206) | 🟢 Easy |
 | March 18, 2025 | [2401](https://leetcode.com/problems/longest-nice-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2401) | 🟡 Medium |
+| March 19, 2025 | [3191](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3191) | 🟡 Medium |
 
 # Join our discussion!
 
