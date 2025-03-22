@@ -275,6 +275,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 19, 2025 | [3191](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3191) | 🟡 Medium |
 | March 20, 2025 | [3108](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3108) | 🔴 Hard |
 | March 21, 2025 | [2115](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2115) | 🟡 Medium |
+| March 22, 2025 | [2685](https://leetcode.com/problems/count-the-number-of-complete-components/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2685) | 🟡 Medium |
 
 # Join our discussion!
 
