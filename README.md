@@ -279,6 +279,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 23, 2025 | [1976](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1976) | 🟡 Medium |
 | March 24, 2025 | [3169](https://leetcode.com/problems/count-days-without-meetings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3169) | 🟡 Medium |
 | March 25, 2025 | [3394](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3394) | 🟡 Medium |
+| March 26, 2025 | [2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2033) | 🟡 Medium |
 
 # Join our discussion!
 
