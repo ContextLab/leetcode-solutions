@@ -284,6 +284,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 28, 2025 | [2503](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2503) | 🔴 Hard |
 | March 29, 2025 | [2818](https://leetcode.com/problems/apply-operations-to-maximize-score/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2818) | 🔴 Hard |
 | March 30, 2025 | [763](https://leetcode.com/problems/partition-labels/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/763) | 🟡 Medium |
+| March 31, 2025 | [2551](https://leetcode.com/problems/put-marbles-in-bags/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2551) | 🔴 Hard |
 
 # Join our discussion!
 
