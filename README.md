@@ -285,6 +285,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | March 29, 2025 | [2818](https://leetcode.com/problems/apply-operations-to-maximize-score/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2818) | 🔴 Hard |
 | March 30, 2025 | [763](https://leetcode.com/problems/partition-labels/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/763) | 🟡 Medium |
 | March 31, 2025 | [2551](https://leetcode.com/problems/put-marbles-in-bags/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2551) | 🔴 Hard |
+| April 1, 2025 | [2140](https://leetcode.com/problems/solving-questions-with-brainpower/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2140) | 🟡 Medium |
 
 # Join our discussion!
 
