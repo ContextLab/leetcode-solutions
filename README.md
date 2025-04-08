@@ -292,6 +292,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 5, 2025 | [1863](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1863) | 🟢 Easy |
 | April 6, 2025 | [368](https://leetcode.com/problems/largest-divisible-subset/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/368) | 🟡 Medium |
 | April 7, 2025 | [416](https://leetcode.com/problems/partition-equal-subset-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/416) | 🟡 Medium |
+| April 8, 2025 | [3396](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3396) | 🟢 Easy |
 
 # Join our discussion!
 
