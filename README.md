@@ -296,6 +296,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 9, 2025 | [3375](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3375) | 🟢 Easy |
 | April 10, 2025 | [2999](https://leetcode.com/problems/count-the-number-of-powerful-integers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2999) | 🔴 Hard |
 | April 11, 2025 | [2843](https://leetcode.com/problems/count-symmetric-integers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2843) | 🟢 Easy |
+| April 12, 2025 | [3272](https://leetcode.com/problems/find-the-count-of-good-integers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3272) | 🔴 Hard |
 
 # Join our discussion!
 
