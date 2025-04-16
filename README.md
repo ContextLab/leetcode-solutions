@@ -300,6 +300,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 13, 2025 | [1922](https://leetcode.com/problems/count-good-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1922) | 🟡 Medium |
 | April 14, 2025 | [1534](https://leetcode.com/problems/count-good-triplets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1534) | 🟢 Easy |
 | April 15, 2025 | [2179](https://leetcode.com/problems/count-good-triplets-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2179) | 🔴 Hard |
+| April 16, 2025 | [2537](https://leetcode.com/problems/count-the-number-of-good-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2537) | 🟡 Medium |
 
 # Join our discussion!
 
