@@ -304,6 +304,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 17, 2025 | [2176](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2176) | 🟢 Easy |
 | April 18, 2025 | [38](https://leetcode.com/problems/count-and-say/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/38) | 🟡 Medium |
 | April 19, 2025 | [2563](https://leetcode.com/problems/count-the-number-of-fair-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2563) | 🟡 Medium |
+| April 20, 2025 | [781](https://leetcode.com/problems/rabbits-in-forest/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/781) | 🟡 Medium |
 
 # Join our discussion!
 
