@@ -308,6 +308,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 21, 2025 | [2145](https://leetcode.com/problems/count-the-hidden-sequences/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2145) | 🟡 Medium |
 | April 22, 2025 | [2338](https://leetcode.com/problems/count-the-number-of-ideal-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2338) | 🔴 Hard |
 | April 23, 2025 | [1399](https://leetcode.com/problems/count-largest-group/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1399) | 🟢 Easy |
+| April 24, 2025 | [2799](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2799) | 🟡 Medium |
 
 # Join our discussion!
 
