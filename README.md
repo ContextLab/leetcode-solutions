@@ -310,6 +310,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 23, 2025 | [1399](https://leetcode.com/problems/count-largest-group/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1399) | 🟢 Easy |
 | April 24, 2025 | [2799](https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2799) | 🟡 Medium |
 | April 25, 2025 | [2845](https://leetcode.com/problems/count-of-interesting-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2845) | 🟡 Medium |
+| April 26, 2025 | [2444](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2444) | 🔴 Hard |
 
 # Join our discussion!
 
