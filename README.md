@@ -313,6 +313,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 26, 2025 | [2444](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2444) | 🔴 Hard |
 | April 27, 2025 | [3392](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3392) | 🟢 Easy |
 | April 28, 2025 | [2302](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2302) | 🔴 Hard |
+| April 29, 2025 | [2962](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2962) | 🟡 Medium |
 
 # Join our discussion!
 
