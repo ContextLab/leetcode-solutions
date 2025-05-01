@@ -315,6 +315,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | April 28, 2025 | [2302](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2302) | 🔴 Hard |
 | April 29, 2025 | [2962](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2962) | 🟡 Medium |
 | April 30, 2025 | [1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1295) | 🟢 Easy |
+| May 1, 2025 | [2071](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2071) | 🔴 Hard |
 
 # Join our discussion!
 
