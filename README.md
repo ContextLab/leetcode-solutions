@@ -318,6 +318,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 1, 2025 | [2071](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2071) | 🔴 Hard |
 | May 2, 2025 | [838](https://leetcode.com/problems/push-dominoes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/838) | 🟡 Medium |
 | May 3, 2025 | [1007](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1007) | 🟡 Medium |
+| May 4, 2025 | [1128](https://leetcode.com/problems/number-of-equivalent-domino-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1128) | 🟢 Easy |
 
 # Join our discussion!
 
