@@ -323,6 +323,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 6, 2025 | [1920](https://leetcode.com/problems/build-array-from-permutation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1920) | 🟢 Easy |
 | May 7, 2025 | [3341](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3341) | 🟡 Medium |
 | May 8, 2025 | [3342](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3342) | 🟡 Medium |
+| May 9, 2025 | [3343](https://leetcode.com/problems/count-number-of-balanced-permutations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3343) | 🔴 Hard |
 
 # Join our discussion!
 
