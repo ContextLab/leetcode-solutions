@@ -328,6 +328,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 11, 2025 | [1550](https://leetcode.com/problems/three-consecutive-odds/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1550) | 🟢 Easy |
 | May 12, 2025 | [2094](https://leetcode.com/problems/finding-3-digit-even-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2094) | 🟢 Easy |
 | May 13, 2025 | [3335](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3335) | 🟡 Medium |
+| May 14, 2025 | [3337](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3337) | 🔴 Hard |
 
 # Join our discussion!
 
