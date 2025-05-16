@@ -330,6 +330,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 13, 2025 | [3335](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3335) | 🟡 Medium |
 | May 14, 2025 | [3337](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3337) | 🔴 Hard |
 | May 15, 2025 | [2900](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2900) | 🟢 Easy |
+| May 16, 2025 | [2901](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2901) | 🟡 Medium |
 
 # Join our discussion!
 
