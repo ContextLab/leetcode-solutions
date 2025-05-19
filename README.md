@@ -333,6 +333,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 16, 2025 | [2901](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2901) | 🟡 Medium |
 | May 17, 2025 | [75](https://leetcode.com/problems/sort-colors/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/75) | 🟡 Medium |
 | May 18, 2025 | [1931](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1931) | 🔴 Hard |
+| May 19, 2025 | [3024](https://leetcode.com/problems/type-of-triangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3024) | 🟢 Easy |
 
 # Join our discussion!
 
