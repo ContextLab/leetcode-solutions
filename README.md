@@ -336,6 +336,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 19, 2025 | [3024](https://leetcode.com/problems/type-of-triangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3024) | 🟢 Easy |
 | May 20, 2025 | [3355](https://leetcode.com/problems/zero-array-transformation-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3355) | 🟡 Medium |
 | May 21, 2025 | [73](https://leetcode.com/problems/set-matrix-zeroes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/73) | 🟡 Medium |
+| May 22, 2025 | [3362](https://leetcode.com/problems/zero-array-transformation-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3362) | 🟡 Medium |
 
 # Join our discussion!
 
