@@ -340,6 +340,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 23, 2025 | [3068](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3068) | 🔴 Hard |
 | May 24, 2025 | [2942](https://leetcode.com/problems/find-words-containing-character/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2942) | 🟢 Easy |
 | May 25, 2025 | [2131](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2131) | 🟡 Medium |
+| May 26, 2025 | [1857](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1857) | 🔴 Hard |
 
 # Join our discussion!
 
