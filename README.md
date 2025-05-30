@@ -344,6 +344,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 27, 2025 | [2894](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2894) | 🟢 Easy |
 | May 28, 2025 | [3372](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3372) | 🟡 Medium |
 | May 29, 2025 | [3373](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3373) | 🔴 Hard |
+| May 30, 2025 | [2359](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2359) | 🟡 Medium |
 
 # Join our discussion!
 
