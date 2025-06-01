@@ -346,6 +346,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 29, 2025 | [3373](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3373) | 🔴 Hard |
 | May 30, 2025 | [2359](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2359) | 🟡 Medium |
 | May 31, 2025 | [909](https://leetcode.com/problems/snakes-and-ladders/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/909) | 🟡 Medium |
+| June 1, 2025 | [2929](https://leetcode.com/problems/distribute-candies-among-children-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2929) | 🟡 Medium |
 
 # Join our discussion!
 
