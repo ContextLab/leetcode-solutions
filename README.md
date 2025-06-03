@@ -348,6 +348,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | May 31, 2025 | [909](https://leetcode.com/problems/snakes-and-ladders/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/909) | 🟡 Medium |
 | June 1, 2025 | [2929](https://leetcode.com/problems/distribute-candies-among-children-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2929) | 🟡 Medium |
 | June 2, 2025 | [135](https://leetcode.com/problems/candy/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/135) | 🔴 Hard |
+| June 3, 2025 | [1298](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1298) | 🔴 Hard |
 
 # Join our discussion!
 
