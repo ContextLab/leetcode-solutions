@@ -350,6 +350,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 2, 2025 | [135](https://leetcode.com/problems/candy/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/135) | 🔴 Hard |
 | June 3, 2025 | [1298](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1298) | 🔴 Hard |
 | June 4, 2025 | [3403](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3403) | 🟡 Medium |
+| June 5, 2025 | [1061](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1061) | 🟡 Medium |
 
 # Join our discussion!
 
