@@ -353,6 +353,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 5, 2025 | [1061](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1061) | 🟡 Medium |
 | June 6, 2025 | [2434](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2434) | 🟡 Medium |
 | June 7, 2025 | [3170](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3170) | 🟡 Medium |
+| June 8, 2025 | [386](https://leetcode.com/problems/lexicographical-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/386) | 🟡 Medium |
 
 # Join our discussion!
 
