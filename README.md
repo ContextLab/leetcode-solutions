@@ -359,6 +359,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 11, 2025 | [3445](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3445) | 🔴 Hard |
 | June 12, 2025 | [3423](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3423) | 🟢 Easy |
 | June 13, 2025 | [2616](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2616) | 🟡 Medium |
+| June 14, 2025 | [2566](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2566) | 🟢 Easy |
 
 # Join our discussion!
 
