@@ -362,6 +362,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 14, 2025 | [2566](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2566) | 🟢 Easy |
 | June 15, 2025 | [1432](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1432) | 🟡 Medium |
 | June 16, 2025 | [2016](https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2016) | 🟢 Easy |
+| June 17, 2025 | [3405](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3405) | 🔴 Hard |
 
 # Join our discussion!
 
