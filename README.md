@@ -364,6 +364,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 16, 2025 | [2016](https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2016) | 🟢 Easy |
 | June 17, 2025 | [3405](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3405) | 🔴 Hard |
 | June 18, 2025 | [2966](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2966) | 🟡 Medium |
+| June 19, 2025 | [2294](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2294) | 🟡 Medium |
 
 # Join our discussion!
 
