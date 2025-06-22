@@ -367,6 +367,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 19, 2025 | [2294](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2294) | 🟡 Medium |
 | June 20, 2025 | [3443](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3443) | 🟡 Medium |
 | June 21, 2025 | [3085](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3085) | 🟡 Medium |
+| June 22, 2025 | [2138](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2138) | 🟢 Easy |
 
 # Join our discussion!
 
