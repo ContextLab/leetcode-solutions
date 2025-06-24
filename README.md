@@ -369,6 +369,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 21, 2025 | [3085](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3085) | 🟡 Medium |
 | June 22, 2025 | [2138](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2138) | 🟢 Easy |
 | June 23, 2025 | [2081](https://leetcode.com/problems/sum-of-k-mirror-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2081) | 🔴 Hard |
+| June 24, 2025 | [2200](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2200) | 🟢 Easy |
 
 # Join our discussion!
 
