@@ -372,6 +372,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 24, 2025 | [2200](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2200) | 🟢 Easy |
 | June 25, 2025 | [2040](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2040) | 🔴 Hard |
 | June 26, 2025 | [2311](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2311) | 🟡 Medium |
+| June 27, 2025 | [2014](https://leetcode.com/problems/longest-subsequence-repeated-k-times/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2014) | 🔴 Hard |
 
 # Join our discussion!
 
