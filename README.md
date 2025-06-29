@@ -374,6 +374,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 26, 2025 | [2311](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2311) | 🟡 Medium |
 | June 27, 2025 | [2014](https://leetcode.com/problems/longest-subsequence-repeated-k-times/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2014) | 🔴 Hard |
 | June 28, 2025 | [2099](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2099) | 🟢 Easy |
+| June 29, 2025 | [1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1498) | 🟡 Medium |
 
 # Join our discussion!
 
