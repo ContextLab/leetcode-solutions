@@ -376,6 +376,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 28, 2025 | [2099](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2099) | 🟢 Easy |
 | June 29, 2025 | [1498](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1498) | 🟡 Medium |
 | June 30, 2025 | [594](https://leetcode.com/problems/longest-harmonious-subsequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/594) | 🟢 Easy |
+| July 1, 2025 | [3330](https://leetcode.com/problems/find-the-original-typed-string-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3330) | 🟢 Easy |
 
 # Join our discussion!
 
