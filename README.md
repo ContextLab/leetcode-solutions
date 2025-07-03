@@ -378,6 +378,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | June 30, 2025 | [594](https://leetcode.com/problems/longest-harmonious-subsequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/594) | 🟢 Easy |
 | July 1, 2025 | [3330](https://leetcode.com/problems/find-the-original-typed-string-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3330) | 🟢 Easy |
 | July 2, 2025 | [3333](https://leetcode.com/problems/find-the-original-typed-string-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3333) | 🔴 Hard |
+| July 3, 2025 | [3304](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3304) | 🟢 Easy |
 
 # Join our discussion!
 
