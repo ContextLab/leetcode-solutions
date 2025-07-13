@@ -388,6 +388,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 10, 2025 | [3440](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3440) | 🟡 Medium |
 | July 11, 2025 | [2402](https://leetcode.com/problems/meeting-rooms-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2402) | 🔴 Hard |
 | July 12, 2025 | [1900](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1900) | 🔴 Hard |
+| July 13, 2025 | [2410](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2410) | 🟡 Medium |
 
 # Join our discussion!
 
