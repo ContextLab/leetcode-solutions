@@ -393,6 +393,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 15, 2025 | [3136](https://leetcode.com/problems/valid-word/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3136) | 🟢 Easy |
 | July 16, 2025 | [3201](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3201) | 🟡 Medium |
 | July 17, 2025 | [3202](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3202) | 🟡 Medium |
+| July 18, 2025 | [2163](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2163) | 🔴 Hard |
 
 # Join our discussion!
 
