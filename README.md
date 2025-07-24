@@ -399,6 +399,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 21, 2025 | [1957](https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1957) | 🟢 Easy |
 | July 22, 2025 | [1695](https://leetcode.com/problems/maximum-erasure-value/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1695) | 🟡 Medium |
 | July 23, 2025 | [1717](https://leetcode.com/problems/maximum-score-from-removing-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1717) | 🟡 Medium |
+| July 24, 2025 | [2322](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2322) | 🔴 Hard |
 
 # Join our discussion!
 
