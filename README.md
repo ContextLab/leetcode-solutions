@@ -402,6 +402,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 24, 2025 | [2322](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2322) | 🔴 Hard |
 | July 25, 2025 | [3487](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3487) | 🟢 Easy |
 | July 26, 2025 | [3480](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3480) | 🔴 Hard |
+| July 27, 2025 | [2210](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2210) | 🟢 Easy |
 
 # Join our discussion!
 
