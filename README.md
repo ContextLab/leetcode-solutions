@@ -404,6 +404,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 26, 2025 | [3480](https://leetcode.com/problems/maximize-subarrays-after-removing-one-conflicting-pair/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3480) | 🔴 Hard |
 | July 27, 2025 | [2210](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2210) | 🟢 Easy |
 | July 28, 2025 | [2044](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2044) | 🟡 Medium |
+| July 29, 2025 | [2411](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2411) | 🟡 Medium |
 
 # Join our discussion!
 
