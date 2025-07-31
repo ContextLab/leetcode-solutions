@@ -406,6 +406,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 28, 2025 | [2044](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2044) | 🟡 Medium |
 | July 29, 2025 | [2411](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2411) | 🟡 Medium |
 | July 30, 2025 | [2419](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2419) | 🟡 Medium |
+| July 31, 2025 | [898](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/898) | 🟡 Medium |
 
 # Join our discussion!
 
