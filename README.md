@@ -408,6 +408,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | July 30, 2025 | [2419](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2419) | 🟡 Medium |
 | July 31, 2025 | [898](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/898) | 🟡 Medium |
 | August 1, 2025 | [118](https://leetcode.com/problems/pascals-triangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/118) | 🟢 Easy |
+| August 2, 2025 | [2561](https://leetcode.com/problems/rearranging-fruits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2561) | 🔴 Hard |
 
 # Join our discussion!
 
