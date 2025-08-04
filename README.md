@@ -410,6 +410,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 1, 2025 | [118](https://leetcode.com/problems/pascals-triangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/118) | 🟢 Easy |
 | August 2, 2025 | [2561](https://leetcode.com/problems/rearranging-fruits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2561) | 🔴 Hard |
 | August 3, 2025 | [2106](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2106) | 🔴 Hard |
+| August 4, 2025 | [904](https://leetcode.com/problems/fruit-into-baskets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/904) | 🟡 Medium |
 
 # Join our discussion!
 
