@@ -416,6 +416,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 7, 2025 | [3363](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3363) | 🔴 Hard |
 | August 8, 2025 | [808](https://leetcode.com/problems/soup-servings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/808) | 🟡 Medium |
 | August 9, 2025 | [231](https://leetcode.com/problems/power-of-two/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/231) | 🟢 Easy |
+| August 10, 2025 | [869](https://leetcode.com/problems/reordered-power-of-2/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/869) | 🟡 Medium |
 
 # Join our discussion!
 
