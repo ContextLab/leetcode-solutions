@@ -419,6 +419,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 10, 2025 | [869](https://leetcode.com/problems/reordered-power-of-2/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/869) | 🟡 Medium |
 | August 11, 2025 | [2438](https://leetcode.com/problems/range-product-queries-of-powers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2438) | 🟡 Medium |
 | August 12, 2025 | [2787](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2787) | 🟡 Medium |
+| August 13, 2025 | [326](https://leetcode.com/problems/power-of-three/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/326) | 🟢 Easy |
 
 # Join our discussion!
 
