@@ -422,6 +422,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 13, 2025 | [326](https://leetcode.com/problems/power-of-three/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/326) | 🟢 Easy |
 | August 14, 2025 | [2264](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2264) | 🟢 Easy |
 | August 15, 2025 | [342](https://leetcode.com/problems/power-of-four/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/342) | 🟢 Easy |
+| August 16, 2025 | [1323](https://leetcode.com/problems/maximum-69-number/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1323) | 🟢 Easy |
 
 # Join our discussion!
 
