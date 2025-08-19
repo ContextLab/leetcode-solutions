@@ -425,6 +425,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 16, 2025 | [1323](https://leetcode.com/problems/maximum-69-number/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1323) | 🟢 Easy |
 | August 17, 2025 | [837](https://leetcode.com/problems/new-21-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/837) | 🟡 Medium |
 | August 18, 2025 | [679](https://leetcode.com/problems/24-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/679) | 🔴 Hard |
+| August 19, 2025 | [2348](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2348) | 🟡 Medium |
 
 # Join our discussion!
 
