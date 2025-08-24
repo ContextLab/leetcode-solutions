@@ -430,6 +430,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 21, 2025 | [1504](https://leetcode.com/problems/count-submatrices-with-all-ones/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1504) | 🟡 Medium |
 | August 22, 2025 | [3195](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3195) | 🟡 Medium |
 | August 23, 2025 | [3197](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3197) | 🔴 Hard |
+| August 24, 2025 | [1493](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1493) | 🟡 Medium |
 
 # Join our discussion!
 
