@@ -432,6 +432,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 23, 2025 | [3197](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3197) | 🔴 Hard |
 | August 24, 2025 | [1493](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1493) | 🟡 Medium |
 | August 25, 2025 | [498](https://leetcode.com/problems/diagonal-traverse/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/498) | 🟡 Medium |
+| August 26, 2025 | [3000](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3000) | 🟢 Easy |
 
 # Join our discussion!
 
