@@ -435,6 +435,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 26, 2025 | [3000](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3000) | 🟢 Easy |
 | August 27, 2025 | [3459](https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3459) | 🔴 Hard |
 | August 28, 2025 | [3446](https://leetcode.com/problems/sort-matrix-by-diagonals/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3446) | 🟡 Medium |
+| August 29, 2025 | [3021](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3021) | 🟡 Medium |
 
 # Join our discussion!
 
