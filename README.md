@@ -437,6 +437,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 28, 2025 | [3446](https://leetcode.com/problems/sort-matrix-by-diagonals/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3446) | 🟡 Medium |
 | August 29, 2025 | [3021](https://leetcode.com/problems/alice-and-bob-playing-flower-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3021) | 🟡 Medium |
 | August 30, 2025 | [36](https://leetcode.com/problems/valid-sudoku/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/36) | 🟡 Medium |
+| August 31, 2025 | [37](https://leetcode.com/problems/sudoku-solver/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/37) | 🔴 Hard |
 
 # Join our discussion!
 
