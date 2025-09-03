@@ -440,6 +440,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | August 31, 2025 | [37](https://leetcode.com/problems/sudoku-solver/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/37) | 🔴 Hard |
 | September 1, 2025 | [1792](https://leetcode.com/problems/maximum-average-pass-ratio/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1792) | 🟡 Medium |
 | September 2, 2025 | [3025](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3025) | 🟡 Medium |
+| September 3, 2025 | [3027](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3027) | 🔴 Hard |
 
 # Join our discussion!
 
