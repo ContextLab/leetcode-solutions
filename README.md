@@ -443,6 +443,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 3, 2025 | [3027](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3027) | 🔴 Hard |
 | September 4, 2025 | [3516](https://leetcode.com/problems/find-closest-person/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3516) | 🟢 Easy |
 | September 5, 2025 | [2749](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2749) | 🟡 Medium |
+| September 6, 2025 | [3495](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3495) | 🔴 Hard |
 
 # Join our discussion!
 
