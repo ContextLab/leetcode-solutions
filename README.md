@@ -444,6 +444,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 4, 2025 | [3516](https://leetcode.com/problems/find-closest-person/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3516) | 🟢 Easy |
 | September 5, 2025 | [2749](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2749) | 🟡 Medium |
 | September 6, 2025 | [3495](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3495) | 🔴 Hard |
+| September 7, 2025 | [1304](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1304) | 🟢 Easy |
 
 # Join our discussion!
 
