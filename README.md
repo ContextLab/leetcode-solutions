@@ -451,6 +451,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 11, 2025 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2785) | 🟡 Medium |
 | September 12, 2025 | [3227](https://leetcode.com/problems/vowels-game-in-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3227) | 🟡 Medium |
 | September 13, 2025 | [3541](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3541) | 🟢 Easy |
+| September 14, 2025 | [966](https://leetcode.com/problems/vowel-spellchecker/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/966) | 🟡 Medium |
 
 # Join our discussion!
 
