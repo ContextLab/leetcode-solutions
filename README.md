@@ -455,6 +455,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 15, 2025 | [1935](https://leetcode.com/problems/maximum-number-of-words-you-can-type/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1935) | 🟢 Easy |
 | September 16, 2025 | [2197](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2197) | 🔴 Hard |
 | September 17, 2025 | [2353](https://leetcode.com/problems/design-a-food-rating-system/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2353) | 🟡 Medium |
+| September 18, 2025 | [3408](https://leetcode.com/problems/design-task-manager/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3408) | 🟡 Medium |
 
 # Join our discussion!
 
