@@ -459,6 +459,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 19, 2025 | [3484](https://leetcode.com/problems/design-spreadsheet/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3484) | 🟡 Medium |
 | September 20, 2025 | [3508](https://leetcode.com/problems/implement-router/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3508) | 🟡 Medium |
 | September 21, 2025 | [1912](https://leetcode.com/problems/design-movie-rental-system/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1912) | 🔴 Hard |
+| September 22, 2025 | [3005](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3005) | 🟢 Easy |
 
 # Join our discussion!
 
