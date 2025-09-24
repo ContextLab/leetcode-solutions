@@ -461,6 +461,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 21, 2025 | [1912](https://leetcode.com/problems/design-movie-rental-system/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1912) | 🔴 Hard |
 | September 22, 2025 | [3005](https://leetcode.com/problems/count-elements-with-maximum-frequency/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3005) | 🟢 Easy |
 | September 23, 2025 | [165](https://leetcode.com/problems/compare-version-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/165) | 🟡 Medium |
+| September 24, 2025 | [166](https://leetcode.com/problems/fraction-to-recurring-decimal/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/166) | 🟡 Medium |
 
 # Join our discussion!
 
