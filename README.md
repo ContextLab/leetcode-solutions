@@ -467,6 +467,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 27, 2025 | [812](https://leetcode.com/problems/largest-triangle-area/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/812) | 🟢 Easy |
 | September 28, 2025 | [976](https://leetcode.com/problems/largest-perimeter-triangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/976) | 🟢 Easy |
 | September 29, 2025 | [1039](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1039) | 🟡 Medium |
+| September 30, 2025 | [2221](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2221) | 🟡 Medium |
 
 # Join our discussion!
 
