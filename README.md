@@ -469,6 +469,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | September 29, 2025 | [1039](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1039) | 🟡 Medium |
 | September 30, 2025 | [2221](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2221) | 🟡 Medium |
 | October 1, 2025 | [1518](https://leetcode.com/problems/water-bottles/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1518) | 🟢 Easy |
+| October 2, 2025 | [3100](https://leetcode.com/problems/water-bottles-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3100) | 🟡 Medium |
 
 # Join our discussion!
 
