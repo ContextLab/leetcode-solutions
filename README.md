@@ -473,6 +473,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 3, 2025 | [407](https://leetcode.com/problems/trapping-rain-water-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/407) | 🔴 Hard |
 | October 4, 2025 | [11](https://leetcode.com/problems/container-with-most-water/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/11) | 🟡 Medium |
 | October 5, 2025 | [417](https://leetcode.com/problems/pacific-atlantic-water-flow/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/417) | 🟡 Medium |
+| October 6, 2025 | [778](https://leetcode.com/problems/swim-in-rising-water/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/778) | 🔴 Hard |
 
 # Join our discussion!
 
