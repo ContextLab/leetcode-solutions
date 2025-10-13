@@ -480,6 +480,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 10, 2025 | [3147](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3147) | 🟡 Medium |
 | October 11, 2025 | [3186](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3186) | 🟡 Medium |
 | October 12, 2025 | [3539](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3539) | 🔴 Hard |
+| October 13, 2025 | [2273](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2273) | 🟢 Easy |
 
 # Join our discussion!
 
