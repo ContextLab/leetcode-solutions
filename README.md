@@ -484,6 +484,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 14, 2025 | [3349](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3349) | 🟢 Easy |
 | October 15, 2025 | [3350](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3350) | 🟡 Medium |
 | October 16, 2025 | [2598](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2598) | 🟡 Medium |
+| October 17, 2025 | [3003](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3003) | 🔴 Hard |
 
 # Join our discussion!
 
