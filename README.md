@@ -491,6 +491,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 21, 2025 | [3346](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3346) | 🟡 Medium |
 | October 22, 2025 | [3347](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3347) | 🔴 Hard |
 | October 23, 2025 | [3461](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3461) | 🟢 Easy |
+| October 24, 2025 | [2048](https://leetcode.com/problems/next-greater-numerically-balanced-number/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2048) | 🟡 Medium |
 
 # Join our discussion!
 
