@@ -494,6 +494,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 24, 2025 | [2048](https://leetcode.com/problems/next-greater-numerically-balanced-number/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2048) | 🟡 Medium |
 | October 25, 2025 | [1716](https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1716) | 🟢 Easy |
 | October 26, 2025 | [2043](https://leetcode.com/problems/simple-bank-system/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2043) | 🟡 Medium |
+| October 27, 2025 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2125) | 🟡 Medium |
 
 # Join our discussion!
 
