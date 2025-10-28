@@ -495,6 +495,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 25, 2025 | [1716](https://leetcode.com/problems/calculate-money-in-leetcode-bank/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1716) | 🟢 Easy |
 | October 26, 2025 | [2043](https://leetcode.com/problems/simple-bank-system/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2043) | 🟡 Medium |
 | October 27, 2025 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2125) | 🟡 Medium |
+| October 28, 2025 | [3354](https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3354) | 🟢 Easy |
 
 # Join our discussion!
 
