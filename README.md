@@ -498,6 +498,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 28, 2025 | [3354](https://leetcode.com/problems/make-array-elements-equal-to-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3354) | 🟢 Easy |
 | October 29, 2025 | [3370](https://leetcode.com/problems/smallest-number-with-all-set-bits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3370) | 🟢 Easy |
 | October 30, 2025 | [1526](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1526) | 🔴 Hard |
+| October 31, 2025 | [3289](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3289) | 🟢 Easy |
 
 # Join our discussion!
 
