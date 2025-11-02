@@ -500,6 +500,7 @@ _**Note:** Our group is currently taking a break from grinding leetcode. The tab
 | October 30, 2025 | [1526](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1526) | 🔴 Hard |
 | October 31, 2025 | [3289](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3289) | 🟢 Easy |
 | November 1, 2025 | [3217](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3217) | 🟡 Medium |
+| November 2, 2025 | [2257](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2257) | 🟡 Medium |
 
 # Join our discussion!
 
