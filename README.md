@@ -6,6 +6,14 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 
 _**Note:** Our group is currently taking a break from grinding leetcode. The table below will continue to update automatically, but newer problems likey won't have their solutions provided.  Pull requests will still be supported and reviewed if others would like to contribute solutions._
 
+## 🤖 Auto-Solver
+
+We've added an automatic solver that uses OpenAI's GPT-5-mini to generate solutions for each day's problem! Every day at 00:01 UTC, the system automatically:
+- Fetches the daily LeetCode problem
+- Generates a thoughtful solution with explanations
+- Commits the solution as `gpt5-mini.md` in the problem's folder
+
+This means you'll always find an AI-generated solution to compare with or learn from!
 
 # Problems we've attempted so far:
 
