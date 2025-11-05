@@ -114,7 +114,6 @@ Please provide a thoughtful, well-explained solution that demonstrates clear pro
                 {"role": "system", "content": "You are an expert software engineer solving LeetCode problems. Provide clear explanations and efficient solutions."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7,
             max_completion_tokens=2000
         )
         
