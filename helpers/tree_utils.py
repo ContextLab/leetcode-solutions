@@ -96,14 +96,15 @@ def tree_to_list(root: Optional[TreeNode]) -> List[Optional[int]]:
     return result
 
 
-def visualize_tree(root: Optional[TreeNode], level: int = 0, prefix: str = "Root: ") -> str:
+def visualize_tree(root: Optional[TreeNode], prefix: str = "", is_tail: bool = True, is_root: bool = True) -> str:
     """
     Create a visual string representation of a binary tree.
     
     Args:
         root: Root node of the binary tree
-        level: Current depth level (used for recursion, default 0)
-        prefix: Prefix string for the current node (default "Root: ")
+        prefix: Prefix string for the current node (used internally)
+        is_tail: Whether this is the last child (used internally)
+        is_root: Whether this is the root node (default True)
         
     Returns:
         String representation of the tree structure
@@ -121,17 +122,34 @@ def visualize_tree(root: Optional[TreeNode], level: int = 0, prefix: str = "Root
         return ""
     
     lines = []
-    lines.append(prefix + str(root.val))
     
-    if root.left or root.right:
-        if root.left:
-            extension = "│  " if root.right else "   "
-            lines.append(visualize_tree(root.left, level + 1, 
-                                       ("│  " * level) + "├─ L: ").rstrip())
+    # Root node or child node label
+    if is_root:
+        lines.append("Root: " + str(root.val))
+        new_prefix = ""
+    else:
+        lines.append(prefix + str(root.val))
+        new_prefix = prefix + ("   " if is_tail else "│  ")
+    
+    # Process children
+    children = []
+    if root.left:
+        children.append(('L', root.left))
+    if root.right:
+        children.append(('R', root.right))
+    
+    for i, (label, child) in enumerate(children):
+        is_last = (i == len(children) - 1)
+        connector = "└─ " if is_last else "├─ "
+        child_lines = visualize_tree(child, new_prefix, is_last, False)
         
-        if root.right:
-            lines.append(visualize_tree(root.right, level + 1,
-                                       ("│  " * level) + "└─ R: ").rstrip())
+        if child_lines:
+            # Add the label to the first line
+            first_line = new_prefix + connector + label + ": " + str(child.val)
+            remaining_lines = child_lines.split('\n')[1:] if '\n' in child_lines else []
+            
+            lines.append(first_line)
+            lines.extend(remaining_lines)
     
     return "\n".join(lines)
 
