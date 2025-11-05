@@ -69,17 +69,22 @@ def fetch_daily_problem():
 def generate_solution_with_ai(problem_info, api_key):
     """
     Use OpenAI GPT-5-mini to generate a solution for the problem.
-    
+
     Args:
         problem_info (dict): Problem details from LeetCode
         api_key (str): OpenAI API key
-        
+
     Returns:
         str: Generated solution in markdown format
     """
     try:
-        client = OpenAI(api_key=api_key)
-        
+        import httpx
+
+        # Create an httpx client that doesn't verify SSL certificates
+        # This is needed when running behind a proxy with self-signed certificates
+        http_client = httpx.Client(verify=False)
+        client = OpenAI(api_key=api_key, http_client=http_client)
+
         # Create a detailed prompt for the AI
         prompt = f"""You are solving a LeetCode problem. Generate a complete solution following this exact format:
 
@@ -114,9 +119,9 @@ Please provide a thoughtful, well-explained solution that demonstrates clear pro
                 {"role": "system", "content": "You are an expert software engineer solving LeetCode problems. Provide clear explanations and efficient solutions."},
                 {"role": "user", "content": prompt}
             ],
-            max_completion_tokens=2000
+            max_completion_tokens=8000
         )
-        
+
         return response.choices[0].message.content
         
     except Exception as e:
