@@ -57,7 +57,15 @@ def parse_table_entries(lines):
     return entries_by_month
 
 def generate_collapsible_sections(entries_by_month, current_month_key):
-    """Generate HTML collapsible sections for each month."""
+    """
+    Generate HTML collapsible sections for each month.
+
+    Behavior:
+    - Months are displayed in reverse chronological order (newest first)
+    - Only the current month is expanded (has 'open' attribute)
+    - On the first day of a new month, the previous month automatically closes
+    - Entries within each month remain in chronological order
+    """
     sections = []
 
     # Sort months in descending order (most recent first)
