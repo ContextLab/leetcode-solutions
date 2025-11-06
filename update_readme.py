@@ -1,6 +1,8 @@
 import requests
 import json
 from datetime import datetime
+import re
+from collections import defaultdict
 
 # Set variables
 date_str = datetime.now().strftime('%B %-d, %Y')
@@ -22,6 +24,77 @@ daily_challenge_query = {
     }""",
     "operationName": "questionOfToday"
 }
+
+def parse_date(date_str):
+    """Parse date string and return datetime object and (year, month) tuple."""
+    try:
+        dt = datetime.strptime(date_str, '%B %d, %Y')
+        return dt, (dt.year, dt.month)
+    except:
+        return None, None
+
+def format_month_year(year, month):
+    """Format month and year as 'Month, Year'."""
+    return datetime(year, month, 1).strftime('%B, %Y')
+
+def parse_table_entries(lines):
+    """Parse existing table entries and group them by month."""
+    entries_by_month = defaultdict(list)
+    table_pattern = re.compile(r'^\| (.+?) \| (.+?) \| (.+?) \| (.+?) \|')
+
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith('|---') or line.startswith('| 📆'):
+            continue
+
+        match = table_pattern.match(line)
+        if match:
+            date_str = match.group(1).strip()
+            dt, month_key = parse_date(date_str)
+            if month_key:
+                entries_by_month[month_key].append(line)
+
+    return entries_by_month
+
+def generate_collapsible_sections(entries_by_month, current_month_key):
+    """
+    Generate HTML collapsible sections for each month.
+
+    Behavior:
+    - Months are displayed in reverse chronological order (newest first)
+    - Only the current month is expanded (has 'open' attribute)
+    - On the first day of a new month, the previous month automatically closes
+    - Entries within each month remain in chronological order
+    """
+    sections = []
+
+    # Sort months in descending order (most recent first)
+    sorted_months = sorted(entries_by_month.keys(), reverse=True)
+
+    table_header = """| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
+|--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|"""
+
+    for month_key in sorted_months:
+        year, month = month_key
+        month_name = format_month_year(year, month)
+        entries = entries_by_month[month_key]
+
+        # Only the current month should be open
+        open_attr = ' open' if month_key == current_month_key else ''
+
+        sections.append(f'<details{open_attr}>')
+        sections.append(f'<summary><b>Problems from {month_name}</b></summary>')
+        sections.append('')
+        sections.append(table_header)
+
+        for entry in entries:
+            sections.append(entry)
+
+        sections.append('')
+        sections.append('</details>')
+        sections.append('')
+
+    return '\n'.join(sections)
 
 # Fetch daily challenge details from API
 response = requests.post(leetcode_api_url, json=daily_challenge_query)
@@ -51,6 +124,9 @@ if 'data' in data and 'activeDailyCodingChallengeQuestion' in data['data']:
     # Create the new entry
     new_entry = f"| {date_str} | [{problem_id}]({link}) | [Click here]({note_link}) | {difficulty_icon} {difficulty} |"
 
+    # Parse current date to get month key
+    current_dt, current_month_key = parse_date(date_str)
+
     # Read the entire README file
     with open(readme_file, 'r') as file:
         lines = file.readlines()
@@ -77,17 +153,23 @@ if 'data' in data and 'activeDailyCodingChallengeQuestion' in data['data']:
             else:
                 before_table.append(line)
 
-    # Strip trailing whitespace from the last row of the table content
-    if table_content:
-        table_content[-1] = table_content[-1].rstrip()
+    # Parse existing table entries
+    entries_by_month = parse_table_entries(table_content)
 
-    # Rebuild the README with the new entry added to the table
-    updated_readme = before_table + table_content + [new_entry + '\n\n'] + after_table
+    # Add the new entry to the appropriate month
+    if current_month_key:
+        entries_by_month[current_month_key].append(new_entry)
+
+    # Generate collapsible sections
+    formatted_table = generate_collapsible_sections(entries_by_month, current_month_key)
+
+    # Rebuild the README with collapsible sections
+    updated_readme = ''.join(before_table) + '\n' + formatted_table + '\n' + ''.join(after_table)
 
     # Overwrite the README file with the updated content
     with open(readme_file, 'w') as file:
-        file.writelines(updated_readme)
+        file.write(updated_readme)
 
-    print("README file updated successfully!")
+    print("README file updated successfully with collapsible month sections!")
 else:
     print("Error: Unexpected response structure.")
