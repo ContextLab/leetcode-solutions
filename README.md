@@ -4,11 +4,9 @@ Each day (ideally) we'll attempt the daily [leetcode](https://leetcode.com) prob
 
 <img src="https://github.com/ContextLab/leetcode-solutions/assets/9030494/867a1f48-19c9-4f71-967e-88c032d9a52d" width="350" height="350"/>
 
-_**Note:** Our group is currently taking a break from grinding leetcode. The table below will continue to update automatically, but newer problems likey won't have their solutions provided.  Pull requests will still be supported and reviewed if others would like to contribute solutions._
+## Auto-solver 🤖
 
-## 🤖 Auto-Solver
-
-We've added an automatic solver that uses OpenAI's GPT-5-mini to generate solutions for each day's problem! Every day at 00:01 UTC, the system automatically:
+As of [November 5, 2025](https://en.wikipedia.org/wiki/Guy_Fawkes_Night), we've added an automatic solver that uses OpenAI's [GPT-5-mini](https://platform.openai.com/docs/models/gpt-5-mini) to generate solutions for each day's problem! Every day at 00:01 UTC, the system automatically:
 - Fetches the daily LeetCode problem
 - Generates a thoughtful solution with explanations
 - Commits the solution as `gpt5-mini.md` in the problem's folder
