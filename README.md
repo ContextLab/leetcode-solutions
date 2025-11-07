@@ -26,6 +26,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 4, 2025 | [3318](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3318) | 🟢 Easy |
 | November 5, 2025 | [3321](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3321) | 🔴 Hard |
 | November 6, 2025 | [3607](https://leetcode.com/problems/power-grid-maintenance/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3607) | 🟡 Medium |
+| November 7, 2025 | [2528](https://leetcode.com/problems/maximize-the-minimum-powered-city/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2528) | 🔴 Hard |
 
 </details>
 
