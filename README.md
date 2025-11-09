@@ -28,6 +28,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 6, 2025 | [3607](https://leetcode.com/problems/power-grid-maintenance/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3607) | 🟡 Medium |
 | November 7, 2025 | [2528](https://leetcode.com/problems/maximize-the-minimum-powered-city/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2528) | 🔴 Hard |
 | November 8, 2025 | [1611](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1611) | 🔴 Hard |
+| November 9, 2025 | [2169](https://leetcode.com/problems/count-operations-to-obtain-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2169) | 🟢 Easy |
 
 </details>
 
