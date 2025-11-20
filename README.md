@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 17, 2025 | [1437](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1437) | 🟢 Easy |
 | November 18, 2025 | [717](https://leetcode.com/problems/1-bit-and-2-bit-characters/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/717) | 🟢 Easy |
 | November 19, 2025 | [2154](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2154) | 🟢 Easy |
+| November 20, 2025 | [757](https://leetcode.com/problems/set-intersection-size-at-least-two/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/757) | 🔴 Hard |
 
 </details>
 
