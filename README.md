@@ -44,6 +44,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 22, 2025 | [3190](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3190) | 🟢 Easy |
 | November 23, 2025 | [1262](https://leetcode.com/problems/greatest-sum-divisible-by-three/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1262) | 🟡 Medium |
 | November 24, 2025 | [1018](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1018) | 🟢 Easy |
+| November 25, 2025 | [1015](https://leetcode.com/problems/smallest-integer-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1015) | 🟡 Medium |
 
 </details>
 
