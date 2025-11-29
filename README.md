@@ -48,6 +48,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 26, 2025 | [2435](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2435) | 🔴 Hard |
 | November 27, 2025 | [3381](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3381) | 🟡 Medium |
 | November 28, 2025 | [2872](https://leetcode.com/problems/maximum-number-of-k-divisible-components/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2872) | 🔴 Hard |
+| November 29, 2025 | [3512](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3512) | 🟢 Easy |
 
 </details>
 
