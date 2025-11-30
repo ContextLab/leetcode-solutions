@@ -49,6 +49,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 27, 2025 | [3381](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3381) | 🟡 Medium |
 | November 28, 2025 | [2872](https://leetcode.com/problems/maximum-number-of-k-divisible-components/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2872) | 🔴 Hard |
 | November 29, 2025 | [3512](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3512) | 🟢 Easy |
+| November 30, 2025 | [1590](https://leetcode.com/problems/make-sum-divisible-by-p/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1590) | 🟡 Medium |
 
 </details>
 
