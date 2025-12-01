@@ -16,6 +16,15 @@ This means you'll always find an AI-generated solution to compare with or learn 
 # Problems we've attempted so far:
 
 <details open>
+<summary><b>Problems from December, 2025</b></summary>
+
+| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
+|--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| December 1, 2025 | [2141](https://leetcode.com/problems/maximum-running-time-of-n-computers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2141) | 🔴 Hard |
+
+</details>
+
+<details>
 <summary><b>Problems from November, 2025</b></summary>
 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
