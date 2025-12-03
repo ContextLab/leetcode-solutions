@@ -22,6 +22,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | December 1, 2025 | [2141](https://leetcode.com/problems/maximum-running-time-of-n-computers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2141) | 🔴 Hard |
 | December 2, 2025 | [3623](https://leetcode.com/problems/count-number-of-trapezoids-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3623) | 🟡 Medium |
+| December 3, 2025 | [3625](https://leetcode.com/problems/count-number-of-trapezoids-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3625) | 🔴 Hard |
 
 </details>
 
