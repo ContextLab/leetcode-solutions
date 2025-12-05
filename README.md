@@ -24,6 +24,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 2, 2025 | [3623](https://leetcode.com/problems/count-number-of-trapezoids-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3623) | 🟡 Medium |
 | December 3, 2025 | [3625](https://leetcode.com/problems/count-number-of-trapezoids-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3625) | 🔴 Hard |
 | December 4, 2025 | [2211](https://leetcode.com/problems/count-collisions-on-a-road/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2211) | 🟡 Medium |
+| December 5, 2025 | [3432](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3432) | 🟢 Easy |
 
 </details>
 
