@@ -26,6 +26,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 4, 2025 | [2211](https://leetcode.com/problems/count-collisions-on-a-road/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2211) | 🟡 Medium |
 | December 5, 2025 | [3432](https://leetcode.com/problems/count-partitions-with-even-sum-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3432) | 🟢 Easy |
 | December 6, 2025 | [3578](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3578) | 🟡 Medium |
+| December 7, 2025 | [1523](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1523) | 🟢 Easy |
 
 </details>
 
