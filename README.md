@@ -28,6 +28,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 6, 2025 | [3578](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3578) | 🟡 Medium |
 | December 7, 2025 | [1523](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1523) | 🟢 Easy |
 | December 8, 2025 | [1925](https://leetcode.com/problems/count-square-sum-triples/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1925) | 🟢 Easy |
+| December 9, 2025 | [3583](https://leetcode.com/problems/count-special-triplets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3583) | 🟡 Medium |
 
 </details>
 
