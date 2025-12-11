@@ -30,6 +30,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 8, 2025 | [1925](https://leetcode.com/problems/count-square-sum-triples/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1925) | 🟢 Easy |
 | December 9, 2025 | [3583](https://leetcode.com/problems/count-special-triplets/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3583) | 🟡 Medium |
 | December 10, 2025 | [3577](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3577) | 🟡 Medium |
+| December 11, 2025 | [3531](https://leetcode.com/problems/count-covered-buildings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3531) | 🟡 Medium |
 
 </details>
 
