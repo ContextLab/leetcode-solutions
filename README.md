@@ -32,6 +32,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 10, 2025 | [3577](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3577) | 🟡 Medium |
 | December 11, 2025 | [3531](https://leetcode.com/problems/count-covered-buildings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3531) | 🟡 Medium |
 | December 12, 2025 | [3433](https://leetcode.com/problems/count-mentions-per-user/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3433) | 🟡 Medium |
+| December 13, 2025 | [3606](https://leetcode.com/problems/coupon-code-validator/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3606) | 🟢 Easy |
 
 </details>
 
