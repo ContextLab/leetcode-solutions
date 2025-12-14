@@ -33,6 +33,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 11, 2025 | [3531](https://leetcode.com/problems/count-covered-buildings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3531) | 🟡 Medium |
 | December 12, 2025 | [3433](https://leetcode.com/problems/count-mentions-per-user/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3433) | 🟡 Medium |
 | December 13, 2025 | [3606](https://leetcode.com/problems/coupon-code-validator/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3606) | 🟢 Easy |
+| December 14, 2025 | [2147](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2147) | 🔴 Hard |
 
 </details>
 
