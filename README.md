@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 14, 2025 | [2147](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2147) | 🔴 Hard |
 | December 15, 2025 | [2110](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2110) | 🟡 Medium |
 | December 16, 2025 | [3562](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3562) | 🔴 Hard |
+| December 17, 2025 | [3573](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3573) | 🟡 Medium |
 
 </details>
 
