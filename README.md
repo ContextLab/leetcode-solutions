@@ -42,6 +42,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 20, 2025 | [944](https://leetcode.com/problems/delete-columns-to-make-sorted/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/944) | 🟢 Easy |
 | December 21, 2025 | [955](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/955) | 🟡 Medium |
 | December 22, 2025 | [960](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/960) | 🔴 Hard |
+| December 23, 2025 | [2054](https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2054) | 🟡 Medium |
 
 </details>
 
