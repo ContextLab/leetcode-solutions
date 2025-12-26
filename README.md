@@ -45,6 +45,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 23, 2025 | [2054](https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2054) | 🟡 Medium |
 | December 24, 2025 | [3074](https://leetcode.com/problems/apple-redistribution-into-boxes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3074) | 🟢 Easy |
 | December 25, 2025 | [3075](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3075) | 🟡 Medium |
+| December 26, 2025 | [2483](https://leetcode.com/problems/minimum-penalty-for-a-shop/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2483) | 🟡 Medium |
 
 </details>
 
