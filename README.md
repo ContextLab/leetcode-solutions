@@ -47,6 +47,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 25, 2025 | [3075](https://leetcode.com/problems/maximize-happiness-of-selected-children/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3075) | 🟡 Medium |
 | December 26, 2025 | [2483](https://leetcode.com/problems/minimum-penalty-for-a-shop/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2483) | 🟡 Medium |
 | December 27, 2025 | [2402](https://leetcode.com/problems/meeting-rooms-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2402) | 🔴 Hard |
+| December 28, 2025 | [1351](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1351) | 🟢 Easy |
 
 </details>
 
