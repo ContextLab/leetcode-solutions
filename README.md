@@ -49,6 +49,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | December 27, 2025 | [2402](https://leetcode.com/problems/meeting-rooms-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2402) | 🔴 Hard |
 | December 28, 2025 | [1351](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1351) | 🟢 Easy |
 | December 29, 2025 | [756](https://leetcode.com/problems/pyramid-transition-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/756) | 🟡 Medium |
+| December 30, 2025 | [840](https://leetcode.com/problems/magic-squares-in-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/840) | 🟡 Medium |
 
 </details>
 
