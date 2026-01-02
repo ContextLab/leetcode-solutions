@@ -21,6 +21,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | January 1, 2026 | [66](https://leetcode.com/problems/plus-one/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/66) | 🟢 Easy |
+| January 2, 2026 | [961](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/961) | 🟢 Easy |
 
 </details>
 
