@@ -23,6 +23,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 1, 2026 | [66](https://leetcode.com/problems/plus-one/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/66) | 🟢 Easy |
 | January 2, 2026 | [961](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/961) | 🟢 Easy |
 | January 3, 2026 | [1411](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1411) | 🔴 Hard |
+| January 4, 2026 | [1390](https://leetcode.com/problems/four-divisors/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1390) | 🟡 Medium |
 
 </details>
 
