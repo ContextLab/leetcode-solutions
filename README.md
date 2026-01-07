@@ -26,6 +26,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 4, 2026 | [1390](https://leetcode.com/problems/four-divisors/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1390) | 🟡 Medium |
 | January 5, 2026 | [1975](https://leetcode.com/problems/maximum-matrix-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1975) | 🟡 Medium |
 | January 6, 2026 | [1161](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1161) | 🟡 Medium |
+| January 7, 2026 | [1339](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1339) | 🟡 Medium |
 
 </details>
 
