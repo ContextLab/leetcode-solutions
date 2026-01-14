@@ -33,6 +33,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 11, 2026 | [85](https://leetcode.com/problems/maximal-rectangle/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/85) | 🔴 Hard |
 | January 12, 2026 | [1266](https://leetcode.com/problems/minimum-time-visiting-all-points/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1266) | 🟢 Easy |
 | January 13, 2026 | [3453](https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3453) | 🟡 Medium |
+| January 14, 2026 | [3454](https://leetcode.com/problems/separate-squares-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3454) | 🔴 Hard |
 
 </details>
 
