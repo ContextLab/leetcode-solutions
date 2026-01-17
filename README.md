@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 14, 2026 | [3454](https://leetcode.com/problems/separate-squares-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3454) | 🔴 Hard |
 | January 15, 2026 | [2943](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2943) | 🟡 Medium |
 | January 16, 2026 | [2975](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2975) | 🟡 Medium |
+| January 17, 2026 | [3047](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3047) | 🟡 Medium |
 
 </details>
 
