@@ -40,6 +40,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 18, 2026 | [1895](https://leetcode.com/problems/largest-magic-square/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1895) | 🟡 Medium |
 | January 19, 2026 | [1292](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1292) | 🟡 Medium |
 | January 20, 2026 | [3314](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3314) | 🟢 Easy |
+| January 21, 2026 | [3315](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3315) | 🟡 Medium |
 
 </details>
 
