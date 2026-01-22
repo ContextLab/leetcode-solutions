@@ -70,8 +70,11 @@ jobs:
           print(f"Total problems in README: {len(readme_problems)}")
           print(f"Problems with AI solutions: {len(with_ai)}")
           print(f"Problems missing AI solutions: {len(missing_ai)}")
-          echo "total_missing=${len(missing_ai)}" >> $GITHUB_OUTPUT
           EOF
+          
+          # Set output for GitHub Actions
+          MISSING_COUNT=$(wc -l < /tmp/missing_ai_solutions.txt)
+          echo "total_missing=$MISSING_COUNT" >> $GITHUB_OUTPUT
 
       - name: Create batch file
         run: |
@@ -90,7 +93,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python auto_solver.py --bulk /tmp/batch_problems.txt
+          python3 auto_solver.py --bulk /tmp/batch_problems.txt
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4

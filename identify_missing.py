@@ -101,7 +101,7 @@ def main():
     
     print("\n" + "=" * 70)
     print("To solve problems locally (if you have OPENAI_API_KEY):")
-    print(f"  python3 bulk_solver.py {temp_dir}/batch_001.txt")
+    print(f"  python3 auto_solver.py --bulk {temp_dir}/batch_001.txt")
     print("\nTo solve via GitHub Actions:")
     print("  Manually trigger the 'Bulk Solve Missing LeetCode Problems' workflow")
     print("=" * 70)
