@@ -26,37 +26,37 @@ python3 identify_missing.py
 - Checks for existence of `problems/*/gpt5-mini.md` files
 - Reports which problems are missing AI solutions
 - Creates batch files for processing (50 problems per batch)
-- Saves results to `/tmp/missing_ai_solutions.txt` and `/tmp/batch_*.txt`
+- Saves results to temp directory and batch files
 
-### 2. `bulk_solver.py`
+### 2. `auto_solver.py` (Enhanced)
 
-Generates AI solutions for a list of problems using OpenAI's GPT-5-mini model.
+The existing auto_solver script now supports three modes:
 
-**Usage:**
+**Mode 1: Daily problem (default)**
+```bash
+python3 auto_solver.py
+```
+
+**Mode 2: Specific problem by ID**
+```bash
+python3 auto_solver.py 123
+```
+
+**Mode 3: Bulk solve from file**
 ```bash
 # Set your OpenAI API key
 export OPENAI_API_KEY="your-api-key-here"
 
 # Process a batch of problems
-python3 bulk_solver.py /tmp/batch_001.txt
-
-# Or test without API key (dry run)
-python3 bulk_solver.py /tmp/batch_001.txt --dry-run
+python3 auto_solver.py --bulk /tmp/batch_001.txt
 ```
 
 **What it does:**
-- Reads problem IDs from input file (one per line)
 - Fetches problem details from LeetCode API
 - Generates solutions using GPT-5-mini
 - Saves solutions as `problems/{id}/gpt5-mini.md`
-- Handles rate limiting (2 seconds between requests)
+- Handles rate limiting (2 seconds between requests in bulk mode)
 - Reports success/failure for each problem
-
-**Features:**
-- Dry-run mode for testing without API key
-- Detailed progress reporting
-- Error handling and retry logic
-- Respects API rate limits
 
 ### 3. GitHub Actions Workflow: `bulk_solver.yml`
 
@@ -75,7 +75,7 @@ Automated workflow for bulk solving problems via GitHub Actions.
 
 **What it does:**
 - Automatically identifies missing AI solutions
-- Processes a batch of problems
+- Processes a batch of problems using auto_solver.py
 - Commits and pushes generated solutions
 - Can be run multiple times with different start_index values
 
@@ -124,7 +124,7 @@ Automated workflow for bulk solving problems via GitHub Actions.
 3. **Process batches**
    ```bash
    # Process first batch
-   python3 bulk_solver.py /tmp/batch_001.txt
+   python3 auto_solver.py --bulk /tmp/batch_001.txt
    
    # Commit changes
    git add problems/*/gpt5-mini.md
@@ -132,7 +132,7 @@ Automated workflow for bulk solving problems via GitHub Actions.
    git push
    
    # Continue with remaining batches...
-   python3 bulk_solver.py /tmp/batch_002.txt
+   python3 auto_solver.py --bulk /tmp/batch_002.txt
    # ... and so on
    ```
 
@@ -194,7 +194,10 @@ python3 identify_missing.py
 
 ## Notes
 
-- The existing `auto_solver.py` handles daily problems automatically
-- This bulk solver is for backfilling historical problems
-- Both use the same GPT-5-mini model and format
+- The `auto_solver.py` script now supports three modes:
+  1. **Daily mode** (default): `python3 auto_solver.py`
+  2. **Single problem**: `python3 auto_solver.py 123`
+  3. **Bulk mode**: `python3 auto_solver.py --bulk file.txt`
+- This bulk solver reuses the existing auto_solver logic, avoiding code duplication
+- Both daily and bulk modes use the same GPT-5-mini model and format
 - Solutions are idempotent - safe to re-run if a problem already has gpt5-mini.md

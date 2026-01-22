@@ -43,7 +43,7 @@ pip install requests openai httpx
 python3 identify_missing.py
 
 # 3. Process first batch
-python3 bulk_solver.py /tmp/batch_001.txt
+python3 auto_solver.py --bulk /tmp/batch_001.txt
 
 # 4. Commit and push
 git add problems/*/gpt5-mini.md
@@ -51,7 +51,7 @@ git commit -m "Add AI solutions for batch 1"
 git push
 
 # 5. Repeat for remaining batches
-python3 bulk_solver.py /tmp/batch_002.txt
+python3 auto_solver.py --bulk /tmp/batch_002.txt
 # ... and so on
 ```
 

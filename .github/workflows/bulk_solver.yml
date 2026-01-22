@@ -90,7 +90,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python bulk_solver.py /tmp/batch_problems.txt
+          python auto_solver.py --bulk /tmp/batch_problems.txt
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
