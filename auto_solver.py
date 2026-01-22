@@ -1,15 +1,134 @@
 #!/usr/bin/env python3
 """
 Auto-solver for daily LeetCode problems using OpenAI GPT-5-mini.
-This script fetches the daily problem, uses AI to solve it, and creates a solution file.
+This script fetches the daily problem (or a specific problem by ID), uses AI to solve it, and creates a solution file.
+
+Usage:
+    python3 auto_solver.py              # Solve today's daily problem
+    python3 auto_solver.py 123          # Solve problem #123
+    python3 auto_solver.py --bulk file.txt  # Solve all problems in file (one ID per line)
 """
 
 import os
 import sys
 import json
 import requests
+import time
 from datetime import datetime
 from openai import OpenAI
+
+
+def fetch_problem_by_id(problem_id):
+    """
+    Fetch a specific LeetCode problem by its ID using the GraphQL API.
+    
+    Args:
+        problem_id (str): The problem ID (e.g., "1", "2", "100")
+    
+    Returns:
+        dict: Problem details or None if not found
+    """
+    leetcode_api_url = "https://leetcode.com/graphql"
+    
+    # First, we need to get the titleSlug for the problem
+    # We'll query for the specific problem
+    query = {
+        "query": """query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {
+            problemsetQuestionList: questionList(
+                categorySlug: $categorySlug
+                limit: $limit
+                skip: $skip
+                filters: $filters
+            ) {
+                questions: data {
+                    questionFrontendId
+                    title
+                    titleSlug
+                    difficulty
+                }
+            }
+        }""",
+        "variables": {
+            "categorySlug": "algorithms",
+            "skip": 0,
+            "limit": 5000,
+            "filters": {}
+        },
+        "operationName": "problemsetQuestionList"
+    }
+    
+    try:
+        response = requests.post(leetcode_api_url, json=query, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        if 'data' in data and 'problemsetQuestionList' in data['data']:
+            questions = data['data']['problemsetQuestionList']['questions']
+            
+            # Find the problem with matching ID
+            for question in questions:
+                if question['questionFrontendId'] == str(problem_id):
+                    # Now fetch full details including content
+                    return fetch_problem_details(question['titleSlug'])
+            
+            print(f"Problem {problem_id} not found in LeetCode database")
+            return None
+        else:
+            print(f"Unexpected response structure for problem {problem_id}")
+            return None
+            
+    except Exception as e:
+        print(f"Error fetching problem {problem_id}: {e}")
+        return None
+
+
+def fetch_problem_details(title_slug):
+    """
+    Fetch detailed problem information including content.
+    
+    Args:
+        title_slug (str): The problem's title slug
+    
+    Returns:
+        dict: Problem details
+    """
+    leetcode_api_url = "https://leetcode.com/graphql"
+    query = {
+        "query": """query questionData($titleSlug: String!) {
+            question(titleSlug: $titleSlug) {
+                questionFrontendId
+                title
+                titleSlug
+                difficulty
+                content
+            }
+        }""",
+        "variables": {"titleSlug": title_slug},
+        "operationName": "questionData"
+    }
+    
+    try:
+        response = requests.post(leetcode_api_url, json=query, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        
+        if 'data' in data and 'question' in data['data']:
+            question = data['data']['question']
+            return {
+                'problem_id': question['questionFrontendId'],
+                'title': question['title'],
+                'title_slug': question['titleSlug'],
+                'difficulty': question['difficulty'],
+                'content': question['content'],
+                'link': f"https://leetcode.com/problems/{question['titleSlug']}/description/?envType=daily-question"
+            }
+        else:
+            print(f"Error: Could not fetch details for {title_slug}")
+            return None
+            
+    except Exception as e:
+        print(f"Error fetching problem details for {title_slug}: {e}")
+        return None
 
 
 def fetch_daily_problem():
@@ -159,8 +278,27 @@ def save_solution(problem_id, solution_content):
 
 def main():
     """Main execution function."""
+    # Check for bulk mode
+    if len(sys.argv) >= 3 and sys.argv[1] == '--bulk':
+        # Bulk mode: solve multiple problems from file
+        bulk_solve(sys.argv[2])
+        return
+    
+    # Check for specific problem ID
+    if len(sys.argv) >= 2 and sys.argv[1].isdigit():
+        # Single problem mode by ID
+        problem_id = sys.argv[1]
+        solve_problem_by_id(problem_id)
+        return
+    
+    # Default: daily problem mode
+    solve_daily_problem()
+
+
+def solve_daily_problem():
+    """Solve today's daily problem."""
     print("=" * 60)
-    print("LeetCode Auto-Solver - Starting...")
+    print("LeetCode Auto-Solver - Daily Problem Mode")
     print("=" * 60)
     
     # Get OpenAI API key from environment
@@ -180,7 +318,122 @@ def main():
     print(f"   Title: {problem_info['title']}")
     print(f"   Difficulty: {problem_info['difficulty']}")
     
-    # Generate solution using AI
+    # Generate and save solution
+    generate_and_save_solution(problem_info, api_key)
+
+
+def solve_problem_by_id(problem_id):
+    """Solve a specific problem by ID."""
+    print("=" * 60)
+    print(f"LeetCode Auto-Solver - Problem #{problem_id}")
+    print("=" * 60)
+    
+    # Get OpenAI API key from environment
+    api_key = os.environ.get('OPENAI_API_KEY')
+    if not api_key:
+        print("Error: OPENAI_API_KEY environment variable not set")
+        sys.exit(1)
+    
+    # Fetch problem
+    print(f"\n1. Fetching problem {problem_id}...")
+    problem_info = fetch_problem_by_id(problem_id)
+    if not problem_info:
+        print(f"Failed to fetch problem {problem_id}")
+        sys.exit(1)
+    
+    print(f"   Title: {problem_info['title']}")
+    print(f"   Difficulty: {problem_info['difficulty']}")
+    
+    # Generate and save solution
+    generate_and_save_solution(problem_info, api_key)
+
+
+def bulk_solve(problems_file):
+    """Solve multiple problems from a file."""
+    print("=" * 60)
+    print("LeetCode Auto-Solver - Bulk Mode")
+    print("=" * 60)
+    
+    # Get OpenAI API key from environment
+    api_key = os.environ.get('OPENAI_API_KEY')
+    if not api_key:
+        print("Error: OPENAI_API_KEY environment variable not set")
+        sys.exit(1)
+    
+    # Read problem IDs from file
+    print(f"\nReading problems from: {problems_file}")
+    try:
+        with open(problems_file, 'r') as f:
+            problem_ids = [line.strip() for line in f if line.strip()]
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        sys.exit(1)
+    
+    print(f"Found {len(problem_ids)} problems to solve\n")
+    
+    # Process each problem
+    successful = 0
+    failed = []
+    
+    for i, problem_id in enumerate(problem_ids, 1):
+        print(f"\n[{i}/{len(problem_ids)}] Processing problem {problem_id}...")
+        
+        try:
+            # Fetch problem
+            print(f"  → Fetching problem details...")
+            problem_info = fetch_problem_by_id(problem_id)
+            
+            if not problem_info:
+                print(f"  ✗ Could not fetch problem {problem_id}")
+                failed.append(problem_id)
+                continue
+            
+            print(f"  → Title: {problem_info['title']}")
+            print(f"  → Difficulty: {problem_info['difficulty']}")
+            
+            # Generate solution
+            print(f"  → Generating solution with GPT-5-mini...")
+            solution = generate_solution_with_ai(problem_info, api_key)
+            
+            if not solution:
+                print(f"  ✗ Failed to generate solution")
+                failed.append(problem_id)
+                continue
+            
+            # Save solution
+            print(f"  → Saving solution...")
+            saved_path = save_solution(problem_info['problem_id'], solution)
+            
+            if saved_path:
+                successful += 1
+                print(f"  ✓ Problem {problem_id} completed successfully!")
+            else:
+                failed.append(problem_id)
+            
+            # Rate limiting
+            if i < len(problem_ids):
+                time.sleep(2)  # 2 seconds between requests
+                
+        except Exception as e:
+            print(f"  ✗ Error: {e}")
+            failed.append(problem_id)
+            continue
+    
+    # Summary
+    print("\n" + "=" * 60)
+    print("SUMMARY")
+    print("=" * 60)
+    print(f"Successfully processed: {successful}/{len(problem_ids)} problems")
+    if failed:
+        print(f"\nFailed problems: {failed}")
+    else:
+        print("\n✓ All problems processed successfully!")
+    print("=" * 60)
+
+
+def generate_and_save_solution(problem_info, api_key):
+    """Generate and save a solution for a problem."""
+    # Generate solution
     print("\n2. Generating solution with GPT-5-mini...")
     solution = generate_solution_with_ai(problem_info, api_key)
     if not solution:
