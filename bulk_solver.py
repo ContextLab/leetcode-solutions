@@ -237,37 +237,36 @@ def main():
     print("LeetCode Bulk Solver - Adding AI-generated solutions for missing problems")
     print("=" * 70)
     
+    # Check for dry-run mode
+    dry_run = '--dry-run' in sys.argv
+    if dry_run:
+        sys.argv.remove('--dry-run')
+        print("\n*** DRY RUN MODE - Will not generate solutions ***\n")
+    
     # Get OpenAI API key from environment
     api_key = os.environ.get('OPENAI_API_KEY')
-    if not api_key:
+    if not api_key and not dry_run:
         print("Error: OPENAI_API_KEY environment variable not set")
+        print("Use --dry-run flag to test without API key")
         sys.exit(1)
     
-    # Get the range of problems to solve
-    if len(sys.argv) >= 3:
-        start_id = int(sys.argv[1])
-        end_id = int(sys.argv[2])
+    # Get list of problems to solve
+    if len(sys.argv) >= 2:
+        # Read from file
+        problems_file = sys.argv[1]
+        print(f"\nReading problems from: {problems_file}")
+        
+        with open(problems_file, 'r') as f:
+            problems_to_solve = [int(line.strip()) for line in f if line.strip()]
+        
+        print(f"Found {len(problems_to_solve)} problems to solve")
     else:
-        # Default: solve problems 1-100
-        start_id = 1
-        end_id = 100
-    
-    print(f"\nTarget range: Problems {start_id} to {end_id}")
-    
-    # Get existing problems
-    existing_problems = get_existing_problems()
-    print(f"Found {len(existing_problems)} existing problem solutions")
-    
-    # Determine which problems to solve
-    problems_to_solve = []
-    for problem_id in range(start_id, end_id + 1):
-        if problem_id not in existing_problems:
-            problems_to_solve.append(problem_id)
-    
-    print(f"Missing problems in range: {len(problems_to_solve)}")
+        print("\nUsage: python3 bulk_solver.py <problems_file>")
+        print("  where <problems_file> contains one problem ID per line")
+        sys.exit(1)
     
     if not problems_to_solve:
-        print("\nNo missing problems found in this range!")
+        print("\nNo problems found in the input file!")
         return
     
     print(f"\nWill attempt to solve {len(problems_to_solve)} problems")
@@ -292,6 +291,14 @@ def main():
             
             print(f"  → Title: {problem_info['title']}")
             print(f"  → Difficulty: {problem_info['difficulty']}")
+            
+            if dry_run:
+                print(f"  → [DRY RUN] Would generate solution with GPT-5-mini")
+                print(f"  → [DRY RUN] Would save to problems/{problem_id}/gpt5-mini.md")
+                successful += 1
+                print(f"  ✓ Problem {problem_id} validated successfully!")
+                time.sleep(0.5)  # Small delay in dry run
+                continue
             
             # Generate solution
             print(f"  → Generating solution with GPT-5-mini...")
