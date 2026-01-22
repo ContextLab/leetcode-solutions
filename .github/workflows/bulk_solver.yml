@@ -70,7 +70,7 @@ jobs:
           print(f"Total problems in README: {len(readme_problems)}")
           print(f"Problems with AI solutions: {len(with_ai)}")
           print(f"Problems missing AI solutions: {len(missing_ai)}")
-          print(f"::set-output name=total_missing::{len(missing_ai)}")
+          echo "total_missing=${len(missing_ai)}" >> $GITHUB_OUTPUT
           EOF
 
       - name: Create batch file

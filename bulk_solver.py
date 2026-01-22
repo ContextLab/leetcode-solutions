@@ -142,7 +142,10 @@ def generate_solution_with_ai(problem_info, api_key):
         import httpx
 
         # Create an httpx client that doesn't verify SSL certificates
-        http_client = httpx.Client(verify=False)
+        # This is needed when running behind a proxy with self-signed certificates
+        # Note: In production, set HTTPX_VERIFY=true environment variable to enable SSL verification
+        verify_ssl = os.environ.get('HTTPX_VERIFY', 'false').lower() == 'true'
+        http_client = httpx.Client(verify=verify_ssl)
         client = OpenAI(api_key=api_key, http_client=http_client)
 
         # Create a detailed prompt for the AI

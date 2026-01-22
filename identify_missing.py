@@ -5,6 +5,7 @@ Helper script to identify missing problems and create batch files for bulk solvi
 
 import os
 import sys
+import tempfile
 from pathlib import Path
 
 
@@ -69,8 +70,11 @@ def main():
     print(f"\nFirst 20: {missing_ai_solutions[:20]}")
     print(f"Last 20: {missing_ai_solutions[-20:]}")
     
+    # Create temp directory for output files
+    temp_dir = Path(tempfile.gettempdir())
+    
     # Save to file
-    output_file = "/tmp/missing_ai_solutions.txt"
+    output_file = temp_dir / "missing_ai_solutions.txt"
     with open(output_file, 'w') as f:
         for prob in missing_ai_solutions:
             f.write(f"{prob}\n")
@@ -88,7 +92,7 @@ def main():
         end_idx = min((i + 1) * batch_size, len(missing_ai_solutions))
         batch = missing_ai_solutions[start_idx:end_idx]
         
-        batch_file = f"/tmp/batch_{i+1:03d}.txt"
+        batch_file = temp_dir / f"batch_{i+1:03d}.txt"
         with open(batch_file, 'w') as f:
             for prob in batch:
                 f.write(f"{prob}\n")
@@ -97,7 +101,7 @@ def main():
     
     print("\n" + "=" * 70)
     print("To solve problems locally (if you have OPENAI_API_KEY):")
-    print("  python3 bulk_solver.py /tmp/batch_001.txt")
+    print(f"  python3 bulk_solver.py {temp_dir}/batch_001.txt")
     print("\nTo solve via GitHub Actions:")
     print("  Manually trigger the 'Bulk Solve Missing LeetCode Problems' workflow")
     print("=" * 70)
