@@ -43,6 +43,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 21, 2026 | [3315](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3315) | 🟡 Medium |
 | January 22, 2026 | [3507](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3507) | 🟢 Easy |
 | January 23, 2026 | [3510](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3510) | 🔴 Hard |
+| January 24, 2026 | [1877](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1877) | 🟡 Medium |
 
 </details>
 
