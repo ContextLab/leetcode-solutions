@@ -47,6 +47,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | January 25, 2026 | [1984](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1984) | 🟢 Easy |
 | January 26, 2026 | [1200](https://leetcode.com/problems/minimum-absolute-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1200) | 🟢 Easy |
 | January 27, 2026 | [3650](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3650) | 🟡 Medium |
+| January 28, 2026 | [3651](https://leetcode.com/problems/minimum-cost-path-with-teleportations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3651) | 🔴 Hard |
 
 </details>
 
