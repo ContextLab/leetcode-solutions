@@ -1,18 +1,21 @@
 # [Problem 2976: Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-We need to transform source -> target by repeatedly applying character substitutions that are allowed by given (original -> changed) operations with associated costs. Each operation changes a single character at some cost; operations can be chained (e.g., a -> c then c -> b). For a single position, the minimal cost to change letter x to y is just the shortest path cost from x to y in a directed weighted graph where nodes are letters and edges are given substitutions. Because substitutions are independent per character position, total cost is the sum of minimal per-position costs. If any required conversion is impossible (no path), answer is -1.
+We need to convert each character of source to the corresponding character in target. Each allowed operation is changing a single character x -> y at a given cost z if such an operation exists in the input arrays. Because we can apply operations any number of times and in any sequence, this is naturally a shortest-path problem on a directed graph of letters (26 nodes a..z). Each given (original[i] -> changed[i]) with cost[i] is a directed edge; repeated operations correspond to following a path.
 
-This suggests building a graph on 26 lowercase letters and computing shortest paths between all pairs; since alphabet size is small (26), Floyd-Warshall is appropriate and simple. Alternative: run Dijkstra from each source letter encountered, but Floyd-Warshall is easy and fast enough.
+So for each position where source[i] != target[i], we need the minimum path cost from source[i] to target[i] in that directed graph. If any required pair is unreachable, return -1. Sum the minimal costs over positions. Build a 26x26 distance matrix, initialize with +inf except zeros on diagonal, set direct edge costs to the minimum among duplicates, then run Floyd–Warshall (26^3 is tiny). Finally sum distances for each mismatch.
+
+Potential pitfalls: directed edges (not undirected), multiple edges between same pair, large n so summation must be efficient, detect unreachable pairs.
 
 ## Refining the problem, round 2 thoughts
-- Build a 26x26 distance matrix, initialize distances to INF, dist[i][i] = 0.
-- For each given original[i] -> changed[i] with cost[i], set dist[u][v] = min(dist[u][v], cost[i]) because multiple edges may be present.
-- Run Floyd-Warshall to get minimal costs between all letter pairs.
-- Iterate positions of source/target: if source[i] == target[i], cost 0; else if dist[src][tgt] is INF -> return -1; otherwise add dist[src][tgt].
-- Time complexity: O(26^3) for Floyd-Warshall (~17k operations) + O(n) to sum costs. Space O(26^2).
-- Use a sufficiently large INF (e.g., 10**18) to avoid overflow.
-- Edge cases: identical strings (return 0), unreachable conversions (return -1).
+Floyd–Warshall is simplest and safe: 26 nodes -> 26^3 ~ 17576 iterations. Alternatively could run Dijkstra from each source letter that appears in source where it differs from target — still cheap but more bookkeeping. Use Floyd–Warshall for clarity.
+
+Edge cases:
+- If source[i] == target[i] cost is 0.
+- If there is no path from source[i] to target[i], answer is -1.
+- There may be multiple edges between same nodes; pick the smallest.
+- Costs can be up to 1e6 and n up to 1e5, so total sum can be large but fits Python int.
+Time complexity: O(26^3 + n) ~ O(1 + n) effectively; space O(26^2).
 
 ## Attempted solution(s)
 ```python
@@ -21,54 +24,56 @@ from typing import List
 class Solution:
     def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:
         n = len(source)
-        # Quick length check (given by problem they are equal)
+        # Quick length check (problem guarantees same length)
         if n != len(target):
             return -1
         
-        ALPH = 26
         INF = 10**18
-        # dist[a][b] = minimum cost to convert letter a -> b
-        dist = [[INF] * ALPH for _ in range(ALPH)]
-        for i in range(ALPH):
+        # 26 letters
+        m = 26
+        # dist[i][j] = min cost to convert chr(i+'a') -> chr(j+'a')
+        dist = [[INF] * m for _ in range(m)]
+        for i in range(m):
             dist[i][i] = 0
         
-        # Populate edges (take min if multiple edges between same pair)
-        m = len(cost)
-        for i in range(m):
-            u = ord(original[i]) - ord('a')
-            v = ord(changed[i]) - ord('a')
-            if cost[i] < dist[u][v]:
-                dist[u][v] = cost[i]
+        # Populate direct edges (take min if multiple edges)
+        for o, c, w in zip(original, changed, cost):
+            u = ord(o) - ord('a')
+            v = ord(c) - ord('a')
+            if w < dist[u][v]:
+                dist[u][v] = w
         
-        # Floyd-Warshall
-        for k in range(ALPH):
+        # Floyd-Warshall to get all-pairs shortest paths
+        for k in range(m):
             dk = dist[k]
-            for i in range(ALPH):
+            for i in range(m):
                 di = dist[i]
-                # small micro-optimization: if di[k] is INF skip inner
+                # minor micro-optimization: only proceed if di[k] not INF
                 ik = di[k]
                 if ik == INF:
                     continue
                 # iterate j
-                # use local references
-                for j in range(ALPH):
-                    # if dk[j] == INF skip
-                    val = ik + dk[j]
-                    if val < di[j]:
-                        di[j] = val
+                # Use local variables for speed
+                for j in range(m):
+                    nj = ik + dk[j]
+                    if nj < di[j]:
+                        di[j] = nj
         
+        # Sum up costs for each position
         total = 0
         for i in range(n):
-            a = ord(source[i]) - ord('a')
-            b = ord(target[i]) - ord('a')
-            if a == b:
+            s = source[i]
+            t = target[i]
+            if s == t:
                 continue
-            if dist[a][b] == INF:
+            u = ord(s) - ord('a')
+            v = ord(t) - ord('a')
+            if dist[u][v] == INF:
                 return -1
-            total += dist[a][b]
+            total += dist[u][v]
         return total
 ```
-- Approach: Model characters as nodes in a directed weighted graph; compute all-pairs shortest paths with Floyd-Warshall; sum minimal per-position costs, returning -1 if any required conversion is unreachable.
-- Time complexity: O(26^3 + n) = O(n) for large n (26^3 is constant ≈ 17k ops).
-- Space complexity: O(26^2) = O(1) (constant).
-- Implementation notes: multiple given conversions between same pair are reduced by taking the minimum cost edge; self-conversions cost 0; INF is chosen large to avoid overflow.
+- Approach: Model characters as nodes of a directed weighted graph. Use Floyd–Warshall to compute the minimum conversion cost between any pair of letters, then sum costs for each differing position in source/target. If any required conversion is impossible, return -1.
+- Time complexity: O(26^3 + n) = O(n) effectively, since 26^3 is constant ~17.5k.
+- Space complexity: O(26^2) = O(1) constant.
+- Implementation details: Use INF large enough to avoid overflow; pick min when multiple direct edges exist; Floyd–Warshall triple loop with a small optimization skipping i when dist[i][k] is INF.
