@@ -24,6 +24,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 2, 2026 | [3013](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3013) | 🔴 Hard |
 | February 3, 2026 | [3637](https://leetcode.com/problems/trionic-array-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3637) | 🟢 Easy |
 | February 4, 2026 | [3640](https://leetcode.com/problems/trionic-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3640) | 🔴 Hard |
+| February 5, 2026 | [3379](https://leetcode.com/problems/transformed-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3379) | 🟢 Easy |
 
 </details>
 
