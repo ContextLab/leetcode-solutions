@@ -1,44 +1,32 @@
 # [Problem 1653: Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-I need to make the string "balanced" meaning no 'b' appears before an 'a'. That effectively means after deletions the string must look like all 'a's followed by all 'b's (i.e., zero or more 'a's then zero or more 'b's). So any occurrence of a 'b' followed later by an 'a' is a conflict that requires deleting at least one of those characters. 
+I need to make the string "balanced" meaning no 'b' appears before an 'a' (equivalently all 'a's must come before all 'b's). We can delete characters. This is like choosing a split point where everything left should be 'a' (delete 'b's) and everything right should be 'b' (delete 'a's). Brute-force would be to try every split and count deletions, but that would be O(n^2) if done naively. There's likely an O(n) greedy/DP solution.
 
-Brute force would consider deleting combinations, but n up to 1e5 disallows exponential approaches. A natural idea: scan left-to-right keeping track of how many 'b's I've seen (these are potential problematic characters if an 'a' appears later). For each 'a', I can either delete this 'a' (increment deletions) or delete all previously seen 'b's instead. So for each 'a' choose the cheaper option. That suggests a greedy/dynamic update while scanning with O(1) state.
+One convenient greedy idea: scan left to right, keep how many 'b's we've seen (these are potential problematic characters if an 'a' appears later). When we encounter an 'a', we have two choices: delete this 'a' (increment deletions) or delete all previous 'b's (which is b_count). So for each 'a' we can update the minimal deletions so far as min(delete_this_a, delete_all_prev_bs). That suggests keeping two counters: b_count and deletions, and updating deletions = min(deletions + 1, b_count) when we see an 'a'. For 'b' we just increment b_count.
 
-Another equivalent approach: consider every partition between characters; delete all 'b's on the left plus all 'a's on the right, compute minimum over partitions (prefix/suffix counts). That is O(n) with prefix/suffix counts.
+This seems linear and constant-space.
 
 ## Refining the problem, round 2 thoughts
-Refine the greedy invariant: maintain b_count = number of 'b' seen so far, and deletions = minimum deletions to make prefix balanced. When a 'b' arrives, it never creates a new conflict with previous characters (it can be kept), so b_count++ and deletions unchanged. When an 'a' arrives, it conflicts with all prior b's unless we delete either this 'a' or those prior b's. The best for the prefix becomes min(deletions+1 (delete this a), b_count (delete all prior b's)). Update deletions to that min.
+Edge cases: all 'a' (no deletions), all 'b' (no deletions), alternating patterns. The reasoning for deletions update: deletions stores the minimal deletions to make the prefix balanced. When an 'a' appears, either we delete this 'a' (so deletions+1) or we delete all earlier 'b's (b_count). Take minimum. For a 'b', no immediate conflict, just increase b_count.
 
-Edge cases: all 'a' or all 'b' should work (result 0). Complexity: O(n) time, O(1) extra space. The partition method would use O(n) space if implemented with arrays, but can be done with two passes and O(1) as well.
+Alternative solution: precompute prefix counts of 'b' and suffix counts of 'a' and take min over split i of prefix_b[i] + suffix_a[i]. That is also O(n) time and O(n) space (or O(1) if done carefully in two passes). But the greedy update is simpler and O(1) extra space.
 
-This greedy is standard and provably correct because the local choice keeps the prefix optimal (DP with 2 states collapses to this).
+Time complexity O(n), space O(1). n up to 1e5 so this is fine.
 
 ## Attempted solution(s)
 ```python
 class Solution:
-    def minimumDeletions(self, s: str) -> int:
-        """
-        Greedy/Dynamic approach:
-        b_count: number of 'b' characters seen so far
-        deletions: minimum deletions to make the processed prefix balanced
-        For each char:
-          - if 'b': keep it, increment b_count
-          - if 'a': either delete this 'a' (deletions+1) or delete all prior b's (b_count)
-            choose the cheaper option and set deletions accordingly
-        """
-        b_count = 0
-        deletions = 0
+    def minDeletions(self, s: str) -> int:
+        b_count = 0      # number of 'b's seen so far
+        deletions = 0    # minimal deletions to make the prefix balanced
         for ch in s:
             if ch == 'b':
                 b_count += 1
             else:  # ch == 'a'
-                # either delete this 'a' (deletions + 1) or delete all previous 'b's (b_count)
+                # Either delete this 'a' (deletions + 1) or delete all previous 'b's (b_count)
                 deletions = min(deletions + 1, b_count)
         return deletions
 ```
-- Notes:
-  - Approach: Single left-to-right scan maintaining two integers. For each 'a' decide between deleting it or deleting all previous 'b's.
-  - Time complexity: O(n), where n = len(s), since we scan once.
-  - Space complexity: O(1), only two integers of extra space.
-  - Correctness: The update preserves the optimal minimum deletions for the prefix. When seeing an 'a', the only conflict is with prior 'b's; either remove this 'a' or remove enough prior 'b's — taking the minimum yields the optimal prefix solution. The process extends greedily to the whole string.
+- Notes: We scan once. For each character: if it's 'b', increment b_count; if it's 'a', update deletions = min(deletions + 1, b_count). This maintains the minimal deletions to make the prefix balanced. Final deletions is the answer.
+- Complexity: Time O(n), Space O(1).
