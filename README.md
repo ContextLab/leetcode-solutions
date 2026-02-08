@@ -27,6 +27,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 5, 2026 | [3379](https://leetcode.com/problems/transformed-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3379) | 🟢 Easy |
 | February 6, 2026 | [3634](https://leetcode.com/problems/minimum-removals-to-balance-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3634) | 🟡 Medium |
 | February 7, 2026 | [1653](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1653) | 🟡 Medium |
+| February 8, 2026 | [110](https://leetcode.com/problems/balanced-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/110) | 🟢 Easy |
 
 </details>
 
