@@ -29,6 +29,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 7, 2026 | [1653](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1653) | 🟡 Medium |
 | February 8, 2026 | [110](https://leetcode.com/problems/balanced-binary-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/110) | 🟢 Easy |
 | February 9, 2026 | [1382](https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1382) | 🟡 Medium |
+| February 10, 2026 | [3719](https://leetcode.com/problems/longest-balanced-subarray-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3719) | 🟡 Medium |
 
 </details>
 
