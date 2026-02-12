@@ -31,6 +31,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 9, 2026 | [1382](https://leetcode.com/problems/balance-a-binary-search-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1382) | 🟡 Medium |
 | February 10, 2026 | [3719](https://leetcode.com/problems/longest-balanced-subarray-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3719) | 🟡 Medium |
 | February 11, 2026 | [3721](https://leetcode.com/problems/longest-balanced-subarray-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3721) | 🔴 Hard |
+| February 12, 2026 | [3713](https://leetcode.com/problems/longest-balanced-substring-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3713) | 🟡 Medium |
 
 </details>
 
