@@ -33,6 +33,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 11, 2026 | [3721](https://leetcode.com/problems/longest-balanced-subarray-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3721) | 🔴 Hard |
 | February 12, 2026 | [3713](https://leetcode.com/problems/longest-balanced-substring-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3713) | 🟡 Medium |
 | February 13, 2026 | [3714](https://leetcode.com/problems/longest-balanced-substring-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3714) | 🟡 Medium |
+| February 14, 2026 | [799](https://leetcode.com/problems/champagne-tower/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/799) | 🟡 Medium |
 
 </details>
 
