@@ -35,6 +35,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 13, 2026 | [3714](https://leetcode.com/problems/longest-balanced-substring-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3714) | 🟡 Medium |
 | February 14, 2026 | [799](https://leetcode.com/problems/champagne-tower/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/799) | 🟡 Medium |
 | February 15, 2026 | [67](https://leetcode.com/problems/add-binary/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/67) | 🟢 Easy |
+| February 16, 2026 | [190](https://leetcode.com/problems/reverse-bits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/190) | 🟢 Easy |
 
 </details>
 
