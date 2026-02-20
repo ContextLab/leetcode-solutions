@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 17, 2026 | [401](https://leetcode.com/problems/binary-watch/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/401) | 🟢 Easy |
 | February 18, 2026 | [693](https://leetcode.com/problems/binary-number-with-alternating-bits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/693) | 🟢 Easy |
 | February 19, 2026 | [696](https://leetcode.com/problems/count-binary-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/696) | 🟢 Easy |
+| February 20, 2026 | [761](https://leetcode.com/problems/special-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/761) | 🔴 Hard |
 
 </details>
 
