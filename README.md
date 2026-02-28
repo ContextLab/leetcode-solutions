@@ -47,6 +47,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | February 25, 2026 | [1356](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1356) | 🟢 Easy |
 | February 26, 2026 | [1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1404) | 🟡 Medium |
 | February 27, 2026 | [3666](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3666) | 🔴 Hard |
+| February 28, 2026 | [1680](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1680) | 🟡 Medium |
 
 </details>
 
