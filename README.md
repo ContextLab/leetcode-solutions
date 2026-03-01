@@ -16,6 +16,15 @@ This means you'll always find an AI-generated solution to compare with or learn 
 # Problems we've attempted so far:
 
 <details open>
+<summary><b>Problems from March, 2026</b></summary>
+
+| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
+|--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| March 1, 2026 | [1689](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1689) | 🟡 Medium |
+
+</details>
+
+<details>
 <summary><b>Problems from February, 2026</b></summary>
 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
