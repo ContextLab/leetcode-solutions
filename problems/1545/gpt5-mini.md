@@ -1,31 +1,33 @@
 # [Problem 1545: Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-I see S_n is built recursively: S_n = S_{n-1} + "1" + reverse(invert(S_{n-1})). Length grows as 2^n - 1. The middle position is exactly 2^{n-1}. If k equals the middle, answer is '1' immediately. If k is in the left half it is the same as the kth bit of S_{n-1}. If k is in the right half it corresponds to some mirrored position in S_{n-1} but inverted. So we can map k in the right half to a position in S_{n-1} and flip the bit. That suggests a recursive solution, but you can avoid building strings entirely and just recurse/iterate on n and k, tracking how many flips (inversions) are applied.
+The string S_n is defined recursively: S_n = S_{n-1} + "1" + reverse(invert(S_{n-1})). The length of S_n is 2^n - 1, so there's a clear middle position at 2^{n-1}. The middle bit is always "1" for n>1 (S_1 = "0"). If k is before the middle, it's just the kth bit of S_{n-1}. If k is after the middle, it's located in reverse(invert(S_{n-1})), so it corresponds to some position in S_{n-1} but inverted. That suggests a recursion: map k to a smaller problem and invert when we cross into the mirrored-inverted half. Depth is at most n <= 20, so recursion is safe.
 
 ## Refining the problem, round 2 thoughts
-We don't need to construct the string because n ≤ 20 and we can compute index mapping. Using recursion is straightforward (base S1 = '0'). Alternatively an iterative approach keeps a flip parity and reduces (n, k) until we hit n = 1. Each time k > mid we map k to the mirrored index (2^n - k) and toggle flip parity. Time is O(n) and space O(1) (or O(n) if recursion used). Edge cases: when k == mid return '1'. k is guaranteed valid.
+Map precisely: length L_n = 2^n - 1, mid = 2^{n-1}. If k == mid -> "1". If k < mid -> findKthBit(n-1, k). If k > mid -> position in reversed part maps to index j = L_n - k + 1 = 2^n - k (this j is in [1, 2^{n-1}-1], a valid index for S_{n-1}). The bit at k is invert(findKthBit(n-1, j)). Implement recursive solution directly or iterative loop tracking parity of inversion. Complexity is O(n) time and O(n) stack (n <= 20), constant extra space otherwise.
+
+Edge cases: n=1 (only "0"), k=1; k exactly equals middle; largest n=20 but recursion depth small.
 
 ## Attempted solution(s)
 ```python
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:
-        # iterative approach: reduce (n, k) until base case n == 1
-        flip = 0  # parity of inversions (0 = no invert, 1 = invert)
-        while n > 1:
+        # recursive approach
+        def helper(n: int, k: int) -> str:
+            if n == 1:
+                return '0'
             mid = 1 << (n - 1)  # 2^(n-1)
             if k == mid:
-                return '1' if flip == 0 else '0'
-            if k > mid:
-                # map to mirrored position in S_{n-1} and toggle inversion parity
-                k = (1 << n) - k
-                flip ^= 1
-            # move to previous string
-            n -= 1
-        # n == 1 -> S1 = "0"
-        return '1' if flip == 1 else '0'
+                return '1'
+            if k < mid:
+                return helper(n - 1, k)
+            # k > mid: map to mirrored index in S_{n-1}
+            j = (1 << n) - k  # 2^n - k
+            bit = helper(n - 1, j)
+            return '1' if bit == '0' else '0'
+        return helper(n, k)
 ```
-- Approach: Iteratively reduce n while mapping k when it's in the right half; track inversion parity instead of building strings.
-- Time complexity: O(n) (at most n iterations), where n ≤ 20.
-- Space complexity: O(1) extra space (iterative). Recursive variant would use O(n) call stack.
-- Important detail: mid = 2^(n-1) is the exact middle index of S_n (1-based). When k > mid, the mirrored index in S_{n-1} is 2^n - k.
+- Notes on approach:
+  - We use the recursive structure of S_n. The middle is always '1' for n>1. If k is in the first half we recurse directly. If k is in the mirrored-inverted second half, we map to the mirrored index in S_{n-1} and invert the result.
+  - Time complexity: O(n) because each recursive call reduces n by 1 and n <= 20.
+  - Space complexity: O(n) due to recursion call stack. Iterative approach could reduce auxiliary stack usage but is unnecessary here given constraints.
