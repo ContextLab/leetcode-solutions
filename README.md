@@ -24,6 +24,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 2, 2026 | [1536](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1536) | 🟡 Medium |
 | March 3, 2026 | [1545](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1545) | 🟡 Medium |
 | March 4, 2026 | [1582](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1582) | 🟢 Easy |
+| March 5, 2026 | [1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1758) | 🟢 Easy |
 
 </details>
 
