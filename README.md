@@ -27,6 +27,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 5, 2026 | [1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1758) | 🟢 Easy |
 | March 6, 2026 | [1784](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1784) | 🟢 Easy |
 | March 7, 2026 | [1888](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1888) | 🟡 Medium |
+| March 8, 2026 | [1980](https://leetcode.com/problems/find-unique-binary-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1980) | 🟡 Medium |
 
 </details>
 
