@@ -31,6 +31,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 9, 2026 | [3129](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3129) | 🟡 Medium |
 | March 10, 2026 | [3130](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3130) | 🔴 Hard |
 | March 11, 2026 | [1009](https://leetcode.com/problems/complement-of-base-10-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1009) | 🟢 Easy |
+| March 12, 2026 | [3600](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3600) | 🔴 Hard |
 
 </details>
 
