@@ -32,6 +32,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 10, 2026 | [3130](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3130) | 🔴 Hard |
 | March 11, 2026 | [1009](https://leetcode.com/problems/complement-of-base-10-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1009) | 🟢 Easy |
 | March 12, 2026 | [3600](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3600) | 🔴 Hard |
+| March 13, 2026 | [3296](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3296) | 🟡 Medium |
 
 </details>
 
