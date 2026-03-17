@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 14, 2026 | [1415](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1415) | 🟡 Medium |
 | March 15, 2026 | [1622](https://leetcode.com/problems/fancy-sequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1622) | 🔴 Hard |
 | March 16, 2026 | [1878](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1878) | 🟡 Medium |
+| March 17, 2026 | [1727](https://leetcode.com/problems/largest-submatrix-with-rearrangements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1727) | 🟡 Medium |
 
 </details>
 
