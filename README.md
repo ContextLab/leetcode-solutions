@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 17, 2026 | [1727](https://leetcode.com/problems/largest-submatrix-with-rearrangements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1727) | 🟡 Medium |
 | March 18, 2026 | [3070](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3070) | 🟡 Medium |
 | March 19, 2026 | [3212](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3212) | 🟡 Medium |
+| March 20, 2026 | [3567](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3567) | 🟡 Medium |
 
 </details>
 
