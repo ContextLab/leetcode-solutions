@@ -41,6 +41,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 19, 2026 | [3212](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3212) | 🟡 Medium |
 | March 20, 2026 | [3567](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3567) | 🟡 Medium |
 | March 21, 2026 | [3643](https://leetcode.com/problems/flip-square-submatrix-vertically/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3643) | 🟢 Easy |
+| March 22, 2026 | [1886](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1886) | 🟢 Easy |
 
 </details>
 
