@@ -42,6 +42,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 20, 2026 | [3567](https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3567) | 🟡 Medium |
 | March 21, 2026 | [3643](https://leetcode.com/problems/flip-square-submatrix-vertically/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3643) | 🟢 Easy |
 | March 22, 2026 | [1886](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1886) | 🟢 Easy |
+| March 23, 2026 | [1594](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1594) | 🟡 Medium |
 
 </details>
 
