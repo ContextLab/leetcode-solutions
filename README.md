@@ -44,6 +44,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 22, 2026 | [1886](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1886) | 🟢 Easy |
 | March 23, 2026 | [1594](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1594) | 🟡 Medium |
 | March 24, 2026 | [2906](https://leetcode.com/problems/construct-product-matrix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2906) | 🟡 Medium |
+| March 25, 2026 | [3546](https://leetcode.com/problems/equal-sum-grid-partition-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3546) | 🟡 Medium |
 
 </details>
 
