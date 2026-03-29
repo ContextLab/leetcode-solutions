@@ -48,6 +48,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | March 26, 2026 | [3548](https://leetcode.com/problems/equal-sum-grid-partition-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3548) | 🔴 Hard |
 | March 27, 2026 | [2946](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2946) | 🟢 Easy |
 | March 28, 2026 | [2573](https://leetcode.com/problems/find-the-string-with-lcp/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2573) | 🔴 Hard |
+| March 29, 2026 | [2839](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2839) | 🟢 Easy |
 
 </details>
 
