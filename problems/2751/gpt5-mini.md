@@ -1,20 +1,14 @@
 # [Problem 2751: Robot Collisions](https://leetcode.com/problems/robot-collisions/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-Robots move at the same speed; collisions only happen when a right-moving robot (R) is to the left of a left-moving robot (L). Sorting robots by position turns the problem into a left-to-right sweep where R robots can "wait" on a stack and L robots collide with the stacked R robots from the top. This resembles the classic asteroid-collision / parentheses-matching pattern. For each L we simulate collisions with the most recent R; health comparisons determine who dies or has its health decremented and whether collisions continue. We must return surviving robots' healths in the original input order.
+[Robots move simultaneously; collisions occur when a right-moving robot to the left meets a left-moving robot to the right. Positions are arbitrary (unsorted), so sort by position to simulate encounters left-to-right. A classic pattern: maintain a stack of right-moving robots (their index and current health). When we encounter a left-moving robot, it will potentially collide with robots on the stack (the right-movers encountered earlier). Simulate pairwise collisions between the current left-moving robot and the top of the stack until either the left robot dies or there are no more right-movers to collide with. Track survivors with their updated healths. Need to return survivors in the original input order.]
 
 ## Refining the problem, round 2 thoughts
-- Sort robots by position while keeping original indices, healths, and directions.
-- Use a stack to store right-moving robots (their original index and current health).
-- When we encounter a left-moving robot, simulate collisions against the stack top until the L dies or the stack is empty:
-  - If R.health < L.health: R dies (pop), L.health -= 1, continue.
-  - If R.health == L.health: both die (pop R, L becomes dead), stop.
-  - If R.health > L.health: R.health -= 1 (update top), L dies, stop.
-- After processing all robots, any R robots left on the stack survive with their current health. Any L that survived (stack empty when processed) also survive with its remaining health.
-- Output survivors' healths in the input order (skip dead robots).
-- Time: O(n) amortized since each robot is pushed/popped at most once. Space: O(n).
-
-Edge cases: unsorted positions (handled by sorting), ties in health (both removed), many consecutive collisions causing health decrements.
+[Sort robots by position ascending (so collisions happen between an earlier 'R' and a later 'L'). Use a stack to store active 'R' robots with mutable health. For each 'L' robot, while stack non-empty and current L is alive, compare healths:
+- If top_R.health < L.health: top_R dies (pop), L.health -= 1, continue (L may hit earlier R).
+- If top_R.health == L.health: both die (pop, L dies).
+- If top_R.health > L.health: L dies, top_R.health -= 1 (update top on stack).
+If an L survives all encounters, it's a survivor (record its health). After processing all robots, remaining R robots on the stack are survivors with their updated healths. Finally, output survivors in original order. Complexity: sorting O(n log n) + simulation O(n) amortized, space O(n). Edge cases: all R or all L (no collisions), robots with large health (decrement count bounded by n since each collision removes at least one robot).]
 
 ## Attempted solution(s)
 ```python
@@ -23,45 +17,55 @@ from typing import List
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
         n = len(positions)
-        # Build list of robots sorted by position
-        robots = sorted(((positions[i], i, healths[i], directions[i]) for i in range(n)), key=lambda x: x[0])
-        # stack holds tuples (original_index, current_health) for right-moving robots
+        # Create list of robots sorted by position: (pos, original_index, health, direction)
+        robots = sorted(
+            [(positions[i], i, healths[i], directions[i]) for i in range(n)],
+            key=lambda x: x[0]
+        )
+
+        # Stack for right-moving robots: elements are [original_index, current_health]
         stack = []
-        # result placeholder: -1 means dead; otherwise final health
-        res = [-1] * n
+        survivors = {}  # map original_index -> health for surviving robots
 
         for _, idx, h, d in robots:
             if d == 'R':
-                stack.append((idx, h))
-            else:  # d == 'L'
+                # Right-moving robot might collide with a future L, so push to stack
+                stack.append([idx, h])
+            else:
+                # Left-moving robot will collide with right-moving robots on the stack
                 cur_h = h
-                # collide with right-moving robots on the stack
-                while cur_h > 0 and stack:
-                    r_idx, r_h = stack[-1]
-                    if r_h < cur_h:
-                        # right robot dies, left robot loses 1 health and continues
+                while stack and cur_h > 0:
+                    top_idx, top_h = stack[-1]
+                    if top_h < cur_h:
+                        # top R dies; L loses 1 health and continues
                         stack.pop()
                         cur_h -= 1
-                    elif r_h == cur_h:
+                    elif top_h == cur_h:
                         # both die
                         stack.pop()
                         cur_h = 0
-                    else:  # r_h > cur_h
-                        # left robot dies, right robot loses 1 health and stays
-                        stack[-1] = (r_idx, r_h - 1)
+                        break
+                    else:
+                        # top R survives but loses 1 health; L dies
+                        stack[-1][1] -= 1
                         cur_h = 0
-                # if left robot survived (no more R to collide), record its remaining health
+                        break
                 if cur_h > 0:
-                    res[idx] = cur_h
+                    # L survived all collisions
+                    survivors[idx] = cur_h
 
-        # Any remaining right-moving robots in stack survive with their current health
-        for r_idx, r_h in stack:
-            res[r_idx] = r_h
+        # Remaining right-moving robots on stack survive
+        for idx, h in stack:
+            survivors[idx] = h
 
-        # Return survivors' healths in original order (skip dead robots)
-        return [res[i] for i in range(n) if res[i] != -1]
+        # Collect survivors' healths in the original input order
+        result = []
+        for i in range(n):
+            if i in survivors:
+                result.append(survivors[i])
+        return result
 ```
 - Notes:
-  - Approach: sort by position and simulate pairwise collisions using a stack for R robots; L robots collide with the nearest R on the left (stack top).
-  - Complexity: O(n) time (each robot is pushed/popped at most once) and O(n) extra space for sorting + stack + result array.
-  - Implementation details: we track current healths in the stack to account for reductions after collisions; original indices are preserved to produce output in input order.
+  - We sort by position to process collisions in spatial order. The stack stores currently active right-moving robots; left-moving robots resolve collisions against the stack top(s).
+  - Each robot is pushed/popped at most once, so the collision simulation is O(n) amortized. Total time complexity is O(n log n) due to initial sorting. Space complexity is O(n) for the stack and survivors map.
+  - The survivors dictionary maps original indices to their final health so we can output in the order requested by the problem.
