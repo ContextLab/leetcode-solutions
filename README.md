@@ -28,6 +28,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | April 6, 2026 | [874](https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/874) | 🟡 Medium |
 | April 7, 2026 | [2069](https://leetcode.com/problems/walking-robot-simulation-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2069) | 🟡 Medium |
 | April 8, 2026 | [3653](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3653) | 🟡 Medium |
+| April 9, 2026 | [3655](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3655) | 🔴 Hard |
 
 </details>
 
