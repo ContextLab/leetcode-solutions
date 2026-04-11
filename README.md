@@ -30,6 +30,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | April 8, 2026 | [3653](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3653) | 🟡 Medium |
 | April 9, 2026 | [3655](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3655) | 🔴 Hard |
 | April 10, 2026 | [3740](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3740) | 🟢 Easy |
+| April 11, 2026 | [3741](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3741) | 🟡 Medium |
 
 </details>
 
