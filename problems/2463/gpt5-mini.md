@@ -1,73 +1,59 @@
 # [Problem 2463: Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-The robots and factories lie on a line; each factory has a capacity (limit). We can choose for each robot an initial direction so effectively each robot will end up at some factory (they can pass others that are full). To minimize total distance, it feels natural to sort robots and factories by position and match robots in order to factories in order (some kind of DP / knapsack over factories' capacities). This reminds me of dynamic programming where we process factories one by one and decide how many consecutive robots (from the leftmost remaining) to assign to the current factory. Prefix sums of robot positions will let me compute sum of absolute distances quickly for any block assigned to a factory. Since robot and factory counts ≤ 100, an O(R * M * limit) DP is feasible.
+We have robots at various positions and factories with positions and capacity limits. Each robot must be assigned to some factory; it will move in whichever direction to reach its assigned factory and the cost for that robot is the absolute distance to the factory. We can set each robot's initial moving direction arbitrarily, so effectively each robot can go to any factory and cost is |robot_pos - factory_pos| (no collisions or interactions change costs). The only constraint is the per-factory capacity.
+
+This is an assignment problem on a line with capacities. Sorting robots and factories by position should help because robots assigned to earlier factories will be a prefix of the sorted robots when we process factories left-to-right (we can enforce an ordering: assign robots in increasing order to factories in increasing order). That suggests dynamic programming: dp[i][j] = min cost to repair first i robots using first j factories. Because R,F ≤ 100, an O(R * F * limit) DP is feasible. We can implement it in one-dimensional DP over number of robots processed and iterate factories.
+
+Compute incremental cost of assigning the next k robots to the current factory by summing absolute distances; since sizes are small we can incrementally accumulate cost rather than complex prefix-sum handling.
 
 ## Refining the problem, round 2 thoughts
-- Sort robots ascending and factories ascending by position. After sorting, it's optimal to assign robots in increasing order to factories processed in increasing order (no crossing assignment improvements).
-- Use dp[i] = minimum total distance to repair the first i robots after considering some number of factories. For each factory, we try assigning k robots (0..limit) starting from i and update dp[i+k] from dp[i] plus the cost of moving robots[i..i+k-1] to the factory's position.
-- Need to compute cost(i, k, pos) = sum_{t=i}^{i+k-1} |robot[t] - pos| efficiently. Precompute prefix sums of robot positions and use binary search within [i, i+k-1] to split robots less-than-or-equal-to pos and greater-than pos; compute left and right parts via prefix sums.
-- Time complexity: For R robots and M factories, worst-case O(sum_over_factories(min(limit, R)) * R) ~ O(R * M * R) = O(R^2 * M). With R, M ≤ 100 this is fine.
-- Space complexity: O(R) for dp arrays + O(R) for prefix sums.
-
-Edge cases:
-- Factories with limit 0 (skip).
-- Factories left or right of all considered robots (cost computed correctly via prefix sums).
-- Robot can be exactly at factory position (abs = 0) — handle with bisect_right to treat equal positions as left part.
+- Sort robots ascending and factories ascending by position.
+- Use DP where dp[i] is min cost to repair first i robots after processing some factories; for each factory we build ndp by trying to assign k robots (0..limit and within remaining robots) starting from each possible i.
+- For each i, maintain incremental cost when adding one more robot to this factory: cost += abs(robot[i+k-1] - factory_pos).
+- Initialize dp[0] = 0 and dp[>0] = inf. After processing all factories the answer is dp[R].
+- Edge cases: some factories may have limit 0 (we just skip assigning any robots to them). The input promises a feasible assignment (so dp[R] will be finite).
+- Complexity: there are at most R robots and F factories and each factory can assign up to its limit (≤ R); overall complexity O(F * R * max_limit) ≤ O(F * R^2) which with 100 each is fine (~1e6 iterations). Space O(R).
 
 ## Attempted solution(s)
 ```python
-import bisect
-import math
 from typing import List
 
 class Solution:
     def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:
         robot.sort()
+        # sort factories by position
         factory.sort(key=lambda x: x[0])
         R = len(robot)
-        # prefix sums of robot positions
-        ps = [0] * (R + 1)
-        for i in range(R):
-            ps[i+1] = ps[i] + robot[i]
-
-        # dp[i]: min cost to repair first i robots after processing some factories
         INF = 10**30
+        # dp[i] = min cost to repair first i robots after processing some factories
         dp = [INF] * (R + 1)
         dp[0] = 0
 
-        # For each factory, consider assigning k robots (consecutive from current i)
         for pos, limit in factory:
-            # start from current dp; dp2 will be dp after considering this factory
-            dp2 = dp[:]  # copying allows "not using this factory" case
-            # iterate how many robots already fixed
+            ndp = [INF] * (R + 1)
             for i in range(R + 1):
-                if dp[i] >= INF:
+                if dp[i] == INF:
                     continue
-                # maximum number we can assign to this factory starting at i
-                max_k = min(limit, R - i)
-                # assign k robots to this factory
-                for k in range(1, max_k + 1):
-                    l = i
-                    r = i + k - 1
-                    # find split point m: robots[l..m-1] <= pos, robots[m..r] > pos
-                    m = bisect.bisect_right(robot, pos, l, r + 1)
-                    # left cost: pos*(m-l) - sum(robot[l..m-1])
-                    left_cost = pos * (m - l) - (ps[m] - ps[l])
-                    # right cost: sum(robot[m..r]) - pos*(r+1-m)
-                    right_cost = (ps[r+1] - ps[m]) - pos * (r + 1 - m)
-                    cost = left_cost + right_cost
-                    if dp2[i+k] > dp[i] + cost:
-                        dp2[i+k] = dp[i] + cost
-            dp = dp2
+                # option: assign 0 robots from i to this factory
+                if dp[i] < ndp[i]:
+                    ndp[i] = dp[i]
+                # try assigning k robots starting at index i
+                cost = 0
+                maxk = min(limit, R - i)
+                for k in range(1, maxk + 1):
+                    cost += abs(robot[i + k - 1] - pos)
+                    # update ndp for i+k robots assigned after using this factory
+                    if dp[i] + cost < ndp[i + k]:
+                        ndp[i + k] = dp[i] + cost
+            dp = ndp
 
         return dp[R]
-
-
-# Example usage:
-# sol = Solution()
-# print(sol.minimumTotalDistance([0,4,6], [[2,2],[6,2]]))  # expected 4
 ```
-- Approach: Sort robots and factories. Use dynamic programming over factories with dp representing how many robots are fixed so far. For each factory, try assigning 0..limit consecutive remaining robots; compute cost for each block using prefix sums and binary search to split around the factory position.
-- Time complexity: O(M * R * min(limit, R) * log R) in implementation (the log R from bisect), worst-case O(M * R^2). With R, M ≤ 100 this is easily acceptable.
-- Space complexity: O(R) (dp arrays and prefix sums).
+- Notes on approach:
+  - We sort robots and factories by position so we can process factories left-to-right and assign robots in order. The DP enforces that assignments to factories respect robot ordering: when processing factory j we only consider assigning a contiguous block of next robots.
+  - The inner loop incrementally computes the cost of assigning 1 more robot to the current factory, keeping the implementation simple and efficient for the given constraints.
+
+- Complexity:
+  - Time: O(F * R * L) where L is average limit (worst-case L = R), so worst-case O(F * R^2). For R,F ≤ 100 this is easily within limits (~1e6 iterations).
+  - Space: O(R) for dp arrays.
