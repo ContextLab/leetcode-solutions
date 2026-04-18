@@ -37,6 +37,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | April 15, 2026 | [2515](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2515) | 🟢 Easy |
 | April 16, 2026 | [3488](https://leetcode.com/problems/closest-equal-element-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3488) | 🟡 Medium |
 | April 17, 2026 | [3761](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3761) | 🟡 Medium |
+| April 18, 2026 | [3783](https://leetcode.com/problems/mirror-distance-of-an-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3783) | 🟢 Easy |
 
 </details>
 
