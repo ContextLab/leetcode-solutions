@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | April 17, 2026 | [3761](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3761) | 🟡 Medium |
 | April 18, 2026 | [3783](https://leetcode.com/problems/mirror-distance-of-an-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3783) | 🟢 Easy |
 | April 19, 2026 | [1855](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1855) | 🟡 Medium |
+| April 20, 2026 | [2078](https://leetcode.com/problems/two-furthest-houses-with-different-colors/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2078) | 🟢 Easy |
 
 </details>
 
