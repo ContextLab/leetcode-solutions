@@ -45,6 +45,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | April 23, 2026 | [2615](https://leetcode.com/problems/sum-of-distances/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2615) | 🟡 Medium |
 | April 24, 2026 | [2833](https://leetcode.com/problems/furthest-point-from-origin/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2833) | 🟢 Easy |
 | April 25, 2026 | [3464](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3464) | 🔴 Hard |
+| April 26, 2026 | [1559](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1559) | 🟡 Medium |
 
 </details>
 
