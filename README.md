@@ -48,6 +48,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | April 26, 2026 | [1559](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1559) | 🟡 Medium |
 | April 27, 2026 | [1391](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1391) | 🟡 Medium |
 | April 28, 2026 | [2033](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2033) | 🟡 Medium |
+| April 29, 2026 | [3225](https://leetcode.com/problems/maximum-score-from-grid-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3225) | 🔴 Hard |
 
 </details>
 
