@@ -16,6 +16,15 @@ This means you'll always find an AI-generated solution to compare with or learn 
 # Problems we've attempted so far:
 
 <details open>
+<summary><b>Problems from May, 2026</b></summary>
+
+| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
+|--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| May 1, 2026 | [396](https://leetcode.com/problems/rotate-function/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/396) | 🟡 Medium |
+
+</details>
+
+<details>
 <summary><b>Problems from April, 2026</b></summary>
 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
