@@ -21,6 +21,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | May 1, 2026 | [396](https://leetcode.com/problems/rotate-function/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/396) | 🟡 Medium |
+| May 2, 2026 | [788](https://leetcode.com/problems/rotated-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/788) | 🟡 Medium |
 
 </details>
 
