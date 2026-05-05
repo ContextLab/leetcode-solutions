@@ -24,6 +24,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 2, 2026 | [788](https://leetcode.com/problems/rotated-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/788) | 🟡 Medium |
 | May 3, 2026 | [796](https://leetcode.com/problems/rotate-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/796) | 🟢 Easy |
 | May 4, 2026 | [48](https://leetcode.com/problems/rotate-image/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/48) | 🟡 Medium |
+| May 5, 2026 | [61](https://leetcode.com/problems/rotate-list/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/61) | 🟡 Medium |
 
 </details>
 
