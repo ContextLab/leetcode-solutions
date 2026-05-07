@@ -26,6 +26,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 4, 2026 | [48](https://leetcode.com/problems/rotate-image/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/48) | 🟡 Medium |
 | May 5, 2026 | [61](https://leetcode.com/problems/rotate-list/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/61) | 🟡 Medium |
 | May 6, 2026 | [1861](https://leetcode.com/problems/rotating-the-box/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1861) | 🟡 Medium |
+| May 7, 2026 | [3660](https://leetcode.com/problems/jump-game-ix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3660) | 🟡 Medium |
 
 </details>
 
