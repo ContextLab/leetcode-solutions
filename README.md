@@ -28,6 +28,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 6, 2026 | [1861](https://leetcode.com/problems/rotating-the-box/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1861) | 🟡 Medium |
 | May 7, 2026 | [3660](https://leetcode.com/problems/jump-game-ix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3660) | 🟡 Medium |
 | May 8, 2026 | [3629](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3629) | 🟡 Medium |
+| May 9, 2026 | [1914](https://leetcode.com/problems/cyclically-rotating-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1914) | 🟡 Medium |
 
 </details>
 
