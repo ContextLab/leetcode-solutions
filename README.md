@@ -31,6 +31,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 9, 2026 | [1914](https://leetcode.com/problems/cyclically-rotating-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1914) | 🟡 Medium |
 | May 10, 2026 | [2770](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2770) | 🟡 Medium |
 | May 11, 2026 | [2553](https://leetcode.com/problems/separate-the-digits-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2553) | 🟢 Easy |
+| May 12, 2026 | [1665](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1665) | 🔴 Hard |
 
 </details>
 
