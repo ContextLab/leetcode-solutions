@@ -35,6 +35,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 13, 2026 | [1674](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1674) | 🟡 Medium |
 | May 14, 2026 | [2784](https://leetcode.com/problems/check-if-array-is-good/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2784) | 🟢 Easy |
 | May 15, 2026 | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/153) | 🟡 Medium |
+| May 16, 2026 | [154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/154) | 🔴 Hard |
 
 </details>
 
