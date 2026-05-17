@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 14, 2026 | [2784](https://leetcode.com/problems/check-if-array-is-good/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2784) | 🟢 Easy |
 | May 15, 2026 | [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/153) | 🟡 Medium |
 | May 16, 2026 | [154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/154) | 🔴 Hard |
+| May 17, 2026 | [1306](https://leetcode.com/problems/jump-game-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1306) | 🟡 Medium |
 
 </details>
 
