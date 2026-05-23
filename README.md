@@ -42,6 +42,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 20, 2026 | [2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2657) | 🟡 Medium |
 | May 21, 2026 | [3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3043) | 🟡 Medium |
 | May 22, 2026 | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/33) | 🟡 Medium |
+| May 23, 2026 | [1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1752) | 🟢 Easy |
 
 </details>
 
