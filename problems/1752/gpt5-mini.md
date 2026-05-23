@@ -1,22 +1,17 @@
 # [Problem 1752: Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-We need to decide if the given array could be the result of taking a non-decreasingly sorted array and rotating it some number of positions (including 0). A rotation keeps the relative order except for one "cut" where the tail wraps to the front. So if we scan the array left to right, we'd expect at most one place where a later element is smaller than the previous (a "drop"). If there's more than one drop, it can't come from a single cut rotation of a sorted array. Duplicates are allowed; equal neighbors are fine and do not create a drop. Also consider the wrap-around from last to first — that also can be the single allowed drop.
-
-So the idea that comes immediately is to count how many indices i satisfy nums[i] > nums[i+1] (with i+1 taken modulo n). If count <= 1 then true, else false.
+We need to decide if nums could be a rotated version of a non-decreasing (sorted) array. Rotation preserves the relative order except that there's a single wrap from the end back to the start. So in the rotated array we expect at most one place where a value is greater than the next value (a "drop" or inversion). If there are two or more drops, it can't come from a single rotation of a sorted non-decreasing array. Duplicates are allowed, so equal adjacent elements are fine (not drops). Edge cases: tiny arrays (length 1 or 2), all-equal arrays — these should be allowed.
 
 ## Refining the problem, round 2 thoughts
-- Edge cases:
-  - n = 1: trivially true.
-  - All elements equal: zero drops, true.
-  - Already sorted (no rotation needed): zero drops, true.
-  - Typical failing case: two or more drops (including wrap-around) -> false.
-- Complexity:
-  - Single pass over array -> O(n) time, O(1) extra space.
-- Alternative approaches:
-  - Find index of minimum element and verify array is sorted if started from that index — also O(n) but slightly more code. The drop-count method is simpler and concise.
-- Implementation detail:
-  - Use modulo indexing for the wrap check: compare nums[i] and nums[(i+1) % n].
+So the algorithm: scan the array and count positions i where nums[i] > nums[(i+1) % n]. If the count is <= 1 return True, else False. This handles rotation implicitly with modulo for the wrap-around. Complexity is O(n) time and O(1) extra space. Confirm edge cases:
+- n == 1: zero drops -> True
+- all equal elements: zero drops -> True
+- strictly increasing but not rotated (rotation by 0): zero drops -> True
+- [3,1,2] has one drop at 3>1 -> True (original [1,2,3])
+- [2,1,3,4] has drop at 2>1 and maybe others -> count>1 -> False
+
+Alternative would be to try to find rotation pivot and then check both segments are sorted; but counting drops is simpler and optimal.
 
 ## Attempted solution(s)
 ```python
@@ -25,9 +20,6 @@ from typing import List
 class Solution:
     def check(self, nums: List[int]) -> bool:
         n = len(nums)
-        if n <= 1:
-            return True
-        
         drops = 0
         for i in range(n):
             if nums[i] > nums[(i + 1) % n]:
@@ -37,6 +29,6 @@ class Solution:
         return True
 ```
 - Notes:
-  - Approach: Count the number of "drops" where nums[i] > nums[i+1], treating the array as circular. A valid rotated sorted array can have at most one drop (the rotation cut). If there are zero drops the array is already sorted (rotation by 0).
-  - Time complexity: O(n), where n = len(nums) because we scan once.
-  - Space complexity: O(1) extra space (only counters and indices).
+  - Approach: count the number of times an element is greater than the next (with wrap-around). A sorted non-decreasing array rotated some amount can have at most one such drop.
+  - Time complexity: O(n), where n = len(nums), since we scan the array once.
+  - Space complexity: O(1) extra space.
