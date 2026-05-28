@@ -47,6 +47,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 25, 2026 | [1871](https://leetcode.com/problems/jump-game-vii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1871) | 🟡 Medium |
 | May 26, 2026 | [3120](https://leetcode.com/problems/count-the-number-of-special-characters-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3120) | 🟢 Easy |
 | May 27, 2026 | [3121](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3121) | 🟡 Medium |
+| May 28, 2026 | [3093](https://leetcode.com/problems/longest-common-suffix-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3093) | 🔴 Hard |
 
 </details>
 
