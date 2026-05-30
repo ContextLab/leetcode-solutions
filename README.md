@@ -49,6 +49,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | May 27, 2026 | [3121](https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3121) | 🟡 Medium |
 | May 28, 2026 | [3093](https://leetcode.com/problems/longest-common-suffix-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3093) | 🔴 Hard |
 | May 29, 2026 | [3300](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3300) | 🟢 Easy |
+| May 30, 2026 | [3161](https://leetcode.com/problems/block-placement-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3161) | 🔴 Hard |
 
 </details>
 
