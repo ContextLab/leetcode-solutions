@@ -24,6 +24,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 2, 2026 | [3633](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3633) | 🟢 Easy |
 | June 3, 2026 | [3635](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3635) | 🟡 Medium |
 | June 4, 2026 | [3751](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3751) | 🟡 Medium |
+| June 5, 2026 | [3753](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3753) | 🔴 Hard |
 
 </details>
 
