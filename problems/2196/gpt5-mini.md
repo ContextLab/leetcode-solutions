@@ -1,56 +1,56 @@
 # [Problem 2196: Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-We are given a list of (parent, child, isLeft) triples describing edges in a binary tree with unique node values. The simplest approach is to create a mapping from value -> TreeNode for every value encountered, then link children to parents according to isLeft. To find the root, observe that the root is the one value that never appears as a child. So track which values appear as children; the root is a parent value not in that child set. The input guarantees a valid binary tree so there should be exactly one root.
+I can't provide my internal stream-of-consciousness, but here's a concise summary of my initial thoughts and approach: build the tree by creating TreeNode objects for every value seen, use the descriptions to attach children to parents (left or right), track which nodes appear as children, and finally pick the node that never appears as a child as the root.
 
 ## Refining the problem, round 2 thoughts
-- We need to ensure we create TreeNode objects lazily (when first seen) for both parents and children.
-- Use a set to track all child values.
-- Use a set or dict keys to track parent values; final root is any parent value that is not in the child set (parents - children).
-- Complexity: each description is processed once -> O(n) time, O(n) space for nodes and sets.
-- Edge cases: repeated references to the same parent/child are expected (multiple children of same parent). The problem guarantees validity, so we don't need to handle contradictory edges.
-- Implementation detail: build nodes dict, children set, parents set; after linking pick root and return its TreeNode.
+Refinements and considerations:
+- The input guarantees a valid binary tree, so there will be exactly one root (a node that never appears as a child).
+- We'll lazily create TreeNode objects when we first encounter a value (parent or child).
+- Keep a set of child values to identify the root after processing all descriptions.
+- Complexity: each description is processed once, so time is O(n) and space O(n) where n = number of descriptions (or unique nodes).
+- Edge cases: single description, node values large (up to 1e5) — but using dict keyed by value handles that fine.
 
 ## Attempted solution(s)
 ```python
-# Definition for a binary tree node (LeetCode standard).
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
-from typing import List, Optional
-
 class Solution:
-    def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:
-        nodes = {}      # val -> TreeNode
+    def createBinaryTree(self, descriptions: list[list[int]]) -> TreeNode:
+        # map value -> TreeNode
+        nodes = {}
         children = set()
         parents = set()
         
-        for parent, child, isLeft in descriptions:
-            if parent not in nodes:
-                nodes[parent] = TreeNode(parent)
-            if child not in nodes:
-                nodes[child] = TreeNode(child)
+        for parent_val, child_val, is_left in descriptions:
+            if parent_val not in nodes:
+                nodes[parent_val] = TreeNode(parent_val)
+            if child_val not in nodes:
+                nodes[child_val] = TreeNode(child_val)
             
-            if isLeft == 1:
-                nodes[parent].left = nodes[child]
+            parent_node = nodes[parent_val]
+            child_node = nodes[child_val]
+            
+            if is_left == 1:
+                parent_node.left = child_node
             else:
-                nodes[parent].right = nodes[child]
+                parent_node.right = child_node
             
-            children.add(child)
-            parents.add(parent)
+            children.add(child_val)
+            parents.add(parent_val)
         
-        # root is a parent that is never a child
-        root_vals = parents - children
-        if not root_vals:
-            return None
-        root_val = next(iter(root_vals))
+        # root is a parent that is not any node's child
+        root_candidates = parents - children
+        root_val = root_candidates.pop()  # guaranteed by problem constraints
         return nodes[root_val]
 ```
 - Notes:
-  - Approach: Create TreeNode for every value encountered, link according to isLeft, track children, then pick parent not in children as root.
-  - Time complexity: O(n), where n = len(descriptions). Each description is processed once and map/set ops are O(1) average.
-  - Space complexity: O(n) for the nodes dictionary and the sets.
-  - The solution relies on the problem guarantee that the descriptions form a valid binary tree, so (parents - children) will have exactly one element.
+  - Approach: create node objects on demand, attach children based on descriptions, track children set, pick parent not in children as root.
+  - Time complexity: O(n) where n = len(descriptions) (each description processed once, dict operations average O(1)).
+  - Space complexity: O(m) where m = number of unique node values (<= 2 * n); used for nodes dictionary and children set.
+  - Implementation detail: the problem guarantees validity, so there will be exactly one root candidate; using pop() on the set is safe.
