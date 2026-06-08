@@ -1,10 +1,10 @@
 # [Problem 2161: Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-I need to reorder nums so that elements < pivot come first, then elements == pivot, then elements > pivot. The relative order among elements in the same category must be preserved. That suggests a stable partition. My immediate thought is to collect three lists (less, equal, greater) in one pass and then concatenate them — this preserves order and is simple. Alternatives: try an in-place stable partition, but that's more complicated and unnecessary given constraints. Complexity target O(n) time, O(n) additional space.
+I need to reorder nums so that values < pivot come first, then values == pivot, then values > pivot. The relative order among values in the "< pivot" group and among values in the "> pivot" group must be preserved. That suggests a stable partition. The simplest approach that preserves order is to collect elements into three separate lists (less, equal, greater) while iterating once through nums, then concatenate them. That is O(n) time and uses O(n) extra space. I could try an in-place stable partition, but that’s more complex (requires shifting elements or multiple passes) and not necessary given constraints (n up to 1e5) — extra O(n) memory is fine.
 
 ## Refining the problem, round 2 thoughts
-Edge cases: pivot is guaranteed to be present per constraints. Duplicates must be kept in original relative order. Negative values are irrelevant to logic. Using three lists handles all cases and preserves relative order. Another minor variant is two-pass overwrite of nums (count or first collect indices), but the three-list approach is straightforward and clear. Time O(n), space O(n). For n up to 1e5 this is fine.
+Edge cases: nums length minimum is 1 and pivot is guaranteed to be present, so we don't need to handle "pivot not found." Negative values are allowed but irrelevant to the method. The three-list approach keeps original relative order within groups automatically because we append in a single left-to-right pass. Time complexity: single pass O(n). Space complexity: O(n) additional (three lists whose total length is n). This is simple, clear, and efficient enough. An alternative would be to do two passes: first count sizes to build an output array and place elements in appropriate ranges while maintaining indices — also O(n) time and O(n) space but slightly more code. In-place stable partitioning is possible but unnecessary here.
 
 ## Attempted solution(s)
 ```python
@@ -16,6 +16,7 @@ class Solution:
         equal = []
         greater = []
         
+        # Single pass: distribute elements into three lists to preserve relative order
         for x in nums:
             if x < pivot:
                 less.append(x)
@@ -24,9 +25,10 @@ class Solution:
             else:
                 greater.append(x)
         
+        # Concatenate the lists: less, then equal, then greater
         return less + equal + greater
 ```
 - Notes:
-  - Approach: single pass to partition elements into three buckets while preserving order, then concatenate.
-  - Time complexity: O(n), where n = len(nums), since we visit each element once and concatenation is O(n).
-  - Space complexity: O(n) additional space for the three buckets (worst-case one bucket holds all elements). This meets constraints and keeps implementation simple and clear.
+  - Approach: single-pass stable partition using three lists (less, equal, greater) and concatenation.
+  - Time complexity: O(n), where n = len(nums), because we traverse nums once and concatenate lists (concatenation is O(n) overall).
+  - Space complexity: O(n) extra space for the three lists (their total size is n).
