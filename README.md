@@ -30,6 +30,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 8, 2026 | [2161](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2161) | 🟡 Medium |
 | June 9, 2026 | [3689](https://leetcode.com/problems/maximum-total-subarray-value-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3689) | 🟡 Medium |
 | June 10, 2026 | [3691](https://leetcode.com/problems/maximum-total-subarray-value-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3691) | 🔴 Hard |
+| June 11, 2026 | [3558](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3558) | 🟡 Medium |
 
 </details>
 
