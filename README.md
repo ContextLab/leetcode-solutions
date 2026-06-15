@@ -34,6 +34,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 12, 2026 | [3559](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3559) | 🔴 Hard |
 | June 13, 2026 | [3838](https://leetcode.com/problems/weighted-word-mapping/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3838) | 🟢 Easy |
 | June 14, 2026 | [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2130) | 🟡 Medium |
+| June 15, 2026 | [2095](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2095) | 🟡 Medium |
 
 </details>
 
