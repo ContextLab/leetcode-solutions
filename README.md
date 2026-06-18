@@ -37,6 +37,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 15, 2026 | [2095](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2095) | 🟡 Medium |
 | June 16, 2026 | [3612](https://leetcode.com/problems/process-string-with-special-operations-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3612) | 🟡 Medium |
 | June 17, 2026 | [3614](https://leetcode.com/problems/process-string-with-special-operations-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3614) | 🔴 Hard |
+| June 18, 2026 | [1344](https://leetcode.com/problems/angle-between-hands-of-a-clock/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1344) | 🟡 Medium |
 
 </details>
 
