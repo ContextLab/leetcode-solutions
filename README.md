@@ -42,6 +42,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 20, 2026 | [1840](https://leetcode.com/problems/maximum-building-height/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1840) | 🔴 Hard |
 | June 21, 2026 | [1833](https://leetcode.com/problems/maximum-ice-cream-bars/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1833) | 🟡 Medium |
 | June 22, 2026 | [1189](https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1189) | 🟢 Easy |
+| June 23, 2026 | [3699](https://leetcode.com/problems/number-of-zigzag-arrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3699) | 🔴 Hard |
 
 </details>
 
