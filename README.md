@@ -44,6 +44,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 22, 2026 | [1189](https://leetcode.com/problems/maximum-number-of-balloons/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1189) | 🟢 Easy |
 | June 23, 2026 | [3699](https://leetcode.com/problems/number-of-zigzag-arrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3699) | 🔴 Hard |
 | June 24, 2026 | [3700](https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3700) | 🔴 Hard |
+| June 25, 2026 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3737) | 🟡 Medium |
 
 </details>
 
