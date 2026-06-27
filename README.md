@@ -46,6 +46,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 24, 2026 | [3700](https://leetcode.com/problems/number-of-zigzag-arrays-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3700) | 🔴 Hard |
 | June 25, 2026 | [3737](https://leetcode.com/problems/count-subarrays-with-majority-element-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3737) | 🟡 Medium |
 | June 26, 2026 | [3739](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3739) | 🔴 Hard |
+| June 27, 2026 | [3020](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3020) | 🟡 Medium |
 
 </details>
 
