@@ -49,6 +49,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | June 27, 2026 | [3020](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3020) | 🟡 Medium |
 | June 28, 2026 | [1846](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1846) | 🟡 Medium |
 | June 29, 2026 | [1967](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1967) | 🟢 Easy |
+| June 30, 2026 | [1358](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1358) | 🟡 Medium |
 
 </details>
 
