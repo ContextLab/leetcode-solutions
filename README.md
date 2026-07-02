@@ -21,6 +21,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | July 1, 2026 | [2812](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2812) | 🟡 Medium |
+| July 2, 2026 | [3286](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3286) | 🟡 Medium |
 
 </details>
 
