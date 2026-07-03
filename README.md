@@ -22,6 +22,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | July 1, 2026 | [2812](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2812) | 🟡 Medium |
 | July 2, 2026 | [3286](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3286) | 🟡 Medium |
+| July 3, 2026 | [3620](https://leetcode.com/problems/network-recovery-pathways/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3620) | 🔴 Hard |
 
 </details>
 
