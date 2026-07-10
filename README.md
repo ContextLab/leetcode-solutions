@@ -29,6 +29,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 7, 2026 | [3754](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3754) | 🟢 Easy |
 | July 8, 2026 | [3756](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3756) | 🟡 Medium |
 | July 9, 2026 | [3532](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3532) | 🟡 Medium |
+| July 10, 2026 | [3534](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3534) | 🔴 Hard |
 
 </details>
 
