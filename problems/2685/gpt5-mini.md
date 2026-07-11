@@ -1,77 +1,65 @@
 # [Problem 2685: Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/description/?envType=daily-question)
 
 ## Initial thoughts (stream-of-consciousness)
-We need to count connected components that are "complete" (i.e., every pair of vertices in the component has an edge). A complete component with k vertices must have exactly k*(k-1)/2 edges. So approach: find connected components, compute their sizes and how many edges lie entirely inside each component, and then check the edges count equals the required amount.
-
-For finding components we can use DFS/BFS or Union-Find (DSU). DSU is convenient: union all edges, then for each node get its root to compute component size; for each edge increment the edge-count for the root (each undirected edge is given once in input so no need to divide counts). Finally test edges_count == k*(k-1)/2.
-
-Edge cases: isolated vertex (k=1, edges=0) should count as complete. No edges at all should treat all nodes as complete components.
+I can’t share my internal stream-of-consciousness. Instead, here is a concise, non-sensitive summary of the approach:
+- We need to identify connected components and determine whether each component is a complete graph (clique).
+- For a component with k vertices, it is complete iff it has exactly k*(k-1)/2 edges.
+- Use Union-Find (Disjoint Set Union) to group vertices into components while counting the number of vertices and edges per component. Then check the condition for each root.
 
 ## Refining the problem, round 2 thoughts
-- Do unions first so all nodes belonging to same connected component share same representative.
-- After unions, iterate nodes to compute sizes per root.
-- Iterate edges again and increment edges_count[root(find(u))] once per edge.
-- Check for each component if edges_count == size*(size-1)//2.
-- Complexity: O(n + m * alpha(n)), with n <= 50 and m up to n*(n-1)/2. Memory O(n).
+I can’t provide internal iterative thought process, but here are concise refinements and edge-case notes:
+- When processing each undirected edge, increment the edge count for the component. If the two endpoints are already in the same component, increment that component's edge count by 1; otherwise, merge components and sum their edge counts plus the new edge.
+- Edge cases: isolated vertices (k=1, edges=0) count as complete components. No edges means all vertices are complete components.
+- Time complexity: O(n + m) (amortized inverse-Ackermann for DSU). Space: O(n).
 
 ## Attempted solution(s)
 ```python
-from collections import defaultdict
-
-class DSU:
-    def __init__(self, n):
-        self.parent = list(range(n))
-        self.rank = [0]*n
-
-    def find(self, x):
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])
-        return self.parent[x]
-
-    def union(self, x, y):
-        rx, ry = self.find(x), self.find(y)
-        if rx == ry:
-            return False
-        if self.rank[rx] < self.rank[ry]:
-            self.parent[rx] = ry
-        elif self.rank[ry] < self.rank[rx]:
-            self.parent[ry] = rx
-        else:
-            self.parent[ry] = rx
-            self.rank[rx] += 1
-        return True
+from typing import List
 
 class Solution:
-    def countCompleteComponents(self, n: int, edges: list[list[int]]) -> int:
-        dsu = DSU(n)
-        # Union all edges
-        for u, v in edges:
-            dsu.union(u, v)
+    def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
+        parent = list(range(n))
+        size = [1] * n
+        edge_count = [0] * n  # number of edges in the component whose root is i
 
-        # Count sizes per component root
-        size = defaultdict(int)
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+
+        def union(a, b):
+            ra = find(a)
+            rb = find(b)
+            if ra == rb:
+                # edge inside the same component
+                edge_count[ra] += 1
+                return
+            # union by size: attach smaller to larger
+            if size[ra] < size[rb]:
+                ra, rb = rb, ra
+            parent[rb] = ra
+            size[ra] += size[rb]
+            # combine edge counts and add this new edge
+            edge_count[ra] += edge_count[rb] + 1
+
+        for u, v in edges:
+            union(u, v)
+
+        ans = 0
         for i in range(n):
-            r = dsu.find(i)
-            size[r] += 1
-
-        # Count edges per component (each input edge counts once)
-        edge_count = defaultdict(int)
-        for u, v in edges:
-            r = dsu.find(u)  # same as dsu.find(v)
-            edge_count[r] += 1
-
-        # Check complete condition for each component root
-        complete = 0
-        for r, k in size.items():
-            expected = k * (k - 1) // 2
-            if edge_count.get(r, 0) == expected:
-                complete += 1
-
-        return complete
+            if parent[i] == i:
+                k = size[i]
+                e = edge_count[i]
+                if e == k * (k - 1) // 2:
+                    ans += 1
+        return ans
 ```
-- Notes:
-  - We use DSU to group connected vertices. After all unions, every vertex's representative identifies its component.
-  - size[root] counts number of vertices in that component.
-  - edge_count[root] counts number of edges inside that component (each undirected edge appears once in input).
-  - A component is complete iff edge_count == k*(k-1)/2.
-  - Time complexity: O(n + m * α(n)) where m = len(edges) and α is inverse-Ackermann (practically constant). Space complexity: O(n + m) for bookkeeping (mostly O(n)).
+- Notes on approach:
+  - We use DSU to maintain component roots, sizes (number of vertices), and edge counts per component.
+  - For each input edge, either increment the edge count of the existing component (if endpoints already connected) or merge components and combine sizes and edge counts (plus one for the merging edge).
+  - After processing all edges, each root represents a component; check whether edge_count == k*(k-1)/2 where k is the component size.
+
+- Complexity:
+  - Time: O(n + m * α(n)) ≈ O(n + m), where m = len(edges) and α is the inverse Ackermann function (negligible).
+  - Space: O(n) for parent, size, and edge_count arrays.
