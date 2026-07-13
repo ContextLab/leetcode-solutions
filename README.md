@@ -32,6 +32,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 10, 2026 | [3534](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3534) | 🔴 Hard |
 | July 11, 2026 | [2685](https://leetcode.com/problems/count-the-number-of-complete-components/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2685) | 🟡 Medium |
 | July 12, 2026 | [1331](https://leetcode.com/problems/rank-transform-of-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1331) | 🟢 Easy |
+| July 13, 2026 | [1291](https://leetcode.com/problems/sequential-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1291) | 🟡 Medium |
 
 </details>
 
