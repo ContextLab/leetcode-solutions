@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 14, 2026 | [3336](https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3336) | 🔴 Hard |
 | July 15, 2026 | [3658](https://leetcode.com/problems/gcd-of-odd-and-even-sums/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3658) | 🟢 Easy |
 | July 16, 2026 | [3867](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3867) | 🟡 Medium |
+| July 17, 2026 | [3312](https://leetcode.com/problems/sorted-gcd-pair-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3312) | 🔴 Hard |
 
 </details>
 
