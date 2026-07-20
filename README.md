@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 17, 2026 | [3312](https://leetcode.com/problems/sorted-gcd-pair-queries/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3312) | 🔴 Hard |
 | July 18, 2026 | [1979](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1979) | 🟢 Easy |
 | July 19, 2026 | [1081](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1081) | 🟡 Medium |
+| July 20, 2026 | [1260](https://leetcode.com/problems/shift-2d-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1260) | 🟢 Easy |
 
 </details>
 
