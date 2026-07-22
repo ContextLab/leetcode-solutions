@@ -41,6 +41,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 19, 2026 | [1081](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1081) | 🟡 Medium |
 | July 20, 2026 | [1260](https://leetcode.com/problems/shift-2d-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1260) | 🟢 Easy |
 | July 21, 2026 | [3499](https://leetcode.com/problems/maximize-active-section-with-trade-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3499) | 🟡 Medium |
+| July 22, 2026 | [3501](https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3501) | 🔴 Hard |
 
 </details>
 
