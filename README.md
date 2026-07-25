@@ -44,6 +44,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 22, 2026 | [3501](https://leetcode.com/problems/maximize-active-section-with-trade-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3501) | 🔴 Hard |
 | July 23, 2026 | [3513](https://leetcode.com/problems/number-of-unique-xor-triplets-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3513) | 🟡 Medium |
 | July 24, 2026 | [3514](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3514) | 🟡 Medium |
+| July 25, 2026 | [3536](https://leetcode.com/problems/maximum-product-of-two-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3536) | 🟢 Easy |
 
 </details>
 
