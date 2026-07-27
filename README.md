@@ -46,6 +46,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 24, 2026 | [3514](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3514) | 🟡 Medium |
 | July 25, 2026 | [3536](https://leetcode.com/problems/maximum-product-of-two-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3536) | 🟢 Easy |
 | July 26, 2026 | [628](https://leetcode.com/problems/maximum-product-of-three-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/628) | 🟢 Easy |
+| July 27, 2026 | [1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1464) | 🟢 Easy |
 
 </details>
 
