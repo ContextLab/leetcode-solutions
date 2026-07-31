@@ -50,6 +50,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | July 28, 2026 | [3517](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3517) | 🟡 Medium |
 | July 29, 2026 | [3518](https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3518) | 🔴 Hard |
 | July 30, 2026 | [3014](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3014) | 🟢 Easy |
+| July 31, 2026 | [3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3016) | 🟡 Medium |
 
 </details>
 
