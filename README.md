@@ -22,6 +22,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | August 1, 2026 | [486](https://leetcode.com/problems/predict-the-winner/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/486) | 🟡 Medium |
 | August 2, 2026 | [877](https://leetcode.com/problems/stone-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/877) | 🟡 Medium |
+| August 3, 2026 | [1406](https://leetcode.com/problems/stone-game-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1406) | 🔴 Hard |
 
 </details>
 
