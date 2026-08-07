@@ -26,6 +26,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 4, 2026 | [3731](https://leetcode.com/problems/find-missing-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3731) | 🟢 Easy |
 | August 5, 2026 | [3310](https://leetcode.com/problems/remove-methods-from-project/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3310) | 🟡 Medium |
 | August 6, 2026 | [3345](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3345) | 🟢 Easy |
+| August 7, 2026 | [3348](https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3348) | 🔴 Hard |
 
 </details>
 
