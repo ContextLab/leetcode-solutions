@@ -28,6 +28,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 6, 2026 | [3345](https://leetcode.com/problems/smallest-divisible-digit-product-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3345) | 🟢 Easy |
 | August 7, 2026 | [3348](https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3348) | 🔴 Hard |
 | August 8, 2026 | [3302](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3302) | 🟡 Medium |
+| August 9, 2026 | [1140](https://leetcode.com/problems/stone-game-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1140) | 🟡 Medium |
 
 </details>
 
