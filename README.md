@@ -31,6 +31,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 9, 2026 | [1140](https://leetcode.com/problems/stone-game-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1140) | 🟡 Medium |
 | August 10, 2026 | [1510](https://leetcode.com/problems/stone-game-iv/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1510) | 🔴 Hard |
 | August 11, 2026 | [2996](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2996) | 🟢 Easy |
+| August 12, 2026 | [2958](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2958) | 🟡 Medium |
 
 </details>
 
