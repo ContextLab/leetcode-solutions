@@ -34,6 +34,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 12, 2026 | [2958](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2958) | 🟡 Medium |
 | August 13, 2026 | [2213](https://leetcode.com/problems/longest-substring-of-one-repeating-character/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2213) | 🔴 Hard |
 | August 14, 2026 | [3090](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3090) | 🟢 Easy |
+| August 15, 2026 | [3702](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3702) | 🟡 Medium |
 
 </details>
 
