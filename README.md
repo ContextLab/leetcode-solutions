@@ -38,6 +38,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 16, 2026 | [2029](https://leetcode.com/problems/stone-game-ix/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2029) | 🟡 Medium |
 | August 17, 2026 | [1563](https://leetcode.com/problems/stone-game-v/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1563) | 🔴 Hard |
 | August 18, 2026 | [3471](https://leetcode.com/problems/find-the-largest-almost-missing-integer/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3471) | 🟢 Easy |
+| August 19, 2026 | [1386](https://leetcode.com/problems/cinema-seat-allocation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1386) | 🟡 Medium |
 
 </details>
 
