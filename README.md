@@ -42,6 +42,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 20, 2026 | [3069](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3069) | 🟢 Easy |
 | August 21, 2026 | [3116](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3116) | 🔴 Hard |
 | August 22, 2026 | [3622](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3622) | 🟢 Easy |
+| August 23, 2026 | [1927](https://leetcode.com/problems/sum-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1927) | 🟡 Medium |
 
 </details>
 
