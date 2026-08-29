@@ -48,6 +48,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | August 26, 2026 | [2904](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2904) | 🟡 Medium |
 | August 27, 2026 | [3720](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3720) | 🟡 Medium |
 | August 28, 2026 | [3734](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3734) | 🔴 Hard |
+| August 29, 2026 | [2948](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2948) | 🟡 Medium |
 
 </details>
 
