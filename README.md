@@ -16,6 +16,15 @@ This means you'll always find an AI-generated solution to compare with or learn 
 # Problems we've attempted so far:
 
 <details open>
+<summary><b>Problems from September, 2026</b></summary>
+
+| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
+|--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| September 1, 2026 | [3568](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3568) | 🟡 Medium |
+
+</details>
+
+<details>
 <summary><b>Problems from August, 2026</b></summary>
 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
