@@ -22,6 +22,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | September 1, 2026 | [3568](https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3568) | 🟡 Medium |
 | September 2, 2026 | [3875](https://leetcode.com/problems/construct-uniform-parity-array-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3875) | 🟢 Easy |
+| September 3, 2026 | [3876](https://leetcode.com/problems/construct-uniform-parity-array-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3876) | 🟡 Medium |
 
 </details>
 
