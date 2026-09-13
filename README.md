@@ -32,6 +32,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | September 10, 2026 | [2265](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2265) | 🟡 Medium |
 | September 11, 2026 | [3483](https://leetcode.com/problems/unique-3-digit-even-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3483) | 🟢 Easy |
 | September 12, 2026 | [3414](https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3414) | 🔴 Hard |
+| September 13, 2026 | [835](https://leetcode.com/problems/image-overlap/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/835) | 🟡 Medium |
 
 </details>
 
