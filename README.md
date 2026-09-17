@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | September 14, 2026 | [836](https://leetcode.com/problems/rectangle-overlap/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/836) | 🟢 Easy |
 | September 15, 2026 | [2472](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2472) | 🔴 Hard |
 | September 16, 2026 | [1621](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1621) | 🟡 Medium |
+| September 17, 2026 | [1477](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1477) | 🟡 Medium |
 
 </details>
 
