@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | September 17, 2026 | [1477](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1477) | 🟡 Medium |
 | September 18, 2026 | [1520](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1520) | 🔴 Hard |
 | September 19, 2026 | [1401](https://leetcode.com/problems/circle-and-rectangle-overlapping/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1401) | 🟡 Medium |
+| September 20, 2026 | [3498](https://leetcode.com/problems/reverse-degree-of-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3498) | 🟢 Easy |
 
 </details>
 
