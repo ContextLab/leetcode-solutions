@@ -45,6 +45,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | September 23, 2026 | [1658](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1658) | 🟡 Medium |
 | September 24, 2026 | [3550](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3550) | 🟢 Easy |
 | September 25, 2026 | [1096](https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1096) | 🔴 Hard |
+| September 26, 2026 | [1807](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1807) | 🟡 Medium |
 
 </details>
 
