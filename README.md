@@ -47,6 +47,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | September 25, 2026 | [1096](https://leetcode.com/problems/brace-expansion-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1096) | 🔴 Hard |
 | September 26, 2026 | [1807](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1807) | 🟡 Medium |
 | September 27, 2026 | [1190](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1190) | 🟡 Medium |
+| September 28, 2026 | [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1614) | 🟢 Easy |
 
 </details>
 
