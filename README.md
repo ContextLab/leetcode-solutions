@@ -49,6 +49,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | September 27, 2026 | [1190](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1190) | 🟡 Medium |
 | September 28, 2026 | [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1614) | 🟢 Easy |
 | September 29, 2026 | [2267](https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2267) | 🔴 Hard |
+| September 30, 2026 | [1111](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1111) | 🟡 Medium |
 
 </details>
 
