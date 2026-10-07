@@ -26,6 +26,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 4, 2026 | [678](https://leetcode.com/problems/valid-parenthesis-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/678) | 🟡 Medium |
 | October 5, 2026 | [856](https://leetcode.com/problems/score-of-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/856) | 🟡 Medium |
 | October 6, 2026 | [921](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/921) | 🟡 Medium |
+| October 7, 2026 | [301](https://leetcode.com/problems/remove-invalid-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/301) | 🔴 Hard |
 
 </details>
 
