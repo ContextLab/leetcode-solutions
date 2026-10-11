@@ -30,6 +30,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 8, 2026 | [1021](https://leetcode.com/problems/remove-outermost-parentheses/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1021) | 🟢 Easy |
 | October 9, 2026 | [1541](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1541) | 🟡 Medium |
 | October 10, 2026 | [2333](https://leetcode.com/problems/minimum-sum-of-squared-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2333) | 🟡 Medium |
+| October 11, 2026 | [2778](https://leetcode.com/problems/sum-of-squares-of-special-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2778) | 🟢 Easy |
 
 </details>
 
