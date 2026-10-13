@@ -32,6 +32,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 10, 2026 | [2333](https://leetcode.com/problems/minimum-sum-of-squared-difference/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2333) | 🟡 Medium |
 | October 11, 2026 | [2778](https://leetcode.com/problems/sum-of-squares-of-special-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2778) | 🟢 Easy |
 | October 12, 2026 | [2897](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2897) | 🔴 Hard |
+| October 13, 2026 | [3727](https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3727) | 🟡 Medium |
 
 </details>
 
