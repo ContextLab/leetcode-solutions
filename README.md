@@ -34,6 +34,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 12, 2026 | [2897](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2897) | 🔴 Hard |
 | October 13, 2026 | [3727](https://leetcode.com/problems/maximum-alternating-sum-of-squares/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3727) | 🟡 Medium |
 | October 14, 2026 | [3723](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3723) | 🟡 Medium |
+| October 15, 2026 | [2913](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2913) | 🟢 Easy |
 
 </details>
 
