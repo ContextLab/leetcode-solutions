@@ -36,6 +36,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 14, 2026 | [3723](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3723) | 🟡 Medium |
 | October 15, 2026 | [2913](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2913) | 🟢 Easy |
 | October 16, 2026 | [2916](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2916) | 🔴 Hard |
+| October 17, 2026 | [3551](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3551) | 🟡 Medium |
 
 </details>
 
