@@ -44,6 +44,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 22, 2026 | [3942](https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3942) | 🟡 Medium |
 | October 23, 2026 | [3644](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3644) | 🟡 Medium |
 | October 24, 2026 | [2409](https://leetcode.com/problems/count-days-spent-together/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2409) | 🟢 Easy |
+| October 25, 2026 | [1254](https://leetcode.com/problems/number-of-closed-islands/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1254) | 🟡 Medium |
 
 </details>
 
