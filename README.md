@@ -48,6 +48,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 26, 2026 | [3619](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3619) | 🟡 Medium |
 | October 27, 2026 | [3963](https://leetcode.com/problems/create-grid-with-exactly-one-path/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3963) | 🟢 Easy |
 | October 28, 2026 | [3882](https://leetcode.com/problems/minimum-xor-path-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3882) | 🟡 Medium |
+| October 29, 2026 | [3841](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3841) | 🔴 Hard |
 
 </details>
 
