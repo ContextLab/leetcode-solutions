@@ -49,6 +49,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | October 27, 2026 | [3963](https://leetcode.com/problems/create-grid-with-exactly-one-path/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3963) | 🟢 Easy |
 | October 28, 2026 | [3882](https://leetcode.com/problems/minimum-xor-path-in-a-grid/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3882) | 🟡 Medium |
 | October 29, 2026 | [3841](https://leetcode.com/problems/palindromic-path-queries-in-a-tree/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3841) | 🔴 Hard |
+| October 30, 2026 | [3970](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3970) | 🟡 Medium |
 
 </details>
 
