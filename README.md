@@ -16,6 +16,15 @@ This means you'll always find an AI-generated solution to compare with or learn 
 # Problems we've attempted so far:
 
 <details open>
+<summary><b>Problems from November, 2026</b></summary>
+
+| 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
+|--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| November 1, 2026 | [453](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/453) | 🟡 Medium |
+
+</details>
+
+<details>
 <summary><b>Problems from October, 2026</b></summary>
 
 | 📆 Date         | ⚙️ Problem                                                                                                     | 📝 Link to notes                                                                                             | 🚦 Difficulty |
