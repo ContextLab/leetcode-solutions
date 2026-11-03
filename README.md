@@ -22,6 +22,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 |--------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
 | November 1, 2026 | [453](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/453) | 🟡 Medium |
 | November 2, 2026 | [462](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/462) | 🟡 Medium |
+| November 3, 2026 | [3736](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3736) | 🟢 Easy |
 
 </details>
 
