@@ -28,6 +28,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 6, 2026 | [2747](https://leetcode.com/problems/count-zero-request-servers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2747) | 🟡 Medium |
 | November 7, 2026 | [1882](https://leetcode.com/problems/process-tasks-using-servers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1882) | 🟡 Medium |
 | November 8, 2026 | [1267](https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1267) | 🟡 Medium |
+| November 9, 2026 | [1606](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1606) | 🔴 Hard |
 
 </details>
 
