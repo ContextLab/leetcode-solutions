@@ -29,6 +29,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 7, 2026 | [1882](https://leetcode.com/problems/process-tasks-using-servers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1882) | 🟡 Medium |
 | November 8, 2026 | [1267](https://leetcode.com/problems/count-servers-that-communicate/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1267) | 🟡 Medium |
 | November 9, 2026 | [1606](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1606) | 🔴 Hard |
+| November 10, 2026 | [3693](https://leetcode.com/problems/climbing-stairs-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3693) | 🟡 Medium |
 
 </details>
 
