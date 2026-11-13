@@ -32,6 +32,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 10, 2026 | [3693](https://leetcode.com/problems/climbing-stairs-ii/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3693) | 🟡 Medium |
 | November 11, 2026 | [3789](https://leetcode.com/problems/minimum-cost-to-acquire-required-items/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3789) | 🟡 Medium |
 | November 12, 2026 | [3105](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3105) | 🟢 Easy |
+| November 13, 2026 | [3420](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3420) | 🔴 Hard |
 
 </details>
 
