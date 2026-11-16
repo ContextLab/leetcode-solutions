@@ -35,6 +35,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 13, 2026 | [3420](https://leetcode.com/problems/count-non-decreasing-subarrays-after-k-operations/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3420) | 🔴 Hard |
 | November 14, 2026 | [3364](https://leetcode.com/problems/minimum-positive-sum-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3364) | 🟢 Easy |
 | November 15, 2026 | [1524](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1524) | 🟡 Medium |
+| November 16, 2026 | [2243](https://leetcode.com/problems/calculate-digit-sum-of-a-string/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2243) | 🟢 Easy |
 
 </details>
 
