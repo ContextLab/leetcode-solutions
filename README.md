@@ -39,6 +39,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 17, 2026 | [2911](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2911) | 🔴 Hard |
 | November 18, 2026 | [2914](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2914) | 🟡 Medium |
 | November 19, 2026 | [2567](https://leetcode.com/problems/minimum-score-by-changing-two-elements/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2567) | 🟡 Medium |
+| November 20, 2026 | [3041](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3041) | 🔴 Hard |
 
 </details>
 
