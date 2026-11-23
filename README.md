@@ -42,6 +42,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 20, 2026 | [3041](https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3041) | 🔴 Hard |
 | November 21, 2026 | [3331](https://leetcode.com/problems/find-subtree-sizes-after-changes/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3331) | 🟡 Medium |
 | November 22, 2026 | [2124](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/2124) | 🟢 Easy |
+| November 23, 2026 | [1352](https://leetcode.com/problems/product-of-the-last-k-numbers/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/1352) | 🟡 Medium |
 
 </details>
 
