@@ -46,6 +46,7 @@ This means you'll always find an AI-generated solution to compare with or learn 
 | November 24, 2026 | [3411](https://leetcode.com/problems/maximum-subarray-with-equal-products/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3411) | 🟢 Easy |
 | November 25, 2026 | [3934](https://leetcode.com/problems/smallest-unique-subarray/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3934) | 🔴 Hard |
 | November 26, 2026 | [3360](https://leetcode.com/problems/stone-removal-game/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3360) | 🟢 Easy |
+| November 27, 2026 | [3946](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/?envType=daily-question) | [Click here](https://github.com/ContextLab/leetcode-solutions/tree/main/problems/3946) | 🟡 Medium |
 
 </details>
 
